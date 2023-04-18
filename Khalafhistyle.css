@@ -1,7 +1,8 @@
 :root{
     --dark-blue:#21274A;
     --light-blue:#1D5B92;
-
+    --white:#fff;
+    --off-white:#f7f7f7;
     --green: #7dc241;
 
 
@@ -136,7 +137,7 @@ body{
 header{
     height:60px;
     width:100%;
-    background-color: white;
+    background-color: var(--white);
     display:inline-flex;
     justify-content:space-evenly;
     align-items:center;
@@ -190,7 +191,7 @@ button a{
  }
 
 i{
-	color:white;
+	color:var(--white);
 }
 
 /* The dropdown container */
@@ -223,7 +224,7 @@ i{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:#1D5B92;
+  background-color:var(--light-blue);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -232,7 +233,7 @@ i{
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: white;
+  color: var(--white);
   padding: 12px;
   text-decoration: none;
   display: block;
@@ -264,20 +265,17 @@ i{
     
         }
 .menu-items{
-    background-color: #98D155;
-    color:white;
+    background-color: var(--green);
+    color:var(--white);
     position:absolute;
     right:10rem;
 }
-.menu-items a{
-    border-bottom:1px solid darkgreen;
+/* Style for the button */
+.dropdown-btn-2 {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
-        /* Style for the button */
-        .dropdown-btn-2 {
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-        }
 
 .dropdown-btn-2 i {
     font-size: 15px;
@@ -330,7 +328,7 @@ header button{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  background-color:white;
+  background-color:var(--white);
     height:100vh;
     width:100%;
 }
@@ -353,10 +351,10 @@ header button{
     color:#21274A;
 }
 .mainpage__btn1{
-    color:white;
-    background-color: #7dc241;
+    color:var(--white);
+    background-color: var(--green);
     border-radius: 1.5rem;
-    border:2px solid #7dc241;
+    border:2px solid var(--green);
     padding:10px 40px;
     font-size: 16px;
     margin-right:10px;
@@ -364,19 +362,19 @@ header button{
 }
 
 .mainpage__btn1:hover{
-    border:2px solid #7dc241;
+    border:2px solid var(--green);
     font-size:18px;
     transition:.2s;
     font-weight: bold;
-    color: #7dc241;
-    background-color: #f7f7f7;
+    color: var(--green);
+    background-color: var(--off-white);
    cursor: pointer;
 }
 .mainpage__btn2{
-    color:white;
-    background-color: #1D5B92;
+    color:var(--white);
+    background-color: var(--light-blue);
     border-radius: 1.5rem;
-    border:2px solid #1D5B92;
+    border:2px solid var(--light-blue);
     padding:10px 40px;
     margin-top:0px;
    font-size: 16px;
@@ -384,11 +382,11 @@ header button{
     transition:.2s;
 }
 .mainpage__btn2:hover{
-    border:2px solid #1D5B92;
+    border:2px solid var(--light-blue);
     font-size:18px;
     transition:.2s;
-    background-color: #f7f7f7;
-    color: #295ba5;
+    background-color: var(--off-white);
+    color: var(--light-blue);
     font-weight: bold;
     cursor: pointer;
    
@@ -398,7 +396,7 @@ header button{
 /* First Page Section 2*/
 
 .main__hh2{
-    color:white;
+    color:var(--white);
     font-size:1.5rem;
     line-height:2.5rem;
 }
@@ -407,10 +405,10 @@ header button{
     
 }
 .main__btn{
-    color:white;
-    background-color: #7dc241;
+    color:var(--white);
+    background-color: var(--green);
     border-radius: 1.5rem;
-    border:2px solid #7dc241;
+    border:2px solid var(--green);
     margin-top:2rem;
     padding:10px 20px;
     font-size: 16px;
@@ -418,10 +416,10 @@ header button{
     font-weight: bold;
 }
 .main__btn:hover{
-    color: #7dc241;
-    background-color: #f7f7f7;
+    color: var(--green);
+    background-color: var(--off-white);
     border-radius: 1.5rem;
-    border:2px solid #7dc241;
+    border:2px solid var(--green);
     margin-top:18px;
     cursor: pointer;
     
@@ -446,11 +444,11 @@ header button{
 }
 .main_blue{
     height:200px;
-    background-color:#002239;
+    background-color:var(--dark-blue);
 }
 .main_white{
     height:auto;
-    background-color:white;
+    background-color:var(--white);
     color:black;
     width:60%;
     margin:auto auto;
@@ -472,18 +470,18 @@ header button{
 .abt_btn{
     display:block;
     width:30%;
-    background-color: #7dc241;
-    border:2px solid #7dc241;
-    color:white;
+    background-color: var(--green);
+    border:2px solid var(--green);
+    color:var(--white);
     padding:8px 40px;
     border-radius: 0.5rem;
     margin:1rem 0rem auto auto;
     font-weight: bold;
 }
 .abt_btn:hover{
-    border:2px solid #7dc241;
-    background-color: white;
-    color:#7dc241;
+    border:2px solid var(--green);
+    background-color: var(--white);
+    color:var(--green);
     font-weight: bold;
     cursor:pointer;
 }
@@ -552,7 +550,7 @@ header button{
     display: flex;
     flex-direction: column;
     box-shadow: 3px 5px 10px gray;
-    background-color:white;
+    background-color:var(--white);
     border-radius: 1rem;
     color:black;
     margin: 0.6rem 0.6rem 1rem 1rem;
@@ -570,13 +568,13 @@ main h2{
 .service_btn{
     width: 60%;
     display:block;
-    color:white;
-    background-color:#295ba5;
+    color:var(--white);
+    background-color:var(--light-blue);
     border-radius:.5rem;
     border:none;
     margin-left:1rem;
     margin-top:0.5rem;
-    border:2px solid #295ba5;
+    border:2px solid var(--light-blue);
     padding:8px 20px;
     font-size: 1rem;
     font-weight: bold;
@@ -584,10 +582,10 @@ main h2{
 .service_btn:hover{
     display: block;
     font-weight: bold;
-    color:#295ba5;
-    background-color: #f7f7f7;
+    color:var(--light-blue);
+    background-color: var(--off-white);
     border-radius: .5rem;
-    border:2px solid #295ba5;
+    border:2px solid var(--light-blue);
     cursor: pointer;
     padding:8px 20px;
     font-size: 1rem;
@@ -619,7 +617,7 @@ main p{
     padding-top:30px;
     padding-bottom:15px;
     text-align: center;
-    color:white;
+    color:var(--white);
     font-weight: 800;
     
 }
@@ -637,7 +635,7 @@ main p{
     text-align: center;
     margin:auto auto;
     background-color: rgb(118, 201, 35);
-    color:white;
+    color:var(--white);
     box-shadow:5px 5px 5px darkgray;
 }
 .testimonial2{
@@ -648,7 +646,7 @@ main p{
     text-align: center;
     margin:auto auto;
     background-color: darkblue;
-    color:white;
+    color:var(--white);
     box-shadow:5px 5px 5px darkgray;
 }
 .testimonial3{
@@ -658,7 +656,7 @@ main p{
     width:auto;
     text-align: center;
     margin:auto auto;
-    background-color:white;
+    background-color:var(--white);
     color:black;
     box-shadow:5px 5px 5px darkgray;
 }
@@ -874,14 +872,14 @@ display:none;
     margin-bottom:4rem;
 }
 .doctors-btn:hover{
-    background-color: white;
+    background-color: var(--white);
     color:var(--light-blue);
     border:2px solid var(--light-blue);
     cursor: pointer;
 }
 
 .sect2{
-    background-color: #f7f7f7;
+    background-color: var(--off-white);
     padding:4rem 4rem;
     align-items: center;
 }
@@ -920,13 +918,13 @@ display:none;
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--dark-blue);
-    color:white;
+    color:var(--white);
 }
 .consultation-ref__button{
     border:2px solid var(--dark-blue);
     padding:8px 40px;
     font-size: 1.5rem;
-    background-color:white;
+    background-color:var(--white);
     font-weight: bold;
     color:var(--dark-blue);
     border-radius: 0.5rem;
@@ -935,7 +933,7 @@ display:none;
     border:2px solid var(--green);
     padding:8px 40px;
     font-size: 1.5rem;
-    background-color:white;
+    background-color:var(--white);
     font-weight: bold;
     color:var(--green);
     border-radius: 0.5rem;
@@ -1002,7 +1000,7 @@ textarea {
 }
 button[type="submit"] {
     display: block!important;
-  background-color: #4CAF50;
+  background-color: var(--green);
   border: none;
   color: white;
   padding: 0.5rem 5rem;
@@ -1015,21 +1013,19 @@ button[type="submit"] {
   cursor: pointer;
 }
 button[type="submit"]:hover {
-  background-color: #3e8e41;
+  background-color: var(--green);
 }
 
 
 #map {
-        height: 400px;
-        width: 100%;
-    background-color: aqua;
-      }
+    height: 400px;
+    width: 100%;
+}
 
 
 .cont-center{
     width:80%;
     margin:auto auto;
-    
 }
 
 iframe{
@@ -1039,88 +1035,148 @@ iframe{
 }
 
 /* Doctors Page */
+.doctors-intro{
+    margin:1rem 0 3rem;
+    padding:2rem 4rem;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.doctors-intro p{
+    width:80%;
+    font-size: larger;
+    margin:auto;
+    padding-bottom: 1rem;
+}
+.doctors-heading{
+    font-size: 2rem;
+    margin-top:5rem;
+    text-align: center;
+}
+.doctors-carousel{
+    padding:4rem;
+    height:700px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+.doctors-head{
+    font-size: 2rem;
+    margin-top:1rem;
+    text-align: center;
+    color:var(--white);
 
-.doc-1{
-    min-height:45vh;
-   
-    background-color: #f7f7f7;
-    padding:2rem;
-    
-    
 }
-.doc-1 p, .doc-1 h2, .doc-1 h4{
+ .card-1{
+     height:auto;
+     width:60%;
+     padding:1rem 2rem 3rem;
+     margin: auto;
+ }
+ .card-11{
+    background-color: var(--dark-blue);
+    padding:1rem;
+ }
+.card-{
+    background-color: var(--white);
+     margin:0 1rem;
+     padding:1rem;
+     border:2px solid var(--light-blue);
+     border-radius: 1rem;
+     box-shadow: 5px 5px 10px var(--light-blue);
+     text-align: center;
+ }
+ .card-img{
+    height:200px;
+    width:auto;
+
+ }
+ .card- p{
+    padding-bottom:0.5rem;
+    padding-top:0.2rem;
+ }
+ .card- h4{
+    padding-top: 0.2rem;
+ }
+ .card-button{
+    background-color:var(--light-blue);
+     color:var(--white);
+     padding:0.2rem 1rem;
+     border:2px solid var(--light-blue);
+     border-radius: 0.5rem;
+     margin: auto;
+     display:block;
+ }
+
+.doc-1, .doc-2{
+    height: auto;
+    background-color: var(--white);
+    padding:5rem 3rem;
+    display:grid;
+    align-items: center;
+}
+.doc-1 p, .doc-1 h2, .doc-1 h4, .doc-2 p, .doc-2 h2, .doc-2 h4{
     width:80%;
     margin:auto auto;
-    
 }
-.doc-2 p, .doc-2 h2, .doc-2 h4{
+.doc-1 h4, .doc-2 h4{
+    padding-bottom: 1rem;
+
+}
+.doc-1 p, .doc-2 p{
+    padding-bottom: 0.5rem;
+    font-size: large;
+    text-align: justify;
     width:80%;
-    margin:auto auto;
-}
-.doc-2{
-    min-height:45vh;
-    background-color:navy;
-    color:white;
-    padding:2rem;
 }
 .doc-1 img, .doc-2 img, .doc-3 img{
     margin:2rem;
     box-shadow: 5px 5px 8px gray;
     height:20rem;
     width: auto;
+    margin: auto;
 }
-
-.grid{
-        display:grid;
-        justify-content: center;
-    align-content: center;
-    } 
-
-
-
-.doc-3{
-    min-height: 20vh;
+.consultation-ref1{
     padding:2rem;
-    
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--green);
+    color:var(--dark-blue);
 }
-.doc-3 p, .doc-3 h3, .doc-3 button{
-    margin-left:1rem;
-    width:60%;
+.consultation-ref1 p{
+    font-size: large;
 }
-.doc-3 button{
-    width:60%;
-    background-color: navy;
-    color:white;
-    border-radius: 1.5rem;
-    border:none;
-    padding:0.5rem 4rem;
+.consultation-ref1__button{
+    border:2px solid var(--dark-blue);
+    padding:8px 40px;
+    font-size: 1.5rem;
+    background-color:var(--white);
+    font-weight: bold;
+    color:var(--dark-blue);
+    border-radius: 0.5rem;
+}
+.consultation-ref1__button:hover{
+    border:2px solid var(--green);
+    padding:8px 40px;
+    font-size: 1.5rem;
+    background-color:var(--white);
+    font-weight: bold;
+    color:var(--green);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.doc-hr{
+    border: 2px solid var(--green);
+    width:70%;
+    margin: auto;
 }
 
 
 
 
-.card-{
-    margin:1rem;
-    padding:1rem;
-    border:1px solid lightgray;
-    border-radius: 1rem;
-    box-shadow: 5px 5px 10px lightgray;
-    gap:0.5rem;
-}
 
-.card-1{
-    min-height:40vh;
-}
-.card- button{
-    background-color:navy;
-    color:white;
-    padding:0.2rem 1rem;
-    border:none;
-    border-radius: 1rem;
-    margin-top: 1rem!important;
-    width:60%;
-    margin:auto auto;
-}
+
 
 
 /*News Page*/ 
