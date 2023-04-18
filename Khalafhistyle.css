@@ -1,3 +1,12 @@
+:root{
+    --dark-blue:#21274A;
+    --light-blue:#1D5B92;
+
+    --green: #7dc241;
+
+
+}
+
 /* CSS Reset*/
 
 /*
@@ -361,7 +370,7 @@ header button{
     font-weight: bold;
     color: #7dc241;
     background-color: #f7f7f7;
-   
+   cursor: pointer;
 }
 .mainpage__btn2{
     color:white;
@@ -381,6 +390,7 @@ header button{
     background-color: #f7f7f7;
     color: #295ba5;
     font-weight: bold;
+    cursor: pointer;
    
 }
 
@@ -797,26 +807,28 @@ display:none;
 
 /* About Page*/
 .about-page{
-    margin-top:3rem;
-    display:flex;
+   margin-top:3rem;
+     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 .about1{
     padding:2rem 0rem 2rem 10rem;
-    margin-top:2rem;
+    margin-top:4rem;
     width:95%;
     text-align: justify;
+    hyphens: auto;
 }
 
 .about-page h2{
-    font-size: 3em;
+    font-size: 2rem;
+    margin-bottom:1rem;
 }
 .about-page p{
-    font-size: 1.2em;
+    font-size: large;
 }
 .about-img{
-    height:350px;
+    height:300px;
     width:auto;
  }
 
@@ -827,113 +839,107 @@ display:none;
     justify-content: center;
     width:70%;
     margin:auto auto;
-    margin: 2rem auto 5rem;
+    margin: 1rem auto 2rem;
+}
+.doc-title{
+    text-align: center;
 }
 .sect-2-1{
-    display:grid;
+     display:grid;
     justify-content: center;
-    padding:1rem;
-    margin:1rem 0.5rem;
-    border:1px solid gray;
-    border-radius: 1.5rem;
-    
+    padding: 1rem;
+    margin:1rem;
+    border:2px solid var(--green);
+    border-radius: 0.5rem;
 }
 .sect-2-1 img{
     height:auto;
     width:auto;
+    padding:1rem;
     margin-bottom: 0.5rem;
 }
-.sect-2-1 p{
-    font-size: 0.8rem;
-    margin: 1rem 0;
+.sect-2-1 p, .sect-2-1 h4,.sect-2-1 h3 {
+    margin:0.2rem;
 }
-.sect-2-1 button{
-    font-size: 0.8rem;
+.doctors-btn{
+    font-size: large;
+    font-weight: bold;
+    width:20%;
+    margin:auto;
     padding: 0.5rem 2rem;
-    border:0.5px solid gray;
-    border-radius: 2rem;
+    border:2px solid var(--light-blue);
+    color:white;
+    background-color: var(--light-blue);
+    border-radius: 0.5rem;
+    margin-bottom:4rem;
 }
-
-
-
-
-
-
-
-
-
-/* About Page Third Section*/
+.doctors-btn:hover{
+    background-color: white;
+    color:var(--light-blue);
+    border:2px solid var(--light-blue);
+    cursor: pointer;
+}
 
 .sect2{
     background-color: #f7f7f7;
-}
-.pillar{
-    min-height:40vh;
-    width:30vw; 
-    position:relative;
+    padding:4rem 4rem;
+    align-items: center;
 }
 .about2{
-    padding:2rem 10rem 2rem 0rem;
-    margin-top:2rem;
-    width:95%;
+    width:85%;
     text-align: justify;
+    hyphens: auto;
 }
 
-/* See above for code */.about{}
-
-
-/* About Page Third Section*/
-
-/* See above for code */.about{}
-
+.about-3{
+    padding:4rem 2rem;
+    margin:auto;
+}
 .about3{
-    padding:2rem 0rem 2rem 7rem;
-    margin-top:2rem;
-    width:95%;
+    width:70%;
+    margin:auto auto;
+    font-size: large;
     text-align: justify;
+    hyphens: auto;
 }
-
-.ul{
-    font-size: 2.1rem;
-    margin-top:7rem;
+.about3 h2{
+    font-size: 2rem;
+    margin-bottom:0.5rem;
 }
-.block1{
-    min-height:15vh;
-    min-width:25vw;
-    width:28vw;
-    background-color: navy;
-    padding:1.3rem;
+.about3 p{
+    padding-bottom:0.8rem;
+}
+.values-img{
+    align-items: center;
+    height:500px;
+    margin: auto ;
+}
+.consultation-ref{
+    padding:2rem;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--dark-blue);
     color:white;
-    text-align: center;
-    position: relative;
-    left:-3rem;
-    box-shadow: 5px 5px 8px gray;
 }
-
-.block2{
-    min-height:15vh;
-    min-width:25vw;
-    width:28vw;
-    background-color: darkgray;
-    padding:1.3rem;
-    text-align: center;
-     position: relative;
-    left:-2rem;
-    bottom:1rem;
-    box-shadow: 5px 5px 8px gray;
+.consultation-ref__button{
+    border:2px solid var(--dark-blue);
+    padding:8px 40px;
+    font-size: 1.5rem;
+    background-color:white;
+    font-weight: bold;
+    color:var(--dark-blue);
+    border-radius: 0.5rem;
 }
-
-.block3{
-    min-height:15vh;
-   min-width:25vw;
-   width:28vw;
-    background-color: chartreuse;
-    padding:1.3rem;
-    text-align: center;
-     position: relative;
-    left:-4rem;
-    bottom:2rem;
-    box-shadow: 5px 5px 8px gray;
+.consultation-ref__button:hover{
+    border:2px solid var(--green);
+    padding:8px 40px;
+    font-size: 1.5rem;
+    background-color:white;
+    font-weight: bold;
+    color:var(--green);
+    border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 
@@ -1179,25 +1185,6 @@ gap:4rem;
     font-size:1.8rem;
     margin-top:2rem;
 }
-.news-referral{
-    padding:2rem;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #21274A;
-    color:white;
-}
-.news-referral__button{
-    border:none;
-    padding:8px 40px;
-    font-size: 1.5rem;
-    background-color:white;
-    font-weight: bold;
-    color:#21274A;
-    border-radius: 0.5rem;
-}
-
-
 
 
 
@@ -1419,6 +1406,7 @@ dropdown-content1{
     
     
         .about1{
+            
     padding:0.5rem 2rem;
     } 
     .about2{
