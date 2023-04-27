@@ -116,6 +116,9 @@ body{
 .col-9{
     grid-column: auto/span 4;
 }
+.col--9{
+    grid-column: auto/span 9;
+}
 .col-10{
     grid-column: auto/span 10;
 }
@@ -189,7 +192,19 @@ button a{
  background-color:blue;
  border-radius:50%;
  }
-
+ .social-list1 li { 
+    margin-bottom: 10px; 
+    background-color:var(--green);
+    border-radius:50%;
+    
+    }
+    .social-list1{
+        margin-top:0.5rem;
+        margin-left:-3rem;
+    }
+    .social-list1 a{
+        text-decoration: none;
+    }
 i{
 	color:var(--white);
 }
@@ -993,23 +1008,40 @@ align-content: center;
 
 
 /* Contact Us Page*/
+.cont-details{
+    margin-left:2vw;
+}
+
+.contact-2{
+    width:90%;
+    margin:auto;
+}
 .contact-1{
-    padding:2rem 2rem 2rem 2rem;
-    
+    padding:2rem 2rem 4rem;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+.contact-11{
+    padding:0.5rem 2rem 2rem;
+}
+.contact-11 h2{
+    padding-bottom:2rem;
+    font-size: 2rem;
+
 }
 .contact-img{
     background-image: url('BackgroundImages/background1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:15rem;
+    height:12rem;
     width:100%;
 }
-.contact-img h2{
-    background: linear-gradient(90deg, hsl(0,0%,100%), transparent);
-    font-size: 2rem;
-    color:black;
-    padding:8rem 10rem;
+.contact-img-h2{
+    margin-left:10vw;
+    padding-top:14vh;
+    font-size: 3rem;
+    color:var(--dark-blue);
 }
 .form-row {
   display: flex;
@@ -1026,7 +1058,9 @@ text-align: left;
   width: 100%;
 }
 .form{
-    padding:2rem 3rem;
+    padding:2rem;
+    width:90%;
+    margin:auto;
 }
 .form-group label {
   display: block;
@@ -1048,21 +1082,24 @@ textarea {
   height: 15rem;
 }
 button[type="submit"] {
-    display: block!important;
-  background-color: var(--green);
-  border: none;
-  color: white;
-  padding: 0.5rem 5rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
-  border-radius: 5px;
-  cursor: pointer;
+    display: block;
+    background-color: var(--green);
+    border:2px solid var(--green);
+    color: white;
+    padding: 0.5rem 5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float:right;    
 }
 button[type="submit"]:hover {
-  background-color: var(--green);
+  background-color: var(--white);
+  border:2px solid var(--green);
+  color:var(--green)
+
 }
 
 
@@ -1072,9 +1109,11 @@ button[type="submit"]:hover {
 }
 
 
-.cont-center{
-    width:80%;
-    margin:auto auto;
+.cont-center1{
+    padding:2rem 0rem;
+    width:90%;
+    margin:auto;
+    font-size: 1rem;
 }
 
 iframe{
@@ -1561,6 +1600,7 @@ dropdown-content1{
     .grid{
         display:grid;
         justify-content: center;
+        align-items: center;
     }   
 .about-div{
     height:90%;
