@@ -1150,6 +1150,12 @@ iframe{
     background-color: var(--dark-blue);
     color: var(--white);
 }
+.doc-para{
+    width:80%;
+    margin:auto;
+    padding:2rem 0rem;
+    text-align: center;
+}
 .doctors-head{
     font-size: 2rem;
     margin-top:1rem;
