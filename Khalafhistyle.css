@@ -538,7 +538,7 @@ header button{
 
 /*First Page Section 3*/
 .main_flex{
- background-image:url(BackgroundImages/kalafhi-background.png);
+ background-image:url(BackgroundImages/kalafhi-background_optimized\ \(1\).png);
  background-position: center;
  background-size: cover;
  padding-bottom: 1.5rem;
@@ -820,18 +820,27 @@ display:none;
 
 /* About Page*/
 .directors-img{
-display:block;
-justify-content: center;
-align-content: center;
 
 }
 .dir-img{
     width:80%;
-    height:600px;
+    height:550px;
     margin:auto;
+    margin-top:5rem;
+}
+.dir-info{
+    position:relative;
+    width:80%;
+    margin:auto;
+    background-color: var(--dark-blue);
+    opacity: 0.5;
+    bottom:10rem;
+    height:auto;
+    
+    padding:1rem;
 }
 .directors{
-    padding: 5rem 0rem;
+    padding: 1rem 0rem 0rem;
     background-color:var(--dark-blue);
     color:var(--white);
     display: grid;
