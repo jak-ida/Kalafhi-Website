@@ -18,7 +18,14 @@
             <img class="Logo" src="MainImages/kalafhi-logo.jpg" />
             <div class="navbar">
                 <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT US</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="about.html">ABOUT KALAFHI</a>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="doctors.html">Meet the Team</a>
+                    </div>
+                </div>
                 <div class="dropdown">
                     <button class="dropbtn"><a class="no-a">SERVICES</a>
                     </button>
@@ -30,10 +37,9 @@
                         <a href="dayhospital.html">Day Hospital</a>
                     </div>
                 </div>
-                <a href="health.html">HEALTH INFORMATION</a>
                 <div class="dropdown">
                     <button class="dropbtn">
-                        <a class="no-a">RESOURCES</a>
+                        <a class=" pg-active no-a">RESOURCES</a>
                     </button>
                     <div class="dropdown-content">
                         <a href="news.html">News</a>
@@ -79,33 +85,34 @@
                     </svg>
                 </button>
                 <div class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a class="dropdown-content1" href="about.html">About Us</a>
-                    <div class="dropdown">
+                    <a href="index.html">HOME</a>
+                    <a class="dropdown-content1" href="about.html">ABOUT KALAFHI</a>
+                    <!--<div class="dropdown">
                         <button class="dropbtn row">
                             <a class="no-a hamburger dropdown-content1">Services</a>
                         </button>
                         <div class="menu-items">
-                            <a href="medicalservices.html">Medical Services</a>
-                            <a href="pharmaceuticals.html">Pharmaceuticals</a>
-                            <a href="physiotherapy.html">Physiotherapy</a>
-                            <a href="renewalaesthetics.html">Renewal Aesthetics</a>
-                            <a href="dayhospital.html">Day Hospital</a>
+                            
                         </div>
-                    </div>
-                    <div><a class="dropdown-content1" href="health.html">Health Information</a></div>
+                    </div>-->
+                    <a class="dropdown-content1" href="medicalservices.html">MEDICAL SERVICES</a>
+                    <a class="dropdown-content1" href="pharmaceuticals.html">PHARMACEUTICALS</a>
+                    <a class="dropdown-content1" href="physiotherapy.html">PHYSIOTHERAPY</a>
+                    <a class="dropdown-content1" href="renewalaesthetics.html">RENEWAL AESTHETICS</a>
+                    <a class="dropdown-content1" href="dayhospital.html">DAY HOSPITAL</a>
+                    <a class="dropdown-content1" href="news.html">NEWS</a>
+                    <a class="dropdown-content1" href="careers.html">CAREERS</a>
+                    <a class="dropdown-content1" href="volunteer.html">VOLUNTEER PROGRAM</a>
                     <div class="dropdown">
-                        <button class="dropbtn row">
-                            <a class="no-a hamburger dropdown-content1">Resources</a>
+                        <!--<button class="dropbtn row">
+                            <a class="dropdown-content1 no-a hamburger">Resources</a>
                         </button>
-                        <div class="menu-items">
-                            <a href="news.html">News</a>
-                            <a href="careers.html">Careers</a>
-                            <a href="volunteer.html">Volunteer Program</a>
-                        </div>
+                        <div class="menu-items">-->
+
+                        <!--</div>-->
                     </div>
                     <div class="dropdown-content1">
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html">CONTACT</a>
                     </div>
 
                 </div>
@@ -126,7 +133,7 @@
         </div>
 
         <div class="departments1">
-            <h2 class="col-12 departments"> OUR DEPARTMENTS</h2>
+            <h2 class="col-12 departments"> Our Departments</h2>
             <div class="row sect-2">
 
                 <div class="col-2 careers-departments">
@@ -154,7 +161,8 @@
 
         <div class="careers-pos" style="display:none" id="career-1">
             <h2> Doctors</h2>
-            <div class="row careers-apply">
+            <h5> There are currently no open positions in this field.</h5>
+            <!--<div class="row careers-apply">
 
                 <h4 class="col-2">POSITION:</h4>
 
@@ -168,7 +176,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia fugiat, fugit ex aliquam
                         labore enim, nihil illo reiciendis veniam ipsum voluptates repellendus dolor omnis cumque
                         temporibus, rem mollitia eos!</p>
-                    <button class="careers-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="ModalDisplay('1-1')"> VIEW MORE</button>
+                    <button class="careers-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        onclick="ModalDisplay('1-1')"> VIEW MORE</button>
                 </div>
             </div>
             <div class="row careers-section1">
@@ -179,7 +188,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia fugiat, fugit ex aliquam
                         labore enim, nihil illo reiciendis veniam ipsum voluptates repellendus dolor omnis cumque
                         temporibus, rem mollitia eos!</p>
-                    <button class="careers-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="ModalDisplay('1-2')"> VIEW MORE</button>
+                    <button class="careers-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        onclick="ModalDisplay('1-2')"> VIEW MORE</button>
                 </div>
             </div>
             <div class="row careers-section">
@@ -190,7 +200,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia fugiat, fugit ex aliquam
                         labore enim, nihil illo reiciendis veniam ipsum voluptates repellendus dolor omnis cumque
                         temporibus, rem mollitia eos!</p>
-                    <button class="careers-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="ModalDisplay('1-3')"> VIEW MORE</button>
+                    <button class="careers-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        onclick="ModalDisplay('1-3')"> VIEW MORE</button>
                 </div>
             </div>
             <div class="row careers-section1">
@@ -201,13 +212,15 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia fugiat, fugit ex aliquam
                         labore enim, nihil illo reiciendis veniam ipsum voluptates repellendus dolor omnis cumque
                         temporibus, rem mollitia eos!</p>
-                    <button class="careers-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="ModalDisplay('1-4')"> VIEW MORE</button>
+                    <button class="careers-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        onclick="ModalDisplay('1-4')"> VIEW MORE</button>
                 </div>
-            </div>
+            </div>-->
         </div>
         <div class="careers-pos" style="display:none" id="career-2">
             <h2> Marketing</h2>
-            <div class="row careers-apply">
+            <h5> There are currently no open positions in this field.</h5>
+            <!-- <div class="row careers-apply">
 
                 <h4 class="col-2">POSITION:</h4>
 
@@ -257,9 +270,12 @@
                     <button class="careers-btn"> VIEW MORE</button>
                 </div>
             </div>
+        -->
         </div>
         <div class="careers-pos" style="display:none" id="career-3">
             <h2> Nurses</h2>
+            <h5> There are currently no open positions in this field.</h5>
+            <!--
             <div class="row careers-apply">
 
                 <h4 class="col-2">POSITION:</h4>
@@ -310,10 +326,12 @@
                     <button class="careers-btn"> VIEW MORE</button>
                 </div>
             </div>
+        -->
         </div>
         <div class="careers-pos" style="display:none" id="career-4">
             <h2>Receptionists</h2>
-            <div class="row careers-apply">
+            <h5> There are currently no open positions in this field.</h5>
+            <!-- <div class="row careers-apply">
 
                 <h4 class="col-2">POSITION:</h4>
 
@@ -363,9 +381,12 @@
                     <button class="careers-btn"> VIEW MORE</button>
                 </div>
             </div>
+        -->
         </div>
         <div class="careers-pos" style="display:none" id="career-5">
             <h2>Software Development</h2>
+            <h5> There are currently no open positions in this field.</h5>
+            <!--
             <div class="row careers-apply">
 
                 <h4 class="col-2">POSITION:</h4>
@@ -416,6 +437,7 @@
                     <button class="careers-btn"> VIEW MORE</button>
                 </div>
             </div>
+        -->
         </div>
 
 
@@ -429,8 +451,66 @@
                     distinctio ipsam numquam iste unde ea?</p>
             </div>
         </div>
+        <div class="volunteer">
+            <div class="row">
+                <h2 class="col-12"> Our Volunteer Program</h2>
+                <div class="col-6">
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam eius perferendis ea nesciunt
+                        laborum nobis, dolorum vel sunt asperiores impedit alias eveniet, architecto totam ad fugiat
+                        voluptates sapiente? Magnam, odio!
+                        Nihil voluptates, quisquam soluta nemo saepe explicabo fugiat autem asperiores sed, odio dicta,
+                        fugit distinctio nobis doloribus molestiae nostrum facere accusamus quis sequi id ut. Officiis
+                        praesentium consequuntur debitis exercitationem.</p>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam eius perferendis ea nesciunt
+                        laborum nobis, dolorum vel sunt asperiores impedit alias eveniet, architecto totam ad fugiat
+                        voluptates sapiente? Magnam, odio!
+                        Nihil voluptates, quisquam soluta nemo saepe explicabo fugiat autem asperiores sed, odio dicta,
+                        fugit distinctio nobis doloribus molestiae nostrum facere accusamus quis sequi id ut. Officiis
+                        praesentium consequuntur debitis exercitationem.</p>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="MainImages/Person-Img-2.jpg">
+                        </div>
+                        <div class="col-6">
+                            <img src="MainImages/Person-Img-2.jpg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="MainImages/Person-Img-2.jpg">
+                        </div>
+                        <div class="col-6">
+                            <img src="MainImages/Person-Img-2.jpg">
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+            <div class="volunteer1 row">
+                <div class="col-3">
+                    <h3> Why Volunteer?</h3>
+                </div>
+                <div class="col--9">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus perferendis, deleniti
+                        accusamus suscipit magnam dolor voluptas quaerat, doloribus voluptatibus neque ipsum culpa
+                        aperiam nobis odio obcaecati non maiores blanditiis modi.
+                        Enim ad porro sunt at vero, natus facere voluptates facilis odit, ipsum, labore illo. Odio
+                        perferendis rerum maxime voluptatibus exercitationem cum facilis alias. Modi, voluptatem quos
+                        nulla rerum in delectus?
+                        Dolorum molestias vitae porro id nesciunt. Reiciendis, corporis. Magnam, dolores distinctio
+                        voluptas maxime officia voluptatem sunt reiciendis, temporibus ut velit neque exercitationem
+                        doloribus adipisci enim incidunt aperiam magni at! Exercitationem?</p>
+                </div>
+            </div>
 
+        </div>
+
+        <div class="news-referral">
+            <h2> Think you fit our vision? Sign Up to be a member of our Volunteer Program</h2>
+            <button class="news-referral__button" onclick="FormModal()"> Sign Up</button>
+        </div>
 
 
 
@@ -514,7 +594,7 @@
                     <ul class="end-ul">
                         <li> <a onclick="redirectToAbout()"> About Us</a> </li>
                         <li> <a onclick="redirectToServices()"> Services </a> </li>
-                        <li> <a onclick="redirectToHealthInfo()"> Health Information </a> </li>
+
                         <li> <a onclick="redirectToVolunteer()"> Volunteer Program</a> </li>
                         <li> <a onclick="redirectToNews()"> News</a> </li>
                         <li> <a onclick="redirectToCareers()"> Careers</a> </li>
@@ -542,39 +622,40 @@
 
         </footer>
 
-        <div class="modal Modalfade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal Modalfade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3 class="modal-title" id="staticBackdropLabel">Kalafhi Jobs</h3>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                 
-                    <div class="news-sub row">
-                        <div class="news-info col-12">
-                            <img id="modal-img" src="">
-                        </div>
-                
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="staticBackdropLabel">Kalafhi Jobs</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-        
-        
-        
-        
-        
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="apply-modal"> APPLY</button>
-                </div> 
-              </div>
-            </div>
-          </div>
+                    <div class="modal-body">
 
-<div class="invisible">
-    <img id="career-img-1-1" src="MainImages/doctor1.jpg">
-    <img id="career-img-1-2" src="MainImages/Healing.png">
-    <img id="career-img-1-3" src="MainImages/GX_08.jpg">
-</div>
+                        <div class="news-sub row">
+                            <div class="news-info col-12">
+                                <img id="modal-img" src="">
+                            </div>
+
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="apply-modal"> APPLY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="invisible">
+            <img id="career-img-1-1" src="MainImages/doctor1.jpg">
+            <img id="career-img-1-2" src="MainImages/Healing.png">
+            <img id="career-img-1-3" src="MainImages/GX_08.jpg">
+        </div>
 
 
 
@@ -654,54 +735,54 @@
             //Navbar settings for mobile ends//    
 
 
-/*
-            function carouselHeight() {
-                var maxHeight = $('.carousel-focus-item:nth-of-type(2)').outerHeight()
-                $('.carousel-focus-inner').css('height', maxHeight);
-            }
-
-            $(document).ready(function () {
-                carouselHeight();
-                ClickNext();
-            })
-
-            $(window).resize(function () {
-                carouselHeight();
-            });
-
-            $(document).on('click', '.carousel-focus-controls > .prev', function () {
-                $(this).closest('.carousel-focus-inner').find('.carousel-focus-item ').first().hide().appendTo('.carousel-focus-items').show();
-                $('.carousel-focus-item iframe').detach();
-                //getThumbnail();
-            });
-
-            $(document).on('click', '.carousel-focus-controls > .next', function () {
-                $(this).closest('.carousel-focus-inner').find('.carousel-focus-item ').last().hide().prependTo('.carousel-focus-items').show();
-                $('.carousel-focus-item iframe').detach();
-                //getThumbnail();
-            });
-
-            $(document).on('click', '.carousel-focus-item:nth-of-type(1) img', function () {
-                $(this).closest('.carousel-focus-item ').insertAfter('.carousel-focus-item:nth-of-type(2)');
-            });
-
-            $(document).on('click', '.carousel-focus-item:nth-of-type(3) img', function () {
-                $(this).closest('.carousel-focus-item ').insertBefore('.carousel-focus-item:nth-of-type(2)');
-            });
-
-            function ClickNext() {
-
-                const timer = setInterval(() => {
-                    document.getElementById('Carousel-next').click();
-                }, 10000);
-
-            }*/
+            /*
+                        function carouselHeight() {
+                            var maxHeight = $('.carousel-focus-item:nth-of-type(2)').outerHeight()
+                            $('.carousel-focus-inner').css('height', maxHeight);
+                        }
+            
+                        $(document).ready(function () {
+                            carouselHeight();
+                            ClickNext();
+                        })
+            
+                        $(window).resize(function () {
+                            carouselHeight();
+                        });
+            
+                        $(document).on('click', '.carousel-focus-controls > .prev', function () {
+                            $(this).closest('.carousel-focus-inner').find('.carousel-focus-item ').first().hide().appendTo('.carousel-focus-items').show();
+                            $('.carousel-focus-item iframe').detach();
+                            //getThumbnail();
+                        });
+            
+                        $(document).on('click', '.carousel-focus-controls > .next', function () {
+                            $(this).closest('.carousel-focus-inner').find('.carousel-focus-item ').last().hide().prependTo('.carousel-focus-items').show();
+                            $('.carousel-focus-item iframe').detach();
+                            //getThumbnail();
+                        });
+            
+                        $(document).on('click', '.carousel-focus-item:nth-of-type(1) img', function () {
+                            $(this).closest('.carousel-focus-item ').insertAfter('.carousel-focus-item:nth-of-type(2)');
+                        });
+            
+                        $(document).on('click', '.carousel-focus-item:nth-of-type(3) img', function () {
+                            $(this).closest('.carousel-focus-item ').insertBefore('.carousel-focus-item:nth-of-type(2)');
+                        });
+            
+                        function ClickNext() {
+            
+                            const timer = setInterval(() => {
+                                document.getElementById('Carousel-next').click();
+                            }, 10000);
+            
+                        }*/
 
             function OpenPosition(a) {
                 // To close each career section when another opens//
-                for(var i = 1; i < 6;i++){
+                for (var i = 1; i < 6; i++) {
                     var div1 = document.getElementById("career-" + i);
-                    if(div1 == document.getElementById("career-" + a)){
+                    if (div1 == document.getElementById("career-" + a)) {
                         var div = document.getElementById("career-" + a);
                         if (div.style.display === "none" || div.style.display === " ") {
                             div.style.display = "block";
@@ -709,27 +790,27 @@
 
                         } else {
                             div.style.display = "none";
-                            
+
                         }
 
-                    }else{
-                        if(div1.style.display == "block"){
+                    } else {
+                        if (div1.style.display == "block") {
                             div1.style.display = "none";
                         }
                     }
-                    
+
                 }
-            }   
+            }
 
 
 
-            function ModalDisplay(id){
-        var img = document.getElementById("career-img-" + id).src;
+            function ModalDisplay(id) {
+                var img = document.getElementById("career-img-" + id).src;
 
-        document.getElementById("modal-img").src = img;
+                document.getElementById("modal-img").src = img;
 
 
-    }
+            }
 
 
 
