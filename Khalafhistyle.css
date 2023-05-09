@@ -222,16 +222,19 @@ header {
     text-align: center;
     padding: 2px;
     text-decoration: none;
+    color:var(--black);
+}
+
+.navbar a:visited{
+    color:inherit;
 }
 
 .navbar>a {
     margin-left: 2rem;
-
 }
 
-.dropbtn>a {
+.dropbtn > a {
     margin-left: 2rem;
-
 }
 
 button a {
@@ -315,7 +318,7 @@ i {
 }
 
 .pg-active {
-    color: var(--light-blue);
+    color: var(--light-blue)!important;
     text-decoration: none;
     border-bottom: 1px solid var(--light-blue);
 }
@@ -333,7 +336,7 @@ i {
 /* Links inside the dropdown */
 .dropdown-content a {
     float: none;
-    color: var(--white);
+    color: var(--white)!important;
     padding: 12px;
     text-decoration: none;
     display: block;
@@ -1889,7 +1892,10 @@ iframe {
     align-content: center;
 
 }
-
+.vol-1{
+    display:grid;
+    align-content: center;
+}
 .volunteer h2 {
     font-size: 2rem;
     text-align: center;
@@ -1910,25 +1916,31 @@ iframe {
     padding: 1rem;
     align-items: center;
 }
-
-.volunteer1 h3 {
+.wellness {
+    padding-bottom:3rem;
+}
+.wellness-1 h3 {
     font-size: 2.5rem;
     text-align: center;
 
 }
 
-.volunteer1 p {
+.wellness-1 p {
     align-items: center;
     font-size: large;
     width: 80%;
     margin: auto;
     text-align: justify;
     padding-bottom: 1rem;
-    ;
 }
 
-.volunteer1 {
-    padding: 3rem 1rem;
+.wellness-1 {
+    display:grid;
+    align-items: center;
+    padding: 2rem 2rem;
+    color:var(--white);
+    background-color: var(--green);
+    box-shadow: 2px 2px 5px var(--green);
 }
 
 
