@@ -642,7 +642,7 @@ header button {
 
 /*First Page Section 3*/
 .main_flex {
-    background-image: url(BackgroundImages/kalafhi-background_optimized\ \(1\).png);
+    background-image: url(BackgroundImages/kalafhi-background1.png);
     background-position: center;
     background-size: cover;
     padding-bottom: 1.5rem;
@@ -993,35 +993,28 @@ main p {
 }
 
 .about-intro {
-    padding: 5rem 2rem 5rem;
-    width: 85%;
     margin: auto;
     display: grid;
     align-items: center;
     justify-content: center;
 }
-
+.about-intro p{
+    padding-bottom:0.5rem;
+    font-size: large;
+    width:75%;
+    margin:auto;
+    text-align: justify;
+    hyphens: auto;
+}
 .about-page {
-    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.about1 {
-    text-align: justify;
-    hyphens: auto;
-}
-
-.about1 p {
-    width: 90%;
-    margin: auto auto;
-}
-
 .about-page-h21 {
     font-size: 2rem;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
+    padding: 5rem 0rem 1rem 10rem;
 }
 
 .about-page-h2 {
@@ -1031,18 +1024,31 @@ main p {
 
 .about-page p {
     font-size: large;
+    padding-bottom:1rem;
 }
 
 .about-img {
-    height: 300px;
+    height:auto;
     width: auto;
     display: grid;
     align-items: center;
     margin: auto;
-    padding: 0.5rem;
+    padding: 2rem 1rem;
 }
 
-
+.abt-hr{
+    border:2px solid var(--green);
+    width:80%;
+    margin:auto
+}
+.about-intro h3{
+    font-size: 1.5rem;;
+    padding-bottom:0.5rem;
+    padding-left:4rem;
+}
+.about-intro-p{
+    padding-top:0.5rem;
+}
 .sect-2 {
     height: auto;
     display: flex;
@@ -1113,8 +1119,9 @@ main p {
 }
 
 .about-3 {
-    padding: 4rem 2rem;
+    padding: 5rem 2rem;
     margin: auto;
+    width:90%;
 }
 
 .about3 {
@@ -2109,12 +2116,6 @@ iframe {
         align-items: center;
     }
 
-    .about-div {
-        height: 90%;
-        width: 100%;
-        top: -1rem;
-        left: 0rem;
-    }
 
 
     .pillar {
@@ -2367,12 +2368,6 @@ iframe {
         justify-content: center;
     }
 
-    .about-div {
-        height: 90%;
-        width: 100%;
-        top: -1rem;
-        left: 0rem;
-    }
 
     .pillar {
         position: relative;
