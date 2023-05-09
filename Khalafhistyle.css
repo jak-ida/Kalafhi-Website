@@ -960,18 +960,15 @@ main p {
     width: 80%;
     margin: auto;
     background-color: var(--dark-blue);
-    ;
     opacity: 0.5;
     bottom: 10rem;
     height: auto;
-
     padding: 1rem;
 }
 
 .directors {
     padding: 1rem 0rem 0rem;
     background-color: var(--dark-blue);
-    ;
     color: var(--white);
     display: grid;
     align-items: center;
@@ -1337,12 +1334,11 @@ iframe {
 
 .doctors-carousel {
     padding: 4rem;
-    height: 700px;
+    height: auto;
     display: grid;
     align-items: center;
     text-align: center;
     background-color: var(--dark-blue);
-    ;
     color: var(--white);
 }
 
@@ -1357,8 +1353,11 @@ iframe {
     font-size: 2rem;
     margin-top: 1rem;
     text-align: center;
-    color: var(--white);
-
+    color: var(--black);
+padding:1rem;
+}
+.doctors-img img{
+    padding:0.5rem;
 }
 
 .card-1 {
@@ -1366,12 +1365,6 @@ iframe {
     width: 60%;
     padding: 1rem 2rem 3rem;
     margin: auto;
-}
-
-.card-11 {
-    background-color: var(--dark-blue);
-    ;
-    padding: 1rem;
 }
 
 .card- {
