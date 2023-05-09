@@ -17,8 +17,15 @@
         <header>
             <img class="Logo" src="MainImages/kalafhi-logo.jpg" />
             <div class="navbar">
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT US</a>
+                <a class="pg-active" href="index.html">HOME</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="about.html">ABOUT KALAFHI</a>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="doctors.html">Our Staff</a>
+                    </div>
+                </div>
                 <div class="dropdown">
                     <button class="dropbtn"><a class="no-a">SERVICES</a>
                     </button>
@@ -30,7 +37,6 @@
                         <a href="dayhospital.html">Day Hospital</a>
                     </div>
                 </div>
-                <a href="health.html">HEALTH INFORMATION</a>
                 <div class="dropdown">
                     <button class="dropbtn">
                         <a class="no-a">RESOURCES</a>
@@ -79,38 +85,40 @@
                     </svg>
                 </button>
                 <div class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a class="dropdown-content1" href="about.html">About Us</a>
-                    <div class="dropdown">
+                    <a href="index.html">HOME</a>
+                    <a class="dropdown-content1" href="about.html">ABOUT KALAFHI</a>
+                    <!--<div class="dropdown">
                         <button class="dropbtn row">
                             <a class="no-a hamburger dropdown-content1">Services</a>
                         </button>
                         <div class="menu-items">
-                            <a href="medicalservices.html">Medical Services</a>
-                            <a href="pharmaceuticals.html">Pharmaceuticals</a>
-                            <a href="physiotherapy.html">Physiotherapy</a>
-                            <a href="renewalaesthetics.html">Renewal Aesthetics</a>
-                            <a href="dayhospital.html">Day Hospital</a>
+                            
                         </div>
-                    </div>
-                    <div><a class="dropdown-content1" href="health.html">Health Information</a></div>
+                    </div>-->
+                    <a class="dropdown-content1" href="medicalservices.html">MEDICAL SERVICES</a>
+                            <a class="dropdown-content1" href="pharmaceuticals.html">PHARMACEUTICALS</a>
+                            <a class="dropdown-content1" href="physiotherapy.html">PHYSIOTHERAPY</a>
+                            <a class="dropdown-content1" href="renewalaesthetics.html">RENEWAL AESTHETICS</a>
+                            <a class="dropdown-content1" href="dayhospital.html">DAY HOSPITAL</a>   
+                            <a class="dropdown-content1" href="news.html">NEWS</a>
+                            <a class="dropdown-content1" href="careers.html">CAREERS</a>
+                            <a class="dropdown-content1" href="volunteer.html">VOLUNTEER PROGRAM</a>
                     <div class="dropdown">
-                        <button class="dropbtn row">
-                            <a class="no-a hamburger dropdown-content1">Resources</a>
+                        <!--<button class="dropbtn row">
+                            <a class="dropdown-content1 no-a hamburger">Resources</a>
                         </button>
-                        <div class="menu-items">
-                            <a href="news.html">News</a>
-                            <a href="careers.html">Careers</a>
-                            <a href="volunteer.html">Volunteer Program</a>
-                        </div>
+                        <div class="menu-items">-->
+                            
+                        <!--</div>-->
                     </div>
                     <div class="dropdown-content1">
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html">CONTACT</a>
                     </div>
 
                 </div>
             </div>
         </header>
+        <!-- Social Media ends -->
         <h2 class="news-head"> Kalafhi News </h2>
         <hr class="news-hr1">
         <div class="row news-second">
@@ -129,7 +137,7 @@
                 <div class="col-12 invisible news-modal" id="news-1">
                     <img src="MainImages/kalafhi-News.jpg" />
                     <h3> Kalafhi To Open One-Day Hospital</h3>
-                    
+
                     <h5>Posted: 6 July 2022 by <a> Mmegi</a></h5>
                     <br>
                     <p> The hospital is part of their five-year expansion plan, which was conceptualised with the
@@ -160,7 +168,7 @@
                 <h3> Gaborone International Health Expo Returns</h3>
                 <br>
                 <h5>Posted: 6 July 2022 by <a> The Patriot</a></h5>
-                
+
                 <h4>> With 100 000 sponsorship boost</h4>
                 <p>The annual Gaborone International Health Expo is returning this year with a boost of P 100 000
                     windfall sponsorship from Kalafhi Medical Centre, following the freezing of the expo last year.
@@ -175,7 +183,7 @@
                     <div class="">
                         <img src="MainImages/kalafhi-News2.jpg" />
                         <h3> Gaborone International Health Expo Returns</h3>
-                       
+
                         <h5>Posted: 6 July 2022 by <a> The Patriot</a></h5>
                         <br>
                         <h4>> With 100 000 sponsorship boost</h4>
@@ -188,7 +196,7 @@
                             wellness
                             across
                             Botswana; this year’s showpiece is slated for 21st and 22nd of November 2019.</p>
-                        
+
                         <p>Founder and Managing Director of Kalafhi Medical Centre, Dr Matlhogonolo Mongwa, has said her
                             company
                             came off of to the party to sponsor the expo so as to unlock growth opportunities. Mongwa
@@ -205,7 +213,7 @@
                             products
                             and
                             services for the consumers, free health screenings and offering networking for professions.
-                        Free health screenings, at the expo is envisioned to assist the public in knowing their
+                            Free health screenings, at the expo is envisioned to assist the public in knowing their
                             health
                             status
                             for rampant prevalent diseases such as cancer, hypertension including sugar diabetes.</p>
@@ -333,9 +341,9 @@
 
                 <br>
                 <ul class="end-ul">
-                    <li> <a href="about.html"> About Us</a> </li>
+                    <li> <a href="about.html"> About Kalafhi</a> </li>
                     <li> <a onclick="redirectToServices()"> Services </a> </li>
-                    <li> <a onclick="redirectToHealthInfo()"> Health Information </a> </li>
+
                     <li> <a onclick="redirectToVolunteer()"> Volunteer Program</a> </li>
                     <li> <a onclick="redirectToNews()"> News</a> </li>
                     <li> <a onclick="redirectToCareers()"> Careers</a> </li>
