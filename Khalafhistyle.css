@@ -192,12 +192,11 @@ header a {
 }
 
 header {
-    gap: 8rem;
     height: 60px;
     width: 100%;
     background-color: var(--white);
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     top: 0;
