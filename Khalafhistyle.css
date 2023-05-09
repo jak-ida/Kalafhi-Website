@@ -1682,7 +1682,7 @@ padding:1rem;
 
 .careers-title {
     font-size: 2rem;
-    padding: 8vh 1vw 1vh 10vw;
+    padding: 5rem 0rem 1rem 10rem;
 }
 
 .careers-intro {
@@ -1695,7 +1695,7 @@ padding:1rem;
 }
 
 .careers-head {
-    padding: 3rem 5rem;
+    padding: 5rem 5rem;
     background-color: var(--green);
     color: var(--white);
     display: grid;
@@ -1819,8 +1819,50 @@ padding:1rem;
     padding: 1rem 4rem 2rem;
     box-shadow: 5px 5px 8px var(--light-blue);
 }
+.careers-pos h5{
+    font-size: 1rem;
+    margin-left:1rem;
+    padding:1.5rem;
+}
+.volunteer{
+    padding:1rem;
+    display:grid;
+    align-content: center;
 
+}
+.volunteer h2{
+    font-size: 2rem;
+    text-align: center;
+    padding:2rem;
+}
+.volunteer p{
+    align-items: center;
+    font-size: large;
+    width: 80%;
+    margin:auto;
+    text-align: justify;
+    padding-bottom: 1rem;;
+}
+.volunteer img{
+    padding:1rem;
+    align-items: center;
+}
+.volunteer1 h3{
+    font-size: 2.5rem;
+    text-align: center;
 
+}
+.volunteer1 p{
+    align-items: center;
+    font-size: large;
+    width: 80%;
+    margin:auto;
+    text-align: justify;
+    padding-bottom: 1rem;;
+}
+.volunteer1{
+    padding:3rem 1rem;
+}
 
 
 
