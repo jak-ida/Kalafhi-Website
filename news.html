@@ -17,7 +17,7 @@
         <header>
             <img class="Logo" src="MainImages/kalafhi-logo.jpg" />
             <div class="navbar">
-                <a class="pg-active" href="index.html">HOME</a>
+                <a  href="index.html">HOME</a>
                 <div class="dropdown">
                     <button class="dropbtn">
                         <a href="about.html">ABOUT KALAFHI</a>
@@ -39,12 +39,11 @@
                 </div>
                 <div class="dropdown">
                     <button class="dropbtn">
-                        <a class="no-a">RESOURCES</a>
+                        <a class="no-a pg-active">RESOURCES</a>
                     </button>
                     <div class="dropdown-content">
                         <a href="news.html">News</a>
                         <a href="careers.html">Careers</a>
-                        <a href="volunteer.html">Volunteer Program</a>
                     </div>
                 </div>
                 <a href="contact.html">CONTACT US</a>
@@ -102,7 +101,6 @@
                             <a class="dropdown-content1" href="dayhospital.html">DAY HOSPITAL</a>   
                             <a class="dropdown-content1" href="news.html">NEWS</a>
                             <a class="dropdown-content1" href="careers.html">CAREERS</a>
-                            <a class="dropdown-content1" href="volunteer.html">VOLUNTEER PROGRAM</a>
                     <div class="dropdown">
                         <!--<button class="dropbtn row">
                             <a class="dropdown-content1 no-a hamburger">Resources</a>
@@ -283,12 +281,12 @@
     <footer>
         <div class="row end">
 
-            <div class="col-8 ">
+            <div class="col--8 ">
                 <h3> OUR LOCATIONS</h3>
 
                 <br>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col--4">
                         <h3> VILLAGE </h3>
                         <p> Plot 21104 Village,</p>
                         <p> Maratadiba, Gaborone</p>
@@ -302,9 +300,9 @@
                             <h4> Closed on Sundays and Public Holidays</h4>
                         </div>
                         <br>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 311 5929</p>
                     </div>
-                    <div class="col-4 ">
+                    <div class="col--4 ">
                         <h3> TLOKWENG </h3>
                         <p>Plot 2306 Lenganeng, </p>
                         <p>Tlokweng, Botswana </p>
@@ -317,9 +315,9 @@
                             <h4> Closed on Sundays and Public Holidays</h4>
                         </div>
                         <br>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 397 5237</p>
                     </div>
-                    <div class="col-4 ">
+                    <div class="col--4 ">
                         <h3> MAIN MALL</h3>
                         <p>Plot 686 Main Mall, </p>
                         <p>Gaborone, Botswana</p>
@@ -330,7 +328,7 @@
                             <h4> Closed on Sundays and Public Holidays</h4>
                         </div>
                         <br>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 316 4269.</p>
                     </div>
                 </div>
                 <br>
@@ -341,10 +339,8 @@
 
                 <br>
                 <ul class="end-ul">
-                    <li> <a href="about.html"> About Kalafhi</a> </li>
+                    <li> <a onclick="redirectToAbout()"> About Kalafhi</a> </li>
                     <li> <a onclick="redirectToServices()"> Services </a> </li>
-
-                    <li> <a onclick="redirectToVolunteer()"> Volunteer Program</a> </li>
                     <li> <a onclick="redirectToNews()"> News</a> </li>
                     <li> <a onclick="redirectToCareers()"> Careers</a> </li>
                     <li> <a onclick="redirectToContact()"> Contact Us</a> </li>
@@ -370,6 +366,7 @@
 
 
     </footer>
+
 
     <!-- Modal -->
     <div class="modal Modalfade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
@@ -437,9 +434,6 @@
         }
         function redirectToCareers() {
             window.location.href = "careers.html";
-        }
-        function redirectToResources() {
-            window.location.href = "volunteer.html";
         }
         function redirectToContact() {
             window.location.href = "contact.html";
