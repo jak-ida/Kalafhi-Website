@@ -1044,7 +1044,7 @@ main p {
 }
 
 .about-page-h21 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 5rem 0rem 1rem 10rem;
 }
 
@@ -1374,8 +1374,7 @@ iframe {
 
 .doctors-heading {
     font-size: 2rem;
-    margin-top: 5rem;
-    text-align: center;
+    padding: 5rem 0rem 1rem 10rem;
 }
 
 .doctors-carousel {
@@ -1962,7 +1961,7 @@ iframe {
 
 /*Services Page*/
 .services{
-    padding:2rem 4rem;
+    padding:2rem 5rem;
 }
 .services-hr{
     border: 2px solid var(--green);
