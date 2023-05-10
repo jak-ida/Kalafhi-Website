@@ -1916,8 +1916,17 @@ iframe {
     padding: 1rem;
     align-items: center;
 }
+.volunteer1{
+    font-size: 2.5rem;
+    display:grid;
+    align-items: center;
+    padding: 2rem 1rem;
+}
 .wellness {
-    padding-bottom:3rem;
+    padding: 1rem 1rem 3rem;
+    display: grid;
+    align-content: center;
+
 }
 .wellness-1 h3 {
     font-size: 2.5rem;
@@ -1926,6 +1935,13 @@ iframe {
 }
 
 .wellness-1 p {
+    font-size: large;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+.volunteer1 p {
     align-items: center;
     font-size: large;
     width: 80%;
@@ -1937,11 +1953,86 @@ iframe {
 .wellness-1 {
     display:grid;
     align-items: center;
-    padding: 2rem 2rem;
+    padding: 2rem;
+    margin: 0rem 1.5rem 1.5rem;
     color:var(--white);
     background-color: var(--green);
     box-shadow: 2px 2px 5px var(--green);
 }
+
+/*Services Page*/
+.services{
+    padding:2rem 4rem;
+}
+.services-hr{
+    border: 2px solid var(--green);
+    width: 70%;
+    margin: auto;
+}
+.services-1{
+    display:grid;
+    align-content: center;
+}
+.services-h2{
+    font-size: 2rem;
+    padding: 5rem 0rem 1rem 10rem; 
+}
+.services h3{
+    font-size: 1.8rem;
+    padding-left:3rem;
+}
+.services p{
+    font-size: 1.5rem;
+    padding:1rem 3rem;
+}
+.services img{
+    padding:1rem;
+    margin:1rem 0rem
+}
+.service_btn1 {
+    width: 30%;
+    color: var(--white);
+    background-color: var(--light-blue);
+    border-radius: .5rem;
+    border: none;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    border: 2px solid var(--light-blue);
+    padding: 8px ;
+    font-size: 1rem;
+    font-weight: bold;
+    float:right;
+}
+
+.service_btn1:hover {
+    display: block;
+    font-weight: bold;
+    color: var(--light-blue);
+    background-color: var(--off-white);
+    border-radius: .5rem;
+    border: 2px solid var(--light-blue);
+    cursor: pointer;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
