@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn"><a class="no-a">SERVICES</a>
+                    <button class="dropbtn"><a class="no-a" href="services.html">SERVICES</a>
                     </button>
                     <div class="dropdown-content">
                         <a href="medicalservices.html">Medical Services</a>
@@ -159,7 +159,7 @@
                 <h2> Medical Services </h2>
                 <p> We offer high-quality healthcare services for all ages with cutting-edge diagnostics and treatment
                     options using advanced technology and facilities.</p>
-                <button class="service_btn" onclick="redirectToServices()"> LEARN MORE</button>
+                <button class="service_btn" onclick="redirectToMedServices()"> LEARN MORE</button>
             </div>
 
             <div class="service-width">
@@ -167,7 +167,7 @@
                 <h2> Pharmaceuticals</h2>
                 <p> We provide and supply medical drugs, equipment and services nationwide, to migrate the shortage of
                     medical drugs and equipment in our country. </p>
-                <button class="service_btn" onclick="redirectToServices()">LEARN MORE </button>
+                <button class="service_btn" onclick="redirectToPharma()">LEARN MORE </button>
             </div>
 
             <div class="service-width">
@@ -175,7 +175,7 @@
                 <h2>Physiotherapy </h2>
                 <p> We take a holistic multi-disciplinary approach in patient care management to help regain function
                     and achieve the highest level of independence.</p>
-                <button class="service_btn" onclick="redirectToServices()"> LEARN MORE </button>
+                <button class="service_btn" onclick="redirectToPhysio()"> LEARN MORE </button>
             </div>
 
             <div class="service-width">
@@ -191,15 +191,15 @@
                 <h2> Day Hospital</h2>
                 <p> Our smart day hospital uses the latest in technology and digital health solutions, offering services
                     such as chemotherapy and cardiology.</p>
-                <button class="service_btn" onclick="redirectToServices()">LEARN MORE </button>
+                <button class="service_btn" onclick="redirectToDayHosp()">LEARN MORE </button>
             </div>
 
             <div class="service-width">
                 <img src="MainImages/Person-Img-2.jpg" />
-                <h2>WELLNESS DAYS </h2>
+                <h2>Wellness Days </h2>
                 <p> We aim to raise public health awareness and the importance of knowing your health by conducting
                     health screenings for the public and corporations.</p>
-                <button class="service_btn" onclick=""> LEARN MORE </button>
+                <button class="service_btn" onclick="redirectToNews()""> LEARN MORE </button>
             </div>
         </div>
         <br>
@@ -434,26 +434,35 @@
 
 
     <script>
-        function redirectToAbout() {
-            window.location.href = "about.html";
-        }
-        function redirectToServices() {
-            window.location.href = "services.html";
-        }
-        function redirectToRenewal() {
-            window.location.href = "";
-        }
-        function redirectToHealthInfo() {
-            window.location.href = "health.html";
-        }
-        function redirectToNews() {
-            window.location.href = "news.html";
-        }
-        function redirectToCareers() {
-            window.location.href = "careers.html";
-        }
-        function redirectToContact() {
-            window.location.href = "contact.html";
+       function redirectToAbout() {
+                window.location.href = "about.html";
+            }
+            function redirectToMedServices() {
+                window.location.href = "medicalservices.html";
+            }
+            function redirectToRenewal() {
+                window.location.href = "";
+            }
+            function redirectToPharma() {
+                window.location.href = "pharma.html";
+            }
+            function redirectToPhysio() {
+                window.location.href = "physio.html";
+            }
+            function redirectToDayHosp() {
+                window.location.href = "dayhospital.html"
+            }
+            function redirectToNews() {
+                window.location.href = "news.html";
+            }
+            function redirectToCareers() {
+                window.location.href = "careers.html";
+            }
+            function redirectToContact() {
+                window.location.href = "contact.html";
+            }
+        function redirectToBookApt() {
+            window.location.href = "bookapt.html";
         }
 
 
