@@ -222,18 +222,18 @@ header {
     text-align: center;
     padding: 2px;
     text-decoration: none;
-    color:var(--black);
+    color: var(--black);
 }
 
-.navbar a:visited{
-    color:inherit;
+.navbar a:visited {
+    color: inherit;
 }
 
 .navbar>a {
     margin-left: 2rem;
 }
 
-.dropbtn > a {
+.dropbtn>a {
     margin-left: 2rem;
 }
 
@@ -318,7 +318,7 @@ i {
 }
 
 .pg-active {
-    color: var(--light-blue)!important;
+    color: var(--light-blue) !important;
     text-decoration: none;
     border-bottom: 1px solid var(--light-blue);
 }
@@ -336,7 +336,7 @@ i {
 /* Links inside the dropdown */
 .dropdown-content a {
     float: none;
-    color: var(--white)!important;
+    color: var(--white) !important;
     padding: 12px;
     text-decoration: none;
     display: block;
@@ -972,10 +972,12 @@ main p {
     height: 550px;
     margin: auto;
 }
-.dir-info h2{
+
+.dir-info h2 {
     font-size: 1.2rem;
 }
-.dir-info h4{
+
+.dir-info h4 {
     font-size: 0.8rem;
 }
 
@@ -984,14 +986,14 @@ main p {
     margin: auto;
     background-color: var(--dark-blue);
     opacity: 0.5;
-    margin-top:-8rem;
+    margin-top: -8rem;
     height: auto;
     padding: 1rem;
 }
 
 .directors {
-    height:auto;
-    padding: 1rem 2rem 6rem; 
+    height: auto;
+    padding: 1rem 2rem 6rem;
     background-color: var(--dark-blue);
     color: var(--white);
     /*display: grid;
@@ -1891,14 +1893,17 @@ iframe {
     align-content: center;
 
 }
-.vol-1{
-    display:grid;
+
+.vol-1 {
+    display: grid;
     align-content: center;
 }
-.vol-1 h3{
-    margin-left:3.8rem;
-    padding:0.5rem;
+
+.vol-1 h3 {
+    margin-left: 3.8rem;
+    padding: 0.5rem;
 }
+
 .volunteer h2 {
     font-size: 2rem;
     text-align: center;
@@ -1919,18 +1924,21 @@ iframe {
     padding: 1rem;
     align-items: center;
 }
-.volunteer1{
+
+.volunteer1 {
     font-size: 2.5rem;
-    display:grid;
+    display: grid;
     align-items: center;
     padding: 2rem 1rem;
 }
+
 .wellness {
     padding: 1rem 1rem 3rem;
     display: grid;
     align-content: center;
 
 }
+
 .wellness-1 h3 {
     font-size: 2.5rem;
     text-align: center;
@@ -1944,6 +1952,7 @@ iframe {
     text-align: justify;
     padding-bottom: 1rem;
 }
+
 .volunteer1 p {
     align-items: center;
     font-size: large;
@@ -1954,44 +1963,51 @@ iframe {
 }
 
 .wellness-1 {
-    display:grid;
+    display: grid;
     align-items: center;
     padding: 2rem;
     margin: 0rem 1.5rem 1.5rem;
-    color:var(--white);
+    color: var(--white);
     background-color: var(--green);
     box-shadow: 2px 2px 5px var(--green);
 }
 
 /*Services Page*/
-.services{
-    padding:2rem 5rem;
+.services {
+    padding: 2rem 5rem;
 }
-.services-hr{
+
+.services-hr {
     border: 2px solid var(--green);
     width: 70%;
     margin: auto;
 }
-.services-1{
-    display:grid;
+
+.services-1 {
+    display: grid;
     align-content: center;
 }
-.services-h2{
+
+.services-h2 {
     font-size: 2rem;
-    padding: 5rem 0rem 1rem 10rem; 
+    padding: 5rem 0rem 1rem 10rem;
 }
-.services h3{
+
+.services h3 {
     font-size: 1.8rem;
-    padding-left:3rem;
+    padding-left: 3rem;
 }
-.services p{
+
+.services p {
     font-size: 1.5rem;
-    padding:1rem 3rem;
+    padding: 1rem 3rem;
 }
-.services img{
-    padding:1rem;
-    margin:1rem 0rem
+
+.services img {
+    padding: 1rem;
+    margin: 1rem 0rem
 }
+
 .service_btn1 {
     width: 30%;
     color: var(--white);
@@ -2001,10 +2017,10 @@ iframe {
     margin-left: 3rem;
     margin-top: 0.5rem;
     border: 2px solid var(--light-blue);
-    padding: 8px ;
+    padding: 8px;
     font-size: 1rem;
     font-weight: bold;
-    float:right;
+    float: right;
 }
 
 .service_btn1:hover {
@@ -2020,81 +2036,229 @@ iframe {
 }
 
 /*Medical Services*/
-.medical-head{
+.medical-head {
     font-size: 2rem;
-    padding: 5rem 0rem 1rem 10rem; 
+    padding: 5rem 0rem 1rem 10rem;
 }
-.medic-intro{
-    padding:2rem;
+
+.medic-intro {
+    padding: 2rem;
     font-size: 1.2rem;
     text-align: center;
-    background-color:var(--dark-blue);
-    color:var(--white);
+    background-color: var(--dark-blue);
+    color: var(--white);
 }
-.medic-intro p{
-    width:80%;
-    margin:auto;
-    padding-bottom:2rem;
+
+.medic-intro p {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
 }
-.medical-img{
-    padding:0.2rem;
-    border-radius: 0.5rem;;
+
+.medical-img {
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    ;
 }
+
 .serve {
-    padding:1rem;
+    padding: 1rem;
 }
-.medical-opt{
-    display:grid;
+
+.medical-opt {
+    display: grid;
     align-items: center;
     justify-content: center;
-    padding:2rem 3rem;
+    padding: 2rem 3rem;
 }
-.medical-opt h2{
+
+.medical-opt h2 {
     font-size: 1.8rem;
 }
-.medical-opt p{
-    width:90%;
+
+.medical-opt p {
+    width: 90%;
     margin: auto;
     font-size: 1.2rem;
 }
-.services1{
-    padding:2rem 5rem;
+
+.services1 {
+    padding: 2rem 5rem;
 }
-.more-info{
-width:80%;
-margin:auto;
-font-size: large;
-padding:1rem;
-}
-.more-info p, .more-info1 p{
-    padding-bottom:0.5rem;
-}
-.more-info1 {
-    width:80%;
-    margin:auto;
+
+.more-info {
+    width: 80%;
+    margin: auto;
     font-size: large;
-    padding:1rem;
-    }
-    .med-btn{
-        background-color: var(--light-blue);
-        border: 2px solid var(--light-blue);
-        color: var(--white);
-        font-weight: bold;
-        padding:8px;
-        width:40%;
-        margin-left:20rem;
-        border-radius: 0.5rem;;
-    }
-    .med-btn:hover{
-        color:var(--light-blue);
-        background: var(--off-white);
-        cursor: pointer;
-    }
+    padding: 1rem;
+}
+
+.more-info p,
+.more-info1 p {
+    padding-bottom: 0.5rem;
+}
+
+.more-info1 {
+    width: 80%;
+    margin: auto;
+    font-size: large;
+    padding: 1rem;
+}
+
+.med-btn {
+    background-color: var(--light-blue);
+    border: 2px solid var(--light-blue);
+    color: var(--white);
+    font-weight: bold;
+    padding: 8px;
+    width: 40%;
+    margin-left: 20rem;
+    border-radius: 0.5rem;
+    ;
+}
+
+.med-btn:hover {
+    color: var(--light-blue);
+    background: var(--off-white);
+    cursor: pointer;
+}
+
+/*Pharmaceuticals*/
+.pharma-head {
+    font-size: 2rem;
+    padding: 5rem 0rem 1rem 10rem;
+}
+
+.pharma_holder h2 {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.pharma_holder p {
+    margin: auto auto;
+    width: 90%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.pharma-info {
+    display: grid;
+    justify-content: center;
+    padding: 2rem 3rem;
+}
+
+.blue_back {
+    background-color: var(--dark-blue);
+    color: white;
+    text-align: justify;
+    display: grid;
+    align-items: center;
+    hyphens: auto;
+    padding: 0rem 2rem
+}
+
+.pharma-1 {
+    display: grid;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.pharma-1 h1 {
+    line-height: 3rem;
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.pharma-1_cluster {
+    padding: 2rem 4rem;
+    text-align: justify;
+}
+
+.pharma-1_cluster h2 {
+    margin-left: 0.5rem;
+    color: var(--green);
+}
+
+.pharma-1_cluster p {
+    width: 90%;
+    margin: auto auto;
+    hyphens: auto;
+    font-size: 1.2rem;
+}
+
+.pharma-1_content {
+    display: grid;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.pharma_content {
+    border-right: 1.5px solid gray;
+    display: grid;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.pharma-info h2 {
+    font-size: 1.8rem;
+}
+
+.pharma-info p {
+    padding: 0.75rem 0rem;
+    font-size: 1.2rem;
+}
+
+.pharma-info-1 p {
+    width: 90%;
+    margin: auto;
+    padding-left: 1rem;
+    padding-bottom: 0.8rem;
+    text-align: justify;
+    hyphens: auto;
+    font-size: 1.2rem;
+}
+
+.pharma-info-1 {
+    padding: 0rem 6rem 6rem;
+    display: grid;
+    align-items: center;
+}
+
+.pharma-services {
+    padding: 3rem 5rem;
+}
+
+.pharma-services-h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom:2rem;
+}
+.pharma-info-2 p {
+    width: 90%;
+    margin: auto;
+    padding: 0rem 1rem 0.8rem 1rem;
+    text-align: justify;
+    hyphens: auto;
+    font-size: 1.2rem;
+}
+.pharma-info-2 h2 {
+    width: 90%;
+    margin: auto;
+    padding-left: 1rem;
+    padding-bottom: 0.8rem;
+    color: var(--light-blue);
+    font-size: 2rem;;
+}
 
 
-
-
-
+.pharma-info-2 {
+    padding: 0rem 6rem 6rem;
+    display: grid;
+    align-items: center;
+}
 
 
 
