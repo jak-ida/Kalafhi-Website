@@ -2015,10 +2015,77 @@ iframe {
     font-size: 1rem;
 }
 
-
-
-
-
+/*Medical Services*/
+.medical-head{
+    font-size: 2rem;
+    padding: 5rem 0rem 1rem 10rem; 
+}
+.medic-intro{
+    padding:2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color:var(--dark-blue);
+    color:var(--white);
+}
+.medic-intro p{
+    width:80%;
+    margin:auto;
+    padding-bottom:2rem;
+}
+.medical-img{
+    padding:0.2rem;
+    border-radius: 0.5rem;;
+}
+.serve {
+    padding:1rem;
+}
+.medical-opt{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    padding:2rem 3rem;
+}
+.medical-opt h2{
+    font-size: 1.8rem;
+}
+.medical-opt p{
+    width:90%;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.services1{
+    padding:2rem 5rem;
+}
+.more-info{
+width:80%;
+margin:auto;
+font-size: large;
+padding:1rem;
+}
+.more-info p, .more-info1 p{
+    padding-bottom:0.5rem;
+}
+.more-info1 {
+    width:80%;
+    margin:auto;
+    font-size: large;
+    padding:1rem;
+    }
+    .med-btn{
+        background-color: var(--light-blue);
+        border: 2px solid var(--light-blue);
+        color: var(--white);
+        font-weight: bold;
+        padding:8px;
+        width:40%;
+        margin-left:20rem;
+        border-radius: 0.5rem;;
+    }
+    .med-btn:hover{
+        color:var(--light-blue);
+        background: var(--off-white);
+        cursor: pointer;
+    }
 
 
 
@@ -3494,4 +3561,21 @@ iframe {
 /* margin bottom */
 .mb-4 {
     margin-bottom: 2rem;
+}
+
+
+.collapse:not(.show) {
+    display: none
+}
+
+.collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: height .35s ease;
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .collapsing {
+        transition: none
+    }
 }
