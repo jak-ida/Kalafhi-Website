@@ -1895,6 +1895,10 @@ iframe {
     display:grid;
     align-content: center;
 }
+.vol-1 h3{
+    margin-left:3.8rem;
+    padding:0.5rem;
+}
 .volunteer h2 {
     font-size: 2rem;
     text-align: center;
