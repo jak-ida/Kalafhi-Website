@@ -1920,57 +1920,6 @@ iframe {
     ;
 }
 
-.volunteer img {
-    padding: 1rem;
-    align-items: center;
-}
-
-.volunteer1 {
-    font-size: 2.5rem;
-    display: grid;
-    align-items: center;
-    padding: 2rem 1rem;
-}
-
-.wellness {
-    padding: 1rem 1rem 3rem;
-    display: grid;
-    align-content: center;
-
-}
-
-.wellness-1 h3 {
-    font-size: 2.5rem;
-    text-align: center;
-
-}
-
-.wellness-1 p {
-    font-size: large;
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-    padding-bottom: 1rem;
-}
-
-.volunteer1 p {
-    align-items: center;
-    font-size: large;
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-    padding-bottom: 1rem;
-}
-
-.wellness-1 {
-    display: grid;
-    align-items: center;
-    padding: 2rem;
-    margin: 0rem 1.5rem 1.5rem;
-    color: var(--white);
-    background-color: var(--green);
-    box-shadow: 2px 2px 5px var(--green);
-}
 
 /*Services Page*/
 .services {
@@ -2106,8 +2055,8 @@ iframe {
 }
 
 .med-btn {
-    background-color: var(--light-blue);
-    border: 2px solid var(--light-blue);
+    background-color: var(--green);
+    border: 2px solid var(--green);
     color: var(--white);
     font-weight: bold;
     padding: 8px;
@@ -2118,8 +2067,8 @@ iframe {
 }
 
 .med-btn:hover {
-    color: var(--light-blue);
-    background: var(--off-white);
+    color: var(--green);
+    background: var(--white);
     cursor: pointer;
 }
 
@@ -2259,7 +2208,196 @@ iframe {
     display: grid;
     align-items: center;
 }
+/*Events Page*/
+.upcoming-event {
+    padding: 0rem 2rem 1rem;
+}
 
+.upcoming-event h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.upcoming-event h3 {
+    font-size: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.upcoming-event p{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1rem;
+    text-align: justify;
+    hyphens: auto;
+    font-size: large;
+}
+
+.partnership {
+    padding: 2rem 3rem;
+    background-color: tan;
+    display: grid;
+    align-items: center;
+}
+
+.space {
+    padding-bottom: 1rem;
+}
+
+.form-group1 {
+    display: inline-block;
+    width: 90%;
+    margin-top: .5rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.event-img img {
+    height:250px;
+    width:auto;
+    margin:auto auto;
+}
+
+.wellness {
+    padding: 1rem 1rem 3rem;
+    display: grid;
+    align-content: center;
+
+}
+
+.wellness-1 h3 {
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.wellness-1 p {
+    font-size: large;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.volunteer1 p {
+    align-items: center;
+    font-size: large;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.wellness-1 {
+    display: grid;
+    align-items: center;
+    padding: 2rem;
+    margin: 0rem 1.5rem 1.5rem;
+    color: var(--white);
+    background-color: var(--green);
+    box-shadow: 2px 2px 5px var(--green);
+}
+
+
+.past-head {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 2rem 0rem;
+}
+
+.past-head1 {
+    font-size: 2rem !important;
+    text-align: center;
+
+}
+
+.past-events-1 {
+    padding: 2rem;
+    border: 2px solid var(--light-blue);
+    margin: 0rem 1rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px var(--light-blue);
+}
+
+.past-events-1 h2,
+.past-events-1 h4 {
+    text-align: center;
+}
+
+.past-events-1 h2 {
+    font-size: 2rem;
+}
+
+.past-events-1 p {
+    padding: 0rem 0.5rem 0.5rem;
+    font-size: large;
+}
+
+.past-events-1 h4 {
+    padding-bottom: 1rem;
+  
+}
+
+.past-events-1 img {
+    margin: auto;
+    padding: 1rem;
+}
+
+.past-events1 {
+    padding: 1rem 1rem 1.5rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.past-events1 p {
+    padding: 0rem 0.5rem 1rem;
+    
+}
+
+.hr-events {
+    border: 2px solid var(--green);
+    width: 30%;
+    margin: 1rem auto;
+}
+
+.hr-events1 {
+    border: 2px solid var(--green);
+
+}
+
+
+
+.event-btn {
+    display: block !important;
+    background-color: var(--green);
+    border: 2px solid var(--green);
+    color: white;
+    padding: 0.2rem 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    margin: auto;
+}
+
+.event-btn:hover {
+    cursor: pointer;
+    color: var(--green);
+    background-color: white;
+    border: 2px solid var(--green);
+}
+
+.events {
+    padding: 0.5rem 2rem;
+    margin: 2rem;
+    box-shadow: 5px 5px 10px var(--green);
+
+}
 
 
 
