@@ -1081,7 +1081,7 @@ main p {
     padding-bottom: 0.5rem;
     padding-left: 4rem;
 }
-
+ 
 .about-intro-p {
     padding-top: 0.5rem;
 }
@@ -2267,19 +2267,7 @@ iframe {
 
 }
 
-.wellness-1 h3 {
-    font-size: 2.5rem;
-    text-align: center;
 
-}
-
-.wellness-1 p {
-    font-size: large;
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-    padding-bottom: 1rem;
-}
 
 .volunteer1 p {
     align-items: center;
@@ -2298,6 +2286,19 @@ iframe {
     color: var(--white);
     background-color: var(--green);
     box-shadow: 2px 2px 5px var(--green);
+}
+.wellness-1 h3 {
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.wellness-1 p {
+    font-size: large;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 1rem;
 }
 
 
@@ -2398,6 +2399,206 @@ iframe {
     box-shadow: 5px 5px 10px var(--green);
 
 }
+
+/*Physiotherapy Page*/
+.physio-head{
+    font-size: 2rem;
+    padding: 5rem 0rem 1rem 10rem;
+}
+.physio-intro {
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 1rem 2rem;
+    background-color: var(--dark-blue);
+    color:var(--white);
+}
+.physio-intro p {
+    font-size:larger;
+    margin:auto;
+    width: 80%;
+    padding-bottom:0.5rem;
+    text-align: justify;
+    hyphens: auto;
+}
+.physio-img{
+    display: grid;
+    align-items: center;
+    justify-content: centers;
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+.physio-services{
+    text-align: center;
+    font-size: 2rem;
+    padding:2rem 0rem 1rem;
+}
+.physio-2-1 {
+    display: grid;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 2px solid var(--light-blue);
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 5px var(--light-blue);
+}
+.physio-2-1:hover {
+    border: 2px solid var(--light-blue);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px var(--light-blue);
+    background-color: var(--light-blue);
+    color:var(--white)
+}
+
+.physio-2-1 p,
+.physio-2-1 h4,
+.physio-2-1 h3 {
+    margin: 0.2rem;
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+    text-align: center;
+}
+
+.physio-2-1 img {
+    width: 700px;
+    height:auto;
+    padding: 1rem;
+    margin: auto auto  0.5rem;
+}
+.physio-pos {
+    width:80%;
+    margin:2rem auto;
+    padding: 1rem 4rem 2rem;
+    box-shadow: 5px 5px 8px var(--light-blue);
+}
+.physio-pos h2 {
+    margin:1rem 0rem 1rem;
+    margin-left:5rem;
+    color: var(--light-blue);
+}
+.physio-pos p{
+    font-size: large;
+    width:80%;
+    margin:auto;
+}
+.physio-1 {
+    display: grid;
+    align-items: center;
+    padding: 2rem;
+    margin: 0rem 1.5rem 1.5rem;
+    color: var(--white);
+    background-color: var(--green);
+    box-shadow: 2px 2px 5px var(--green);
+}
+.physio-1 h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+.physio-1 p {
+    font-size: larger;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 0.5rem;
+}
+.physio-btn{
+    float:right;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5rem 3rem;
+    border: 2px solid var(--green);
+    color: var(--green);
+    background-color: var(--white);
+    border-radius: 0.5rem;
+}
+
+.physio-btn:hover {
+    background-color: var(--green);
+    color: var(--white);
+    border: 2px solid var(--white);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2675,12 +2876,8 @@ iframe {
     .about-img {
         height: 90%;
         width: 90%;
-
-
         position: relative;
         top: 3vh;
-
-
         border-radius: 24% 63% 40% 61% / 47% 40% 67% 61%;
         margin: auto auto;
     }
