@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn"><a class="no-a" href="services.html">SERVICES</a>
+                    <button class="dropbtn"><a class="no-a pg-active" href="services.html">SERVICES</a>
                     </button>
                     <div class="dropdown-content">
                         <a href="medicalservices.html">Medical Services</a>
@@ -44,6 +44,7 @@
                     <div class="dropdown-content">
                         <a href="news.html">News</a>
                         <a href="careers.html">Careers</a>
+                        <a href="kal-events.html">Events</a>
                     </div>
                 </div>
                 <a href="contact.html">CONTACT US</a>
@@ -101,6 +102,7 @@
                     <a class="dropdown-content1" href="dayhospital.html">DAY HOSPITAL</a>
                     <a class="dropdown-content1" href="news.html">NEWS</a>
                     <a class="dropdown-content1" href="careers.html">CAREERS</a>
+                    <a class="dropdown-content1" href="kal-events.html">EVENTS</a>
                     <div class="dropdown">
                         <!--<button class="dropbtn row">
                             <a class="dropdown-content1 no-a hamburger">Resources</a>
@@ -148,7 +150,7 @@
                     Aperiam reprehenderit similique sapiente porro voluptatum rerum labore sint obcaecati voluptatibus.
                     Quisquam veritatis magnam veniam exercitationem temporibus sit molestiae optio numquam? Nisi, rem
                     velit natus recusandae cupiditate animi placeat aliquam!</p>
-                    <button class="med-btn" data-bs-toggle="collapse" data-bs-target="#service-1" aria-expanded="false" aria-controls="service-1"> READ MORE</button>
+                    <button id="med-btn" class="med-btn" data-bs-toggle="collapse" data-bs-target="#service-1" aria-expanded="false" aria-controls="service-1"> READ MORE</button>
             </div>
             <div class="col-6 medical-opt">
                 <img src="MainImages/medic.jpg">
@@ -175,17 +177,14 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class=" col-12 consultation-ref1">
-                <div class="grid">
-                    <h2> Volunteer Today!</h2>
-                    <p> We are always looking for the greatest minds to assist us and the community. Submit your details
-                        and
-                        join us at our next event.</p>
-                </div>
-                <button class="consultation-ref1__button"> Let's Get Started </button>
+        <div class="consultation-ref">
+            <div class="">
+                <h2> “He who has health has hope, and he who has hope has everything.” </h2>
+                <h3>– Thomas Carlyle</h3>
             </div>
+            <button class="consultation-ref__button"> Book a Consultation </button>
         </div>
+       
         <div class="row">
             <div class="col-4 medical-opt">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio ratione omnis
@@ -460,16 +459,6 @@
             }
 
 
-            function OpenServices(a) {
-            var textContent = document.getElementById('service-' + a);
-            //textContent2.classList.toggle('invisible');
-            textContent.classList.toggle('invisible');
-            document.getElementById('modeltreatments').innerHTML = textContent.outerHTML;
-            //document.getElementById('modeltreatments').innerHTML = textContent.outerHTML + textContent2.outerHTML;
-            //textContent2.classList.toggle('invisible');
-            textContent.classList.toggle('invisible');
-        }
-
 
             //Navbar settings for mobile starts// 
             // Get the dropdown and sub-dropdown buttons
@@ -500,9 +489,11 @@
                     if (!currentState || currentState === "closed") {
                         button.setAttribute("data-state", "opened");
                         button.setAttribute("aria-expanded", "true");
+                       
                     } else {
                         button.setAttribute("data-state", "closed");
                         button.setAttribute("aria-expanded", "false");
+                     
                     }
                 });
             });
