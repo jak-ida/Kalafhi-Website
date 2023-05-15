@@ -2683,7 +2683,20 @@ iframe {
 
 
 @media screen and (max-width:500px) {
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8,.col--8,  .col--9, .col-10, .col-11, .col-12{
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col--8,
+    .col--9,
+    .col-10,
+    .col-11,
+    .col-12 {
         grid-column: auto/span 12;
     }
 
@@ -2732,7 +2745,7 @@ iframe {
 
     .second__cluster {
         padding: 2rem;
-        padding-top:0rem;
+        padding-top: 0rem;
     }
 
     .second__content {
@@ -2744,26 +2757,31 @@ iframe {
     .end h3 {
         padding-top: 1rem;
     }
-  .main_white{
-    width:90%;
-    padding:1rem;
-  }
 
-  .main__holder h2{
-    text-align: center;
-  }
-  .main__holder p{
-    text-align: justify;
-    hyphens: auto;
-    width:90%;
-  }
-  .mainpage__second h1{
-    text-align: center;
-    margin-left:0rem;
-  }
-  .mainpage__second{
-    padding:1rem;
-  }
+    .main_white {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .main__holder h2 {
+        text-align: center;
+    }
+
+    .main__holder p {
+        text-align: justify;
+        hyphens: auto;
+        width: 90%;
+    }
+
+    .mainpage__second h1 {
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .mainpage__second {
+        padding: 1rem;
+    }
+
     .navbar a {
         padding-left: 0px;
         text-decoration: none;
@@ -2863,162 +2881,149 @@ iframe {
     header {
         justify-content: space-between;
     }
-/*About Page 500px*/
-.about-page-h21{
-    padding-left:1.5rem;
-}
-.about-intro p{
-    width:90%;;
-}
-.directors-h2{
-    padding:1rem;
-    padding-bottom:0rem;
-}
-.directors-intro p{
-    padding-top:2rem;
-    width:auto;
-    padding-bottom:0rem;
-}
-.dir-img{
-    margin-top:2rem;
-    min-height:300px;
-    height:auto;
-    width:auto;
-    margin-bottom:2rem;
-}
-.dir-info{
-    width:auto;
-    margin-top:-8rem;
-}
-.sect-2{
-    width:auto;
-    padding-top:2rem;
-    margin:auto 
 
-}
-.doc-title{
-    padding-left:0rem;
-    text-align: center;
-    padding-bottom:0.5rem;
-}
-.doc-para{
-    width:auto;
-    text-align: justify;
-    hyphens: auto;
-    padding-top:0.5rem;
-    padding-bottom:1.5rem;
-}
-.doctors-btn{
-    width:80%;
-    margin: 1rem auto 2rem;
-}
-.sect2{
-    padding:1rem;
-}
-.about-page-h2{
-    text-align: center;
-}
-.about2{
-    width:auto;
-    padding:0.5rem 1rem;;
-}
-.consultation-ref{
-    flex-wrap: wrap;
-}
-.consultation-ref h3{
-    text-align: right;
-}
-.consultation-ref__button{
-    margin-top: 2rem;;
-    padding:0.8rem 2rem;
-}
-.about-3{
-    padding:2rem 1rem;
-}
-.about3{
-    width:auto;
-}
-.about3 h2{
-    text-align: center;
-}
-.about3 p{
-    width:auto;
-}
-.values-img{
-    height:auto;
-    padding-top:1rem;
-}
-    /*
-    .about3 {
-        padding: 0.5rem 2rem;
+    /*About Page 500px*/
+    .about-page-h21 {
+        padding-left: 1.5rem;
     }
 
-    .ul {
-        margin-top: 1rem;
-    }
-
-
-    .block1 {
-        min-width: 50vw;
-        left: 5rem;
-    }
-
-    .block2 {
-        min-width: 60vw;
-        left: 1rem;
-    }
-
-    .block3 {
-
-        min-width: 50vw;
-
-        left: 5rem;
-
-    }
-
-    .about-page h2 {
-        font-size: 2.5rem;
-    }
-
-    .about-img {
-        height: 90%;
+    .about-intro p {
         width: 90%;
-        position: relative;
-        top: 3vh;
-        border-radius: 24% 63% 40% 61% / 47% 40% 67% 61%;
-        margin: auto auto;
+        ;
     }
 
-    .grid {
-        display: grid;
-        justify-content: center;
-        align-items: center;
+    .directors-h2 {
+        padding: 1rem;
+        padding-bottom: 0rem;
+    }
+
+    .directors-intro p {
+        padding-top: 2rem;
+        width: auto;
+        padding-bottom: 0rem;
+    }
+
+    .dir-img {
+        margin-top: 2rem;
+        min-height: 300px;
+        height: auto;
+        width: auto;
+        margin-bottom: 2rem;
+    }
+
+    .dir-info {
+        width: auto;
+        margin-top: -8rem;
+    }
+
+    .sect-2 {
+        width: auto;
+        padding-top: 2rem;
+        margin: auto
+    }
+
+    .doc-title {
+        padding-left: 0rem;
+        text-align: center;
+        padding-bottom: 0.5rem;
+    }
+
+    .doc-para {
+        width: auto;
+        text-align: justify;
+        hyphens: auto;
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .doctors-btn {
+        width: 80%;
+        margin: 1rem auto 2rem;
+    }
+
+    .sect2 {
+        padding: 1rem;
+    }
+
+    .about-page-h2 {
+        text-align: center;
+    }
+
+    .about2 {
+        width: auto;
+        padding: 0.5rem 1rem;
+        ;
+    }
+
+    .consultation-ref {
+        flex-wrap: wrap;
+    }
+
+    .consultation-ref h3 {
+        text-align: right;
+    }
+
+    .consultation-ref__button {
+        margin-top: 2rem;
+        ;
+        padding: 0.8rem 2rem;
+    }
+
+    .about-3 {
+        padding: 2rem 1rem;
+    }
+
+    .about3 {
+        width: auto;
+    }
+
+    .about3 h2 {
+        text-align: center;
+    }
+
+    .about3 p {
+        width: auto;
+    }
+
+    .values-img {
+        height: auto;
+        padding-top: 1rem;
+    }
+
+    /*Medical Services Page 500px*/
+
+    .medical-head {
+        padding-left: 1.5rem;
+    }
+
+    .medic-intro p {
+        width: auto;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    .medical-opt, .medical-opt1 {
+        padding: 1rem;
+    }
+    .medical-opt p, .medical-opt1 p{
+        margin-top:0.5rem;
+        text-align: justify;
+        hyphens: auto;
+    }
+    .med-btn{
+        width:auto;
+        margin: auto;
+        margin-top:1rem;
+        padding:0.5rem 2rem;
+    }
+    .medical-img{
+        padding:1rem 1rem;
     }
 
 
 
-    .pillar {
-        position: relative;
-        min-width: 60vw;
-        inset: auto;
-    }
 
-
-    .col-- {
-        grid-column: auto/span 12;
-    }
-
-
-    .form-group {
-        display: block;
-        width: 100%;
-    }
-
-
-    .contact-img h2 {
-        padding: 8rem 5rem;
-    }*/
-
+    /*Footer 500px*/
     .end {
         text-align: center;
     }
