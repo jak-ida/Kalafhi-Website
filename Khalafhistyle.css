@@ -758,7 +758,7 @@ main p {
 
 .mainpage__f-sect p {
     text-align: center;
-    padding:1rem;
+    padding: 1rem;
 }
 
 .mainpage__f-sect h1 {
@@ -1084,7 +1084,7 @@ main p {
     padding-bottom: 0.5rem;
     padding-left: 4rem;
 }
- 
+
 .about-intro-p {
     padding-top: 0.5rem;
 }
@@ -1095,13 +1095,13 @@ main p {
     justify-content: center;
     width: 70%;
     margin: auto auto;
-    padding:3rem 2rem;
+    padding: 3rem 2rem;
     margin: 1rem auto 2rem;
 }
 
 .doc-title {
     font-size: 2rem;
-    padding-left:1rem;
+    padding-left: 1rem;
 }
 
 .sect-2-1 {
@@ -1116,8 +1116,8 @@ main p {
 .sect-2-1 h3 {
     margin: 0.2rem;
     margin-top: -0.5rem;
-    padding:0.2rem;
-    padding-left:1rem;
+    padding: 0.2rem;
+    padding-left: 1rem;
 }
 
 .sect-2-1 img {
@@ -1128,14 +1128,15 @@ main p {
 
 .doctors-btn {
     font-weight: bold;
-    padding:0.5rem 1rem;
+    padding: 0.5rem 1rem;
     border: 2px solid var(--light-blue);
     color: white;
     background-color: var(--light-blue);
     border-radius: 0.5rem;
-    margin-right:1rem;
+    margin-right: 1rem;
 }
-.doc-intro{
+
+.doc-intro {
     display: grid;
     align-content: center;
 }
@@ -1332,7 +1333,7 @@ button[type="submit"]:hover {
     background-color: var(--white);
     border: 2px solid var(--green);
     color: var(--green);
-    cursor:pointer
+    cursor: pointer
 }
 
 
@@ -1402,6 +1403,7 @@ iframe {
     color: var(--black);
     padding: 1rem;
 }
+
 .doctors-img img {
     padding: 0.5rem;
 }
@@ -1478,7 +1480,8 @@ iframe {
     text-align: justify;
     width: 80%;
 }
-.doc-2{
+
+.doc-2 {
     background-color: var(--off-white);
 }
 
@@ -1912,8 +1915,9 @@ iframe {
     text-align: justify;
     padding-bottom: 1rem;
 }
-.volunteer img{
-    padding:1rem 2rem;
+
+.volunteer img {
+    padding: 1rem 2rem;
 }
 
 
@@ -2013,7 +2017,7 @@ iframe {
 
 .medical-opt h2 {
     font-size: 1.8rem;
-    margin:auto;
+    margin: auto;
 }
 
 .medical-opt p {
@@ -2021,6 +2025,7 @@ iframe {
     margin: auto;
     font-size: large;
 }
+
 .medical-opt1 {
     display: grid;
     align-items: center;
@@ -2031,7 +2036,7 @@ iframe {
 
 .medical-opt1 h2 {
     font-size: 1.8rem;
-    margin:auto;
+    margin: auto;
 }
 
 .medical-opt1 p {
@@ -2070,7 +2075,7 @@ iframe {
     font-weight: bold;
     padding: 8px;
     width: 40%;
-    margin:auto;
+    margin: auto;
     border-radius: 0.5rem;
     ;
 }
@@ -2176,7 +2181,7 @@ iframe {
     padding-bottom: 0.8rem;
     text-align: justify;
     hyphens: auto;
-    font-size:large;
+    font-size: large;
 }
 
 .pharma-info-1 {
@@ -2192,23 +2197,26 @@ iframe {
 .pharma-services-h2 {
     text-align: center;
     font-size: 2rem;
-    padding-bottom:2rem;
+    padding-bottom: 2rem;
 }
+
 .pharma-info-2 p {
     width: 90%;
     margin: auto;
     padding: 0rem 1rem 0.8rem 1rem;
     text-align: justify;
     hyphens: auto;
-    font-size:large;
+    font-size: large;
 }
+
 .pharma-info-2 h2 {
     width: 90%;
     margin: auto;
     padding-left: 1rem;
     padding-bottom: 0.8rem;
     color: var(--light-blue);
-    font-size: 2rem;;
+    font-size: 2rem;
+    ;
 }
 
 
@@ -2216,6 +2224,7 @@ iframe {
     display: grid;
     align-items: center;
 }
+
 /*Events Page*/
 .upcoming-event {
     padding: 0rem 2rem 1rem;
@@ -2232,7 +2241,7 @@ iframe {
     margin: auto;
 }
 
-.upcoming-event p{
+.upcoming-event p {
     width: 90%;
     margin: auto;
     padding-bottom: 1rem;
@@ -2263,9 +2272,9 @@ iframe {
 }
 
 .event-img img {
-    height:250px;
-    width:auto;
-    margin:auto auto;
+    height: 250px;
+    width: auto;
+    margin: auto auto;
 }
 
 .wellness {
@@ -2295,6 +2304,7 @@ iframe {
     background-color: var(--green);
     box-shadow: 2px 2px 5px var(--green);
 }
+
 .wellness-1 h3 {
     font-size: 2.5rem;
     text-align: center;
@@ -2346,7 +2356,7 @@ iframe {
 
 .past-events-1 h4 {
     padding-bottom: 1rem;
-  
+
 }
 
 .past-events-1 img {
@@ -2364,7 +2374,7 @@ iframe {
 
 .past-events1 p {
     padding: 0rem 0.5rem 1rem;
-    
+
 }
 
 .hr-events {
@@ -2409,27 +2419,30 @@ iframe {
 }
 
 /*Physiotherapy Page*/
-.physio-head{
+.physio-head {
     font-size: 2rem;
     padding: 5rem 0rem 1rem 10rem;
 }
+
 .physio-intro {
     display: grid;
     align-items: center;
     justify-content: center;
     padding: 1rem 2rem;
     background-color: var(--dark-blue);
-    color:var(--white);
+    color: var(--white);
 }
+
 .physio-intro p {
-    font-size:larger;
-    margin:auto;
+    font-size: larger;
+    margin: auto;
     width: 80%;
-    padding-bottom:0.5rem;
+    padding-bottom: 0.5rem;
     text-align: justify;
     hyphens: auto;
 }
-.physio-img{
+
+.physio-img {
     display: grid;
     align-items: center;
     justify-content: centers;
@@ -2438,11 +2451,13 @@ iframe {
     margin: auto;
     padding: 2rem 1rem;
 }
-.physio-services{
+
+.physio-services {
     text-align: center;
     font-size: 2rem;
-    padding:2rem 0rem 1rem;
+    padding: 2rem 0rem 1rem;
 }
+
 .physio-2-1 {
     display: grid;
     justify-content: center;
@@ -2452,13 +2467,14 @@ iframe {
     border-radius: 0.2rem;
     box-shadow: 2px 2px 5px var(--light-blue);
 }
+
 .physio-2-1:hover {
     border: 2px solid var(--light-blue);
     border-radius: 0.5rem;
     box-shadow: 2px 2px 5px var(--light-blue);
     background-color: var(--light-blue);
-    color:var(--white);
-cursor: pointer;
+    color: var(--white);
+    cursor: pointer;
 }
 
 .physio-2-1 p,
@@ -2472,26 +2488,30 @@ cursor: pointer;
 
 .physio-2-1 img {
     width: 700px;
-    height:auto;
+    height: auto;
     padding: 1rem;
-    margin: auto auto  0.5rem;
+    margin: auto auto 0.5rem;
 }
+
 .physio-pos {
-    width:80%;
-    margin:2rem auto;
+    width: 80%;
+    margin: 2rem auto;
     padding: 1rem 4rem 2rem;
     box-shadow: 5px 5px 8px var(--light-blue);
 }
+
 .physio-pos h2 {
-    margin:1rem 0rem 1rem;
-    margin-left:5rem;
+    margin: 1rem 0rem 1rem;
+    margin-left: 5rem;
     color: var(--light-blue);
 }
-.physio-pos p{
+
+.physio-pos p {
     font-size: large;
-    width:80%;
-    margin:auto;
+    width: 80%;
+    margin: auto;
 }
+
 .physio-1 {
     display: grid;
     align-items: center;
@@ -2499,10 +2519,12 @@ cursor: pointer;
     color: var(--white);
     background-color: var(--green);
 }
+
 .physio-1 h3 {
     font-size: 2rem;
     text-align: center;
 }
+
 .physio-1 p {
     font-size: larger;
     width: 90%;
@@ -2510,8 +2532,9 @@ cursor: pointer;
     text-align: justify;
     padding-bottom: 0.5rem;
 }
-.physio-btn{
-    float:right;
+
+.physio-btn {
+    float: right;
     font-size: large;
     font-weight: bold;
     padding: 0.5rem 3rem;
@@ -2660,6 +2683,9 @@ cursor: pointer;
 
 
 @media screen and (max-width:500px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8,.col--8,  .col--9, .col-10, .col-11, .col-12{
+        grid-column: auto/span 12;
+    }
 
     .dropdown-content {
         right: 2.8rem;
@@ -2680,7 +2706,7 @@ cursor: pointer;
         display: none;
     }
 
-    dropdown-content1 {
+    .dropdown-content1 {
         display: block;
     }
 
@@ -2694,7 +2720,50 @@ cursor: pointer;
     }
 
 
+    /*Home Page 500px*/
 
+    .abt_btn {
+        width: auto;
+    }
+
+    .second__cluster p {
+        width: auto;
+    }
+
+    .second__cluster {
+        padding: 2rem;
+        padding-top:0rem;
+    }
+
+    .second__content {
+        padding: 2rem 0rem;
+        border-right: none;
+        border-bottom: 1px solid gray;
+    }
+
+    .end h3 {
+        padding-top: 1rem;
+    }
+  .main_white{
+    width:90%;
+    padding:1rem;
+  }
+
+  .main__holder h2{
+    text-align: center;
+  }
+  .main__holder p{
+    text-align: justify;
+    hyphens: auto;
+    width:90%;
+  }
+  .mainpage__second h1{
+    text-align: center;
+    margin-left:0rem;
+  }
+  .mainpage__second{
+    padding:1rem;
+  }
     .navbar a {
         padding-left: 0px;
         text-decoration: none;
@@ -2746,47 +2815,10 @@ cursor: pointer;
         padding-top: 2rem;
     }
 
-    .box2 {
-        top: 3.5rem;
-        left: 3rem;
-        width: 50vw;
-        text-align: right;
-    }
-
-    .box3 {
-        background-color: #f7f7f7;
-        top: 6rem;
-        left: -4.5rem;
-        width: 38vw;
-        height: 27vh;
-    }
-
-    .box4 {
-        left: -5vw;
-        width: 60vw;
-        height: 35vh;
-    }
-
-    .col-6 {
-        grid-column: auto/span 12;
-
-    }
-
-    .col-2 {
-        grid-column: auto/span 12;
-
-    }
-
-    .col-3 {
-        grid-column: auto/span 12;
-
-    }
-
     .col--4 {
         grid-column: auto/span 4;
 
     }
-
 
     .end .col--4 {
         grid-column: auto/span 12;
@@ -2795,10 +2827,6 @@ cursor: pointer;
 
     .contact .row {
         grid-column: auto/span 12;
-    }
-
-    .partners {
-        padding-left: 1rem;
     }
 
     .partners h3 {
@@ -2835,18 +2863,92 @@ cursor: pointer;
     header {
         justify-content: space-between;
     }
+/*About Page 500px*/
+.about-page-h21{
+    padding-left:1.5rem;
+}
+.about-intro p{
+    width:90%;;
+}
+.directors-h2{
+    padding:1rem;
+    padding-bottom:0rem;
+}
+.directors-intro p{
+    padding-top:2rem;
+    width:auto;
+    padding-bottom:0rem;
+}
+.dir-img{
+    margin-top:2rem;
+    min-height:300px;
+    height:auto;
+    width:auto;
+    margin-bottom:2rem;
+}
+.dir-info{
+    width:auto;
+    margin-top:-8rem;
+}
+.sect-2{
+    width:auto;
+    padding-top:2rem;
+    margin:auto 
 
-
-
-    .about1 {
-
-        padding: 0.5rem 2rem;
-    }
-
-    .about2 {
-        padding: 0.5rem 2rem;
-    }
-
+}
+.doc-title{
+    padding-left:0rem;
+    text-align: center;
+    padding-bottom:0.5rem;
+}
+.doc-para{
+    width:auto;
+    text-align: justify;
+    hyphens: auto;
+    padding-top:0.5rem;
+    padding-bottom:1.5rem;
+}
+.doctors-btn{
+    width:80%;
+    margin: 1rem auto 2rem;
+}
+.sect2{
+    padding:1rem;
+}
+.about-page-h2{
+    text-align: center;
+}
+.about2{
+    width:auto;
+    padding:0.5rem 1rem;;
+}
+.consultation-ref{
+    flex-wrap: wrap;
+}
+.consultation-ref h3{
+    text-align: right;
+}
+.consultation-ref__button{
+    margin-top: 2rem;;
+    padding:0.8rem 2rem;
+}
+.about-3{
+    padding:2rem 1rem;
+}
+.about3{
+    width:auto;
+}
+.about3 h2{
+    text-align: center;
+}
+.about3 p{
+    width:auto;
+}
+.values-img{
+    height:auto;
+    padding-top:1rem;
+}
+    /*
     .about3 {
         padding: 0.5rem 2rem;
     }
@@ -2915,7 +3017,7 @@ cursor: pointer;
 
     .contact-img h2 {
         padding: 8rem 5rem;
-    }
+    }*/
 
     .end {
         text-align: center;
@@ -4046,7 +4148,7 @@ cursor: pointer;
     color: #000;
     text-decoration: none;
     opacity: .75;
-    cursor:pointer
+    cursor: pointer
 }
 
 .btn-close:focus {
