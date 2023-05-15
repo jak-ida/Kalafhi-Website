@@ -1108,9 +1108,8 @@ main p {
     display: grid;
     justify-content: center;
     margin: 1rem;
-    border: 2px solid var(--green);
+    border: 1px solid gray;
     border-radius: 0.2rem;
-    box-shadow: 2px 2px 5px var(--green);
 }
 
 .sect-2-1 h4,
