@@ -1884,7 +1884,7 @@ iframe {
 }
 
 .volunteer {
-    padding: 1rem;
+    padding: 1rem 1rem 4rem;
     display: grid;
     align-content: center;
 
@@ -1913,7 +1913,9 @@ iframe {
     margin: auto;
     text-align: justify;
     padding-bottom: 1rem;
-    ;
+}
+.volunteer img{
+    padding:1rem 2rem;
 }
 
 
