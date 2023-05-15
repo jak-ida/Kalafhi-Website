@@ -1095,13 +1095,13 @@ main p {
     justify-content: center;
     width: 70%;
     margin: auto auto;
+    padding:3rem 2rem;
     margin: 1rem auto 2rem;
 }
 
 .doc-title {
-    text-align: center;
     font-size: 2rem;
-    margin-top: 3rem;
+    padding-left:1rem;
 }
 
 .sect-2-1 {
@@ -1118,7 +1118,6 @@ main p {
 .sect-2-1 h4,
 .sect-2-1 h3 {
     margin: 0.2rem;
-    margin-left: 1rem;
     margin-top: -0.5rem;
     text-align: center;
 }
@@ -1131,16 +1130,17 @@ main p {
 }
 
 .doctors-btn {
-    font-size: large;
     font-weight: bold;
-    width: 20%;
-    margin: auto;
-    padding: 0.5rem 2rem;
+    padding:0.5rem 1rem;
     border: 2px solid var(--light-blue);
     color: white;
     background-color: var(--light-blue);
     border-radius: 0.5rem;
-    margin-bottom: 4rem;
+    margin-right:1rem;
+}
+.doc-intro{
+    display: grid;
+    align-content: center;
 }
 
 .doctors-btn:hover {
@@ -1394,10 +1394,8 @@ iframe {
 }
 
 .doc-para {
-    width: 80%;
-    margin: auto;
-    padding: 2rem 0rem;
-    text-align: center;
+    width: 85%;
+    padding: 2rem 1rem;
 }
 
 .doctors-head {
