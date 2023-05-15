@@ -574,6 +574,11 @@ header button {
     background-color: var(--dark-blue);
     ;
 }
+.main_blue1 {
+    height: 200px;
+    background-color: var(--dark-blue);
+    ;
+}
 
 .main_white {
     height: auto;
@@ -2965,7 +2970,6 @@ iframe {
 
     .consultation-ref__button {
         margin-top: 2rem;
-        ;
         padding: 0.8rem 2rem;
     }
 
@@ -3019,6 +3023,94 @@ iframe {
     .medical-img{
         padding:1rem 1rem;
     }
+/*Pharmaceuticals Page 500px*/
+.pharma-head{
+    padding-left:1.5rem;
+}
+.main_blue1{
+    height:150px;
+}
+.pharma_holder p{
+    width:auto;
+    text-align: justify;
+    hyphens: auto;
+}
+.pharma_holder h2{
+text-align: center;
+}
+.pharma_holder{
+    margin-bottom:-4rem;
+}
+.pharma-info-1{
+    padding:2rem 1rem;
+}
+.pharma-info-1 img{
+    padding-bottom:2rem;
+}
+.pharma-info-1 p{
+    width:90%;
+    margin: auto;
+    text-align: justify;
+    hyphens: auto;
+    padding-left: 0rem;;
+}
+.pharma-info{
+    padding:1rem;
+}
+.pharma-1_cluster{
+    padding:1rem;
+}
+.pharma-1{
+    padding:1rem;
+}
+.pharma-1 h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.pharma_content{
+    border:none;
+}
+.pharma-1_content{
+    padding:1.5rem 0rem;
+}
+.pharma-1_content img{
+    padding-bottom:0.5rem;
+}
+.pharma-services-h2{
+    font-size: 2rem;
+    width:80%;
+    margin:auto;
+}
+.pharma-info-2 h2{
+    font-size: 1.4rem;
+}
+.pharma-info-2 img{
+    padding:1rem;
+}
+.consultation-ref1 {
+    flex-wrap: wrap;
+}
+
+.consultation-ref1 h2 {
+    text-align: center;
+    font-size:2rem;
+    line-height: 2.5rem;
+    padding-bottom:1rem;
+}
+
+.consultation-ref1__button {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 
