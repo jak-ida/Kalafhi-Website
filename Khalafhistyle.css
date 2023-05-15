@@ -756,6 +756,7 @@ main p {
 
 .mainpage__f-sect p {
     text-align: center;
+    padding:1rem;
 }
 
 .mainpage__f-sect h1 {
@@ -836,7 +837,7 @@ main p {
 .carousel-focus-item {
     position: absolute;
     display: inline-block;
-    width: 33%;
+    width: 43%;
     display: flex;
     justify-content: center;
 }
@@ -1356,7 +1357,7 @@ iframe {
 
 /* Doctors Page */
 .doctors {
-    padding: 1rem 4rem;
+    padding-top: 1rem;
 }
 
 .doctors-intro {
@@ -1403,7 +1404,6 @@ iframe {
     color: var(--black);
     padding: 1rem;
 }
-
 .doctors-img img {
     padding: 0.5rem;
 }
@@ -1453,7 +1453,6 @@ iframe {
 .doc-1,
 .doc-2 {
     height: auto;
-    background-color: var(--white);
     padding: 6rem 3rem;
     display: grid;
     align-items: center;
@@ -1481,6 +1480,9 @@ iframe {
     text-align: justify;
     width: 80%;
 }
+.doc-2{
+    background-color: var(--off-white);
+}
 
 .doc-2 p {
     padding-bottom: 0.5rem;
@@ -1490,12 +1492,6 @@ iframe {
     margin: auto auto;
 }
 
-.doc-2 h2,
-.doc-2 h4,
-.doc-2 h5,
-.doc-2 p {
-    margin-left: 5.5rem;
-}
 
 .doc-1 img,
 .doc-2 img,
@@ -1923,7 +1919,7 @@ iframe {
 
 /*Services Page*/
 .services {
-    padding: 2rem 5rem;
+    padding: 2rem;
 }
 
 .services-hr {
@@ -1948,13 +1944,8 @@ iframe {
 }
 
 .services p {
-    font-size: 1.5rem;
+    font-size: large;
     padding: 1rem 3rem;
-}
-
-.services img {
-    padding: 1rem;
-    margin: 1rem 0rem
 }
 
 .service_btn1 {
@@ -2001,7 +1992,6 @@ iframe {
 .medic-intro p {
     width: 80%;
     margin: auto;
-    padding-bottom: 2rem;
 }
 
 .medical-img {
@@ -2023,16 +2013,17 @@ iframe {
 
 .medical-opt h2 {
     font-size: 1.8rem;
+    margin:auto;
 }
 
 .medical-opt p {
     width: 90%;
     margin: auto;
-    font-size: 1.2rem;
+    font-size: large;
 }
 
 .services1 {
-    padding: 2rem 5rem;
+    padding: 2rem 0rem;
 }
 
 .more-info {
@@ -2061,7 +2052,7 @@ iframe {
     font-weight: bold;
     padding: 8px;
     width: 40%;
-    margin-left: 20rem;
+    margin:auto;
     border-radius: 0.5rem;
     ;
 }
@@ -2177,7 +2168,7 @@ iframe {
 }
 
 .pharma-services {
-    padding: 3rem 5rem;
+    padding-top: 3rem;
 }
 
 .pharma-services-h2 {
@@ -2204,7 +2195,6 @@ iframe {
 
 
 .pharma-info-2 {
-    padding: 0rem 6rem 6rem;
     display: grid;
     align-items: center;
 }
