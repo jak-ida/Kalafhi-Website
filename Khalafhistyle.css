@@ -2078,7 +2078,7 @@ iframe {
     margin: auto auto;
     width: 90%;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: large;
 }
 
 .pharma-info {
@@ -2125,7 +2125,7 @@ iframe {
     width: 90%;
     margin: auto auto;
     hyphens: auto;
-    font-size: 1.2rem;
+    font-size: large;
 }
 
 .pharma-1_content {
@@ -2148,7 +2148,7 @@ iframe {
 
 .pharma-info p {
     padding: 0.75rem 0rem;
-    font-size: 1.2rem;
+    font-size: large;
 }
 
 .pharma-info-1 p {
@@ -2158,7 +2158,7 @@ iframe {
     padding-bottom: 0.8rem;
     text-align: justify;
     hyphens: auto;
-    font-size: 1.2rem;
+    font-size:large;
 }
 
 .pharma-info-1 {
@@ -2182,7 +2182,7 @@ iframe {
     padding: 0rem 1rem 0.8rem 1rem;
     text-align: justify;
     hyphens: auto;
-    font-size: 1.2rem;
+    font-size:large;
 }
 .pharma-info-2 h2 {
     width: 90%;
@@ -2722,7 +2722,7 @@ iframe {
     }
 
     .main__hh2 {
-        font-size: 1.2rem;
+        font-size: large;
         line-height: 1.5rem;
     }
 
