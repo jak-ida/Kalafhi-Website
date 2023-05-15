@@ -1107,7 +1107,6 @@ main p {
 .sect-2-1 {
     display: grid;
     justify-content: center;
-    padding: 0.5rem;
     margin: 1rem;
     border: 2px solid var(--green);
     border-radius: 0.2rem;
@@ -1125,7 +1124,6 @@ main p {
 .sect-2-1 img {
     height: auto;
     width: auto;
-    padding: 1rem;
     margin-bottom: 0.5rem;
 }
 
