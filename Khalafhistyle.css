@@ -310,6 +310,7 @@ i {
 .dropdown:hover .dropbtn {
     color: var(--light-blue);
     text-decoration: none;
+    cursor: pointer;
 
 }
 
@@ -697,6 +698,7 @@ header button {
 
 .no-a:hover {
     text-decoration: none !important;
+    cursor: pointer;
 }
 
 
@@ -1332,7 +1334,8 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: var(--white);
     border: 2px solid var(--green);
-    color: var(--green)
+    color: var(--green);
+    cursor:pointer
 }
 
 
@@ -2416,11 +2419,9 @@ iframe {
     padding: 5rem 0rem 1rem 10rem;
 }
 .physio-intro {
-    margin: auto;
     display: grid;
     align-items: center;
     justify-content: center;
-    width: 90%;
     padding: 1rem 2rem;
     background-color: var(--dark-blue);
     color:var(--white);
@@ -2461,7 +2462,8 @@ iframe {
     border-radius: 0.5rem;
     box-shadow: 2px 2px 5px var(--light-blue);
     background-color: var(--light-blue);
-    color:var(--white)
+    color:var(--white);
+cursor: pointer;
 }
 
 .physio-2-1 p,
@@ -2499,10 +2501,8 @@ iframe {
     display: grid;
     align-items: center;
     padding: 2rem;
-    margin: 0rem 1.5rem 1.5rem;
     color: var(--white);
     background-color: var(--green);
-    box-shadow: 2px 2px 5px var(--green);
 }
 .physio-1 h3 {
     font-size: 2rem;
@@ -3632,7 +3632,8 @@ iframe {
 .btn-close:hover {
     color: #000;
     text-decoration: none;
-    opacity: .75
+    opacity: .75;
+    cursor: pointer;
 }
 
 .btn-close:focus {
@@ -4049,7 +4050,8 @@ iframe {
 .btn-close:hover {
     color: #000;
     text-decoration: none;
-    opacity: .75
+    opacity: .75;
+    cursor:pointer
 }
 
 .btn-close:focus {
