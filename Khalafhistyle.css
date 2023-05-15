@@ -2010,7 +2010,7 @@ iframe {
     display: grid;
     align-items: center;
     justify-content: center;
-    padding: 2rem 3rem;
+    padding: 4rem 3rem;
 }
 
 .medical-opt h2 {
@@ -2019,6 +2019,24 @@ iframe {
 }
 
 .medical-opt p {
+    width: 90%;
+    margin: auto;
+    font-size: large;
+}
+.medical-opt1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 3rem;
+    background-color: var(--off-white);
+}
+
+.medical-opt1 h2 {
+    font-size: 1.8rem;
+    margin:auto;
+}
+
+.medical-opt1 p {
     width: 90%;
     margin: auto;
     font-size: large;
