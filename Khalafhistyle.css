@@ -3102,8 +3102,36 @@ text-align: center;
     margin-top: 2rem;
     padding: 0.8rem 2rem;
 }
-
-
+/*Physiotherapy Page 500px*/
+.physio-head{
+    padding-left:1.5rem;
+}
+.physio-intro p{
+    width:90%;
+    margin:auto;
+    hyphens: auto;
+    padding:0.5rem;
+}
+.physio-intro{
+    padding:1rem 0rem;
+}
+.physio-img{
+    padding:1rem;
+}
+.sect-2{
+    flex-wrap: wrap;
+}
+.physio-pos h2{
+margin: auto;
+width:90%;
+}
+.physio-pos{
+    padding:1rem;
+}
+.physio-pos p{
+    width:90%;
+    margin:auto;
+}
 
 
 
