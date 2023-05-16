@@ -1071,11 +1071,17 @@ main p {
 
 .about-img {
     height: auto;
-    width: auto;
+    width: 80%;
     display: grid;
     align-items: center;
     margin: auto;
-    padding: 2rem 1rem;
+
+}
+.about-img img{
+    padding-top:1rem;
+    display: grid;
+    align-items: center;
+    margin: auto;
 }
 
 .abt-hr {
@@ -2013,10 +2019,6 @@ iframe {
     width: 90%;
     margin: auto;
     font-size: large;
-}
-
-.services1 {
-    padding: 2rem 0rem;
 }
 
 .more-info {
@@ -3558,8 +3560,6 @@ iframe {
     .about-img {
         height: 90%;
         width: 90%;
-
-
         position: relative;
         top: 3vh;
 
