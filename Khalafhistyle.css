@@ -1890,42 +1890,6 @@ iframe {
     padding: 1.5rem;
 }
 
-.volunteer {
-    padding: 1rem 1rem 4rem;
-    display: grid;
-    align-content: center;
-
-}
-
-.vol-1 {
-    display: grid;
-    align-content: center;
-}
-
-.vol-1 h3 {
-    margin-left: 3.8rem;
-    padding: 0.5rem;
-}
-
-.volunteer h2 {
-    font-size: 2rem;
-    text-align: center;
-    padding: 2rem;
-}
-
-.volunteer p {
-    align-items: center;
-    font-size: large;
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-    padding-bottom: 1rem;
-}
-
-.volunteer img {
-    padding: 1rem 2rem;
-}
-
 
 /*Services Page*/
 .services {
@@ -2289,6 +2253,41 @@ iframe {
     align-content: center;
 
 }
+.volunteer {
+    padding: 1rem 1rem 4rem;
+    display: grid;
+    align-content: center;
+
+}
+
+.vol-1 {
+    display: grid;
+    align-content: center;
+}
+
+.vol-1 h3 {
+    padding:0.5rem;
+    text-align: center;
+}
+
+.volunteer-h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.volunteer p {
+    align-items: center;
+    font-size: large;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.volunteer img {
+    padding: 1rem 2rem;
+}
+
 
 
 
@@ -2305,7 +2304,7 @@ iframe {
     display: grid;
     align-items: center;
     padding: 2rem;
-    margin: 0rem 1.5rem 1.5rem;
+    margin: 0rem 1.5rem 0rem;
     color: var(--white);
     background-color: var(--green);
     box-shadow: 2px 2px 5px var(--green);
