@@ -574,6 +574,7 @@ header button {
     background-color: var(--dark-blue);
     ;
 }
+
 .main_blue1 {
     height: 200px;
     background-color: var(--dark-blue);
@@ -3006,142 +3007,303 @@ iframe {
         hyphens: auto;
     }
 
-    .medical-opt, .medical-opt1 {
+    .medical-opt,
+    .medical-opt1 {
         padding: 1rem;
     }
-    .medical-opt p, .medical-opt1 p{
-        margin-top:0.5rem;
+
+    .medical-opt p,
+    .medical-opt1 p {
+        margin-top: 0.5rem;
         text-align: justify;
         hyphens: auto;
     }
-    .med-btn{
-        width:auto;
+
+    .med-btn {
+        width: auto;
         margin: auto;
-        margin-top:1rem;
-        padding:0.5rem 2rem;
+        margin-top: 1rem;
+        padding: 0.5rem 2rem;
     }
-    .medical-img{
-        padding:1rem 1rem;
+
+    .medical-img {
+        padding: 1rem 1rem;
     }
-/*Pharmaceuticals Page 500px*/
-.pharma-head{
-    padding-left:1.5rem;
-}
-.main_blue1{
-    height:150px;
-}
-.pharma_holder p{
-    width:auto;
-    text-align: justify;
-    hyphens: auto;
-}
-.pharma_holder h2{
-text-align: center;
-}
-.pharma_holder{
-    margin-bottom:-4rem;
-}
-.pharma-info-1{
-    padding:2rem 1rem;
-}
-.pharma-info-1 img{
-    padding-bottom:2rem;
-}
-.pharma-info-1 p{
-    width:90%;
-    margin: auto;
-    text-align: justify;
-    hyphens: auto;
-    padding-left: 0rem;;
-}
-.pharma-info{
-    padding:1rem;
-}
-.pharma-1_cluster{
-    padding:1rem;
-}
-.pharma-1{
-    padding:1rem;
-}
-.pharma-1 h1{
-    font-size: 2rem;
-    text-align: center;
-}
-.pharma_content{
-    border:none;
-}
-.pharma-1_content{
-    padding:1.5rem 0rem;
-}
-.pharma-1_content img{
-    padding-bottom:0.5rem;
-}
-.pharma-services-h2{
-    font-size: 2rem;
-    width:80%;
-    margin:auto;
-}
-.pharma-info-2 h2{
-    font-size: 1.4rem;
-}
-.pharma-info-2 img{
-    padding:1rem;
-}
-.consultation-ref1 {
-    flex-wrap: wrap;
-}
 
-.consultation-ref1 h2 {
-    text-align: center;
-    font-size:2rem;
-    line-height: 2.5rem;
-    padding-bottom:1rem;
-}
+    /*Pharmaceuticals Page 500px*/
+    .pharma-head {
+        padding-left: 1.5rem;
+    }
 
-.consultation-ref1__button {
-    margin-top: 2rem;
-    padding: 0.8rem 2rem;
-}
-/*Physiotherapy Page 500px*/
-.physio-head{
-    padding-left:1.5rem;
-}
-.physio-intro p{
-    width:90%;
-    margin:auto;
-    hyphens: auto;
-    padding:0.5rem;
-}
-.physio-intro{
-    padding:1rem 0rem;
-}
-.physio-img{
-    padding:1rem;
-}
-.sect-2{
-    flex-wrap: wrap;
-}
-.physio-pos h2{
-margin: auto;
-width:90%;
-}
-.physio-pos{
-    padding:1rem;
-}
-.physio-pos p{
-    width:90%;
-    margin:auto;
-}
+    .main_blue1 {
+        height: 150px;
+    }
 
+    .pharma_holder p {
+        width: auto;
+        text-align: justify;
+        hyphens: auto;
+    }
 
+    .pharma_holder h2 {
+        text-align: center;
+    }
 
+    .pharma_holder {
+        margin-bottom: -4rem;
+    }
 
+    .pharma-info-1 {
+        padding: 2rem 1rem;
+    }
 
+    .pharma-info-1 img {
+        padding-bottom: 2rem;
+    }
 
+    .pharma-info-1 p {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+        hyphens: auto;
+        padding-left: 0rem;
+        ;
+    }
 
+    .pharma-info {
+        padding: 1rem;
+    }
 
+    .pharma-1_cluster {
+        padding: 1rem;
+    }
 
+    .pharma-1 {
+        padding: 1rem;
+    }
 
+    .pharma-1 h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .pharma_content {
+        border: none;
+    }
+
+    .pharma-1_content {
+        padding: 1.5rem 0rem;
+    }
+
+    .pharma-1_content img {
+        padding-bottom: 0.5rem;
+    }
+
+    .pharma-services-h2 {
+        font-size: 2rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    .pharma-info-2 h2 {
+        font-size: 1.4rem;
+    }
+
+    .pharma-info-2 img {
+        padding: 1rem;
+    }
+
+    .consultation-ref1 {
+        flex-wrap: wrap;
+    }
+
+    .consultation-ref1 h2 {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .consultation-ref1__button {
+        margin-top: 2rem;
+        padding: 0.8rem 2rem;
+    }
+
+    /*Physiotherapy Page 500px*/
+    .physio-head {
+        padding-left: 1.5rem;
+    }
+
+    .physio-intro p {
+        width: 90%;
+        margin: auto;
+        hyphens: auto;
+        padding: 0.5rem;
+    }
+
+    .physio-intro {
+        padding: 1rem 0rem;
+    }
+
+    .physio-img {
+        padding: 1rem;
+    }
+
+    .sect-2 {
+        flex-wrap: wrap;
+    }
+
+    .physio-pos h2 {
+        margin: auto;
+        width: 90%;
+    }
+
+    .physio-pos {
+        padding: 1rem;
+    }
+
+    .physio-pos p {
+        width: 90%;
+        margin: auto;
+    }
+
+    /*News Page 500px*/
+    .news-head {
+        padding-left: 1.5rem;
+    }
+
+    .news-second img {
+        height: auto;
+    }
+
+    .news-second {
+        padding: 1rem;
+    }
+
+    .news-second_content {
+        padding: 1rem;
+        margin-left: 0rem;
+        ;
+    }
+
+    .news-second_content h3 {
+        text-align: center;
+    }
+
+    .news-referral {
+        flex-wrap: wrap;
+    }
+
+    .news-referral__button {
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    /*Careers Page 500px*/
+    .careers-title {
+        padding-left: 1.5rem;
+    }
+
+    .careers-intro {
+        padding: 1rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    .careers-pos {
+        padding: 1rem;
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .careers-head {
+        padding: 2rem;
+    }
+
+    .careers-head h2 {
+        text-align: center;
+    }
+
+    .careers-head p {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    .volunteer p {
+        padding-top: 1rem;
+        hyphens: auto;
+    }
+
+    .volunteer h3 {
+        margin-left: 1.2rem;
+        padding-bottom: 0rem;
+    }
+
+    .news-referral h2 {
+        text-align: center;
+    }
+
+    /*Events Page 500px*/
+    .upcoming-event h3 {
+        font-size: 1.5rem;
+        ;
+        width: 90%;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .hr-events {
+        width: 50%;
+    }
+
+    .space {
+        padding: 0rem;
+    }
+
+    .event-img img {
+        padding: 0.5rem;
+    }
+
+    .wellness-1 h3 {
+        font-size: 2rem;
+    }
+
+    .wellness-1 {
+        padding: 1rem;
+    }
+
+    .wellness-1 p {
+        width: 90%;
+        hyphens: auto;
+    }
+
+    /*Contact Page 500px*/
+    .form {
+        padding: 1rem 0rem;
+        width: auto;
+    }
+
+    .contact-1 {
+        padding: 1rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+        margin-bottom: 0rem
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 210%;
+        margin-bottom: 0.5rem
+    }
+
+    .cont-details {
+        padding: 2rem 0rem;
+    }
 
     /*Footer 500px*/
     .end {
@@ -3156,14 +3318,6 @@ width:90%;
     .quicklinks {
         text-align: center;
     }
-
-
-
-
-
-
-
-
 }
 
 
