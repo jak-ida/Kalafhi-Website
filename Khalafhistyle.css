@@ -2254,15 +2254,15 @@ iframe {
 
 }
 .volunteer {
-    padding: 1rem 1rem 4rem;
+    padding: 4rem 2rem; 
     display: grid;
     align-content: center;
-
 }
 
 .vol-1 {
     display: grid;
     align-content: center;
+    padding-bottom:2rem;
 }
 
 .vol-1 h3 {
@@ -2276,12 +2276,18 @@ iframe {
     padding: 2rem;
 }
 
-.volunteer p {
+.volunteer-p {
     align-items: center;
     font-size: large;
-    width: 80%;
-    margin: auto;
-    text-align: center;
+    padding-bottom: 1rem;;
+}
+.volunteer-p2{
+    border-left: 2px solid var(--green);
+    padding-left:1rem;
+    font-size: large;
+}
+.volunteer-p2-1{
+    font-size: large;
 }
 
 .volunteer img {
