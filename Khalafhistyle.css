@@ -2556,7 +2556,48 @@ iframe {
     border: 2px solid var(--white);
     cursor: pointer;
 }
-
+/*Renewal Aesthetics Page*/
+.ren-content{
+    background-image: url(MainImages/ren-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-color: tan;
+    height:95vh;
+}
+.ren-content h2{
+    color:white;
+    font-size: 5rem;
+    padding:8rem 5rem 0rem;
+}
+.ren-content p{
+    margin-top:1rem;
+    padding-left:5rem;
+    font-size: 2rem;
+    width:50%;
+    color:var(--white);
+    line-height: 3rem;;
+   
+}
+.ren-content-p{
+    background-color:rgb(189, 150, 113);
+    opacity: 0.6;
+}
+.ren-btn{
+    margin: 3rem 0rem 0rem 5rem;
+    padding:0.5rem 1rem;
+    border-radius: 1rem;
+    border:2px solid var(--white);
+    background-color: tan;
+    color:var(--white);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.ren-btn:hover{
+    border:2px solid var(--black);
+    background-color: var(--white);
+    color:var(--black);
+    cursor:pointer;
+}
 
 
 
