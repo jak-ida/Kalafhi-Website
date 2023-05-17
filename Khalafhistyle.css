@@ -2818,7 +2818,7 @@ iframe {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .form-row {
@@ -2829,7 +2829,7 @@ iframe {
     text-align: left;
 }
 
-.form-group {
+.form-group1 {
     display: inline-block;
     width: 100%;
     margin-top: .5rem;
@@ -2848,18 +2848,18 @@ iframe {
     width: 100%;
 }
 
-.form-group label {
+.form-group1 label {
     display: block;
     margin-bottom: 0.2rem;
 
 }
 
-input[type="date"],
-input[type="time"],
-input[type="text"],
-input[type="email"],
-input[type="number"],
-textarea {
+.flex1 input[type="date"],
+.flex1 input[type="time"],
+.form-group1 input[type="text"],
+.form-group1 input[type="email"],
+.form-group1 input[type="number"],
+.form-group1 textarea {
     width: 100%;
     padding: 0.5rem;
     border: var(--green);
@@ -2867,7 +2867,7 @@ textarea {
     border-radius: 0.2rem;
     outline: white !important;
     box-sizing: border-box;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.5rem;
     box-shadow: 2px 2px 8px lightgray;
 }
 
@@ -3664,7 +3664,7 @@ textarea {
 
     .flex1 {
         gap: 0.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .form button {
@@ -3674,9 +3674,9 @@ textarea {
         float: none;
     }
 
-    .form-group input[type="text"],
-    .form-group input[type="email"],
-    .form-group input[type="tel"] {
+    .form-group1 input[type="text"],
+    .form-group1 input[type="email"],
+    .form-group1 input[type="tel"] {
         width: 100%;
         margin-bottom: 0.5rem
     }
