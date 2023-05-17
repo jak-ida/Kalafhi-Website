@@ -5,15 +5,11 @@
     --off-white: #f7f7f7;
     --green: #7dc241;
     --black: #000;
-
-
 }
 .reverse {
-
     flex-wrap: wrap;
     flex-direction: column-reverse;
     display: flex;
-
 }
 p{
     font-size: large;
@@ -1253,7 +1249,7 @@ main p {
     height: auto;
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 85%;
     margin: auto auto;
     padding: 3rem 2rem;
     margin: 1rem auto 2rem;
@@ -2210,7 +2206,7 @@ iframe {
   
   .flip-card-front {
     background-color: #bbb;
-    color: black;
+    color: var(--black);
   }
   .flip-card-front img{
     width:100%;
