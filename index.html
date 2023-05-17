@@ -16,7 +16,7 @@
     <!-- First Page Section 1-->
     <div>
         <header>
-            <img class="Logo" src="MainImages/kalafhi-logo.jpg" />
+            <img class="Logo" onclick="redirectToHome()" src="MainImages/kalafhi-logo.jpg" />
             <div class="navbar">
                 <a class="pg-active" href="index.html">HOME</a>
                 <div class="dropdown">
@@ -104,6 +104,7 @@
                     <a class="dropdown-content1" href="news.html">NEWS</a>
                     <a class="dropdown-content1" href="careers.html">CAREERS</a>
                     <a class="dropdown-content1" href="kal-events.html">EVENTS</a>
+                    <a class="dropdown-content1" href="bookapt.html">BOOK NOW</a>
                     <div class="dropdown">
                         <!--<button class="dropbtn row">
                             <a class="dropdown-content1 no-a hamburger">Resources</a>
@@ -126,10 +127,8 @@
                 <h1 class="mainpage__h1">Because your health matters</h1>
                 <!-- Buttons Start-->
                 <div class="inline">
-                    <button class="mainpage__btn1">
-                        <a href="">
-                            <p>BOOK AN APPOINTMENT</p>
-                        </a>
+                    <button class="mainpage__btn1" onclick="redirectToBookApt()">
+                        <p>BOOK AN APPOINTMENT</p>
                     </button>
                     <button class="mainpage__btn2">
                         <a href="">
@@ -366,8 +365,9 @@
 
                         <br>
                         <div>
-                            <h4> Opening Times: <br>Mon-Fri: 07:30 - 17:30 
-                                <br> Saturday: 09:00 - 15:00</h4>
+                            <h4> Opening Times: <br>Mon-Fri: 07:30 - 17:30
+                                <br> Saturday: 09:00 - 15:00
+                            </h4>
                             <h4> Closed on Sundays and Public Holidays</h4>
                         </div>
                         <br>
@@ -423,6 +423,9 @@
 
 
     <script>
+        function redirectToHome() {
+                window.location.href = "index.html";
+            }
         function redirectToAbout() {
             window.location.href = "about.html";
         }
