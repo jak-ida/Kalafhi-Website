@@ -16,7 +16,7 @@
     <!-- First Page Section 1-->
     <div>
         <header>
-            <img class="Logo" src="MainImages/kalafhi-logo.jpg" />
+            <img class="Logo" onclick="redirectToHome()" src="MainImages/kalafhi-logo.jpg" />
             <div class="navbar">
                 <a href="index.html">HOME</a>
                 <div class="dropdown">
@@ -104,14 +104,8 @@
                     <a class="dropdown-content1" href="news.html">NEWS</a>
                     <a class="dropdown-content1" href="careers.html">CAREERS</a>
                     <a class="dropdown-content1" href="kal-events.html">EVENTS</a>
-                    <div class="dropdown">
-                        <!--<button class="dropbtn row">
-                            <a class="dropdown-content1 no-a hamburger">Resources</a>
-                        </button>
-                        <div class="menu-items">-->
-
-                        <!--</div>-->
-                    </div>
+                    <a class="dropdown-content1" href="bookapt.html">BOOK NOW</a>
+                   
                     <div class="dropdown-content1">
                         <a href="contact.html">CONTACT</a>
                     </div>
@@ -260,10 +254,9 @@
     <div class="consultation-ref1">
         <div class="grid">
             <h2> Volunteer Today!</h2>
-            <p> We are always looking for the greatest minds to assist us and the community. Submit your details and
-                join us at our next event.</p>
+            <p> We are always looking for the greatest minds to assist us and the community. Check our Careers page to keep updated on open volunteer positions.</p>
         </div>
-        <button class="consultation-ref1__button"> Let's Get Started </button>
+        <button class="consultation-ref1__button" onclick="redirectToCareers()"> Let's Get Started </button>
     </div>
 
 
@@ -389,6 +382,9 @@
 
 
     <script>
+        function redirectToHome() {
+                window.location.href = "index.html";
+            }
        function redirectToAbout() {
             window.location.href = "about.html";
         }
@@ -398,9 +394,9 @@
         function redirectToMedServices() {
             window.location.href = "medicalservices.html";
         }
-         function redirectToRenewal() {
-                window.location.href = "renewalaesthetics.html";
-            }
+        function redirectToRenewal() {
+            window.location.href = "";
+        }
         function redirectToPharma() {
             window.location.href = "pharmaceuticals.html";
         }
