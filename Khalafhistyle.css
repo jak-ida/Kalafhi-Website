@@ -15,6 +15,15 @@
     display: flex;
 
 }
+.p-2{
+    padding:2rem;
+}
+.a-c{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:1rem
+}
 
 /* CSS Reset*/
 
@@ -1988,9 +1997,12 @@ iframe {
 }
 
 .serve {
-    padding: 1rem;
+    padding: 2rem;
 }
-
+.center-1{
+    text-align: center;
+    padding-top:1rem;
+}
 .medical-opt {
     display: grid;
     align-items: center;
@@ -2068,9 +2080,17 @@ iframe {
     background-color: #bbb;
     color: black;
   }
+  .flip-card-front img{
+    width:100%;
+    height:100%;
+  }
   
   .flip-card-back {
+    padding:1rem;
+    font-size: large;
     background-color: #2980b9;
+    display:grid;
+    align-items: center;
     color: white;
     transform: rotateY(180deg);
   }
