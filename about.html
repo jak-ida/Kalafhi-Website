@@ -16,7 +16,7 @@
     <!-- First Page Section 1-->
     <div>
         <header>
-            <img class="Logo" src="MainImages/kalafhi-logo.jpg" />
+            <img class="Logo" onclick="redirectToHome()" src="MainImages/kalafhi-logo.jpg" />
             <div class="navbar">
                 <a href="index.html">HOME</a>
                 <div class="dropdown">
@@ -104,6 +104,7 @@
                     <a class="dropdown-content1" href="news.html">NEWS</a>
                     <a class="dropdown-content1" href="careers.html">CAREERS</a>
                     <a class="dropdown-content1" href="kal-events.html">EVENTS</a>
+                    <a class="dropdown-content1" href="bookapt.html">BOOK NOW</a>
                     <div class="dropdown">
                         <!--<button class="dropbtn row">
                             <a class="dropdown-content1 no-a hamburger">Resources</a>
@@ -263,7 +264,7 @@
             <h2> “He who has health has hope, and he who has hope has everything.” </h2>
             <h3>– Thomas Carlyle</h3>
         </div>
-        <button class="consultation-ref__button"> Book a Consultation </button>
+        <button class="consultation-ref__button" onclick="redirectToBookApt()"> Book a Consultation </button>
     </div>
     <div class="row about-3">
         <div class="col-7 about3">
@@ -390,6 +391,9 @@
 
 
     <script>
+        function redirectToHome() {
+                window.location.href = "index.html";
+            }
         function redirectToAbout() {
             window.location.href = "about.html";
         }
