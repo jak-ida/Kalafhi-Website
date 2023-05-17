@@ -16,7 +16,7 @@
     <!-- First Page Section 1-->
     <div>
         <header>
-            <img class="Logo" src="MainImages/kalafhi-logo.jpg" />
+            <img class="Logo" onclick="redirectToHome()" src="MainImages/kalafhi-logo.jpg" />
             <div class="navbar">
                 <a class="" href="index.html">HOME</a>
                 <div class="dropdown">
@@ -104,6 +104,7 @@
                     <a class="dropdown-content1" href="news.html">NEWS</a>
                     <a class="dropdown-content1" href="careers.html">CAREERS</a>
                     <a class="dropdown-content1" href="kal-events.html">EVENTS</a>
+                    <a class="dropdown-content1" href="bookapt.html">BOOK NOW</a>
                     <div class="dropdown">
                         <!--<button class="dropbtn row">
                             <a class="dropdown-content1 no-a hamburger">Resources</a>
@@ -122,7 +123,7 @@
         <!-- Social Media ends -->
         <h2 class="pharma-head"> Kalafhi Pharmaceuticals</h2>
         <div class="pharma_holder">
-            <div class="main_blue">
+            <div class="main_blue1">
             </div>
             <div class="main_white">
                 <h2>About Us</h2>
@@ -217,7 +218,7 @@
             <div class="">
                 <h2> “The first wealth is health.” – Ralph Waldo Emerson </h2>
             </div>
-            <button class="consultation-ref__button"> Book a Consultation </button>
+            <button class="consultation-ref__button" onclick="redirectToBookApt()"> Book a Consultation </button>
         </div>
         <div class="pharma-services">
             <h2 class="pharma-services-h2"> Our Services & Products</h2>
@@ -327,7 +328,7 @@
                     <h2> Would you like some products?</h2>
                     <p> Our products are high quality and are delivered in no time at all. Contact us to make your first order!</p>
                 </div>
-                <button class="consultation-ref1__button" onclick="redirectToContact()"> Order Now </button>
+                <button class="consultation-ref1__button" onclick="redirectToContact()"> Contact Us </button>
             </div>
         </div>
 
@@ -467,6 +468,9 @@
 
 
         <script>
+            function redirectToHome() {
+                window.location.href = "index.html";
+            }
             function redirectToAbout() {
                 window.location.href = "about.html";
             }
@@ -476,7 +480,7 @@
             function redirectToMedServices() {
                 window.location.href = "medicalservices.html";
             }
-             function redirectToRenewal() {
+            function redirectToRenewal() {
                 window.location.href = "renewalaesthetics.html";
             }
             function redirectToPharma() {
