@@ -156,6 +156,10 @@
                     <h3> Software Department </h3>
                     <button class="careers-btn1" onclick="OpenPosition('5')"> View </button>
                 </div>
+                <div class="col-2 careers-departments">
+                    <h3> Volunteers  Department</h3>
+                    <button class="careers-btn1" onclick="OpenPosition('6')"> View </button>
+                </div>
             </div>
         </div>
 
@@ -437,6 +441,62 @@
             </div>
         -->
         </div>
+        <div class="careers-pos" style="display:none" id="career-6">
+            <h2>Volunteers</h2>
+            <h5> There are currently no open positions in this field.</h5>
+            <!--
+            <div class="row careers-apply">
+
+                <h4 class="col-2">POSITION:</h4>
+
+                <h4 class="col-10">DESCRIPTION:</h4>
+            </div>
+            <div class="row careers-section">
+                <div class="col-2">
+                    <h4>Lorem Ipsum dolor sit</h4>
+                </div>
+                <div class="col-10">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia fugiat, fugit ex aliquam
+                        labore enim, nihil illo reiciendis veniam ipsum voluptates repellendus dolor omnis cumque
+                        temporibus, rem mollitia eos!</p>
+                    <button class="careers-btn"> VIEW MORE</button>
+                </div>
+            </div>
+            <div class="row careers-section1">
+                <div class="col-2">
+                    <h4>Lorem Ipsum dolor sit</h4>
+                </div>
+                <div class="col-10">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia fugiat, fugit ex aliquam
+                        labore enim, nihil illo reiciendis veniam ipsum voluptates repellendus dolor omnis cumque
+                        temporibus, rem mollitia eos!</p>
+                    <button class="careers-btn"> VIEW MORE</button>
+                </div>
+            </div>
+            <div class="row careers-section">
+                <div class="col-2">
+                    <h4>Lorem Ipsum dolor sit</h4>
+                </div>
+                <div class="col-10">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia fugiat, fugit ex aliquam
+                        labore enim, nihil illo reiciendis veniam ipsum voluptates repellendus dolor omnis cumque
+                        temporibus, rem mollitia eos!</p>
+                    <button class="careers-btn"> VIEW MORE</button>
+                </div>
+            </div>
+            <div class="row careers-section1">
+                <div class="col-2">
+                    <h4>Lorem Ipsum dolor sit</h4>
+                </div>
+                <div class="col-10">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia fugiat, fugit ex aliquam
+                        labore enim, nihil illo reiciendis veniam ipsum voluptates repellendus dolor omnis cumque
+                        temporibus, rem mollitia eos!</p>
+                    <button class="careers-btn"> VIEW MORE</button>
+                </div>
+            </div>
+        -->
+        </div>
 
 
         <div class="row careers-head">
@@ -618,7 +678,7 @@
                 window.location.href = "medicalservices.html";
             }
             function redirectToRenewal() {
-                window.location.href = "";
+                window.location.href = "renewalaesthetics.html";
             }
             function redirectToPharma() {
                 window.location.href = "pharma.html";
@@ -726,7 +786,7 @@
 
             function OpenPosition(a) {
                 // To close each career section when another opens//
-                for (var i = 1; i < 6; i++) {
+                for (var i = 1; i < 7; i++) {
                     var div1 = document.getElementById("career-" + i);
                     if (div1 == document.getElementById("career-" + a)) {
                         var div = document.getElementById("career-" + a);
