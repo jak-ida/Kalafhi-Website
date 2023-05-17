@@ -6,19 +6,23 @@
     --green: #7dc241;
     --black: #000;
 }
+
 .reverse {
     flex-wrap: wrap;
     flex-direction: column-reverse;
     display: flex;
 }
-p{
+
+p {
     font-size: large;
 }
-.p-2{
-    padding:2rem;
+
+.p-2 {
+    padding: 2rem;
 }
-.a-c{
-    display:grid;
+
+.a-c {
+    display: grid;
     align-items: center;
     justify-content: center;
 }
@@ -1221,8 +1225,9 @@ main p {
     margin: auto;
 
 }
-.about-img img{
-    padding-top:1rem;
+
+.about-img img {
+    padding-top: 1rem;
     display: grid;
     align-items: center;
     margin: auto;
@@ -2127,10 +2132,12 @@ iframe {
 .serve {
     padding: 2rem;
 }
-.center-1{
+
+.center-1 {
     text-align: center;
-    padding-top:1rem;
+    padding-top: 1rem;
 }
+
 .medical-opt {
     display: grid;
     align-items: center;
@@ -2180,48 +2187,50 @@ iframe {
     width: 300px;
     height: 300px;
     perspective: 1000px;
-  }
-  
-  .flip-card-inner {
+}
+
+.flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  
-  .flip-card:hover .flip-card-inner {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
+}
+
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
+}
+
+.flip-card-front {
     background-color: #bbb;
     color: var(--black);
-  }
-  .flip-card-front img{
-    width:100%;
-    height:100%;
-  }
-  
-  .flip-card-back {
-    padding:1rem;
+}
+
+.flip-card-front img {
+    width: 100%;
+    height: 100%;
+}
+
+.flip-card-back {
+    padding: 1rem;
     font-size: large;
     background-color: #2980b9;
-    display:grid;
+    display: grid;
     align-items: center;
     color: white;
     transform: rotateY(180deg);
-  }
+}
 
 .med-btn {
     background-color: var(--green);
@@ -2438,8 +2447,9 @@ iframe {
     align-content: center;
 
 }
+
 .volunteer {
-    padding: 4rem 2rem 3rem; 
+    padding: 4rem 2rem 3rem;
     display: grid;
     align-content: center;
 }
@@ -2447,11 +2457,11 @@ iframe {
 .vol-1 {
     display: grid;
     align-content: center;
-    padding-bottom:2rem;
+    padding-bottom: 2rem;
 }
 
 .vol-1 h3 {
-    padding:0.5rem;
+    padding: 0.5rem;
     text-align: center;
 }
 
@@ -2464,14 +2474,17 @@ iframe {
 .volunteer-p {
     align-items: center;
     font-size: large;
-    padding-bottom: 1rem;;
+    padding-bottom: 1rem;
+    ;
 }
-.volunteer-p2{
+
+.volunteer-p2 {
     border-left: 2px solid var(--green);
-    padding-left:1rem;
+    padding-left: 1rem;
     font-size: large;
 }
-.volunteer-p2-1{
+
+.volunteer-p2-1 {
     font-size: large;
 }
 
@@ -2513,64 +2526,6 @@ iframe {
     margin: auto;
     text-align: justify;
     padding-bottom: 1rem;
-}
-
-
-.past-head {
-    font-size: 2rem;
-    text-align: center;
-    padding: 1.5rem 2rem 0rem;
-}
-
-.past-head1 {
-    font-size: 2rem !important;
-    text-align: center;
-
-}
-
-.past-events-1 {
-    padding: 2rem;
-    border: 2px solid var(--light-blue);
-    margin: 0rem 1rem 1rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 8px var(--light-blue);
-}
-
-.past-events-1 h2,
-.past-events-1 h4 {
-    text-align: center;
-}
-
-.past-events-1 h2 {
-    font-size: 2rem;
-}
-
-.past-events-1 p {
-    padding: 0rem 0.5rem 0.5rem;
-    font-size: large;
-}
-
-.past-events-1 h4 {
-    padding-bottom: 1rem;
-
-}
-
-.past-events-1 img {
-    margin: auto;
-    padding: 1rem;
-}
-
-.past-events1 {
-    padding: 1rem 1rem 1.5rem;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    font-size: large;
-}
-
-.past-events1 p {
-    padding: 0rem 0.5rem 1rem;
-
 }
 
 .hr-events {
@@ -2746,47 +2701,174 @@ iframe {
     border: 2px solid var(--white);
     cursor: pointer;
 }
+
 /*Renewal Aesthetics Page*/
-.ren-content{
+.ren-content {
     background-image: url(MainImages/ren-background.jpeg);
     background-position: center;
     background-size: cover;
     background-color: tan;
-    height:95vh;
+    height: 95vh;
 }
-.ren-content h2{
-    color:white;
+
+.ren-content h2 {
+    color: white;
     font-size: 5rem;
-    padding:8rem 5rem 0rem;
+    padding: 8rem 5rem 0rem;
 }
-.ren-content p{
-    margin-top:1rem;
-    padding-left:5rem;
+
+.ren-content p {
+    margin-top: 1rem;
+    padding-left: 5rem;
     font-size: 2rem;
-    width:50%;
-    color:var(--white);
-    line-height: 3rem;;
-   
+    width: 50%;
+    color: var(--white);
+    line-height: 3rem;
+    ;
+
 }
-.ren-content-p{
-    background-color:rgb(189, 150, 113);
+
+.ren-content-p {
+    background-color: rgb(189, 150, 113);
     opacity: 0.6;
 }
-.ren-btn{
+
+.ren-btn {
     margin: 3rem 0rem 0rem 5rem;
-    padding:0.5rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 1rem;
-    border:2px solid var(--white);
+    border: 2px solid var(--white);
     background-color: tan;
-    color:var(--white);
+    color: var(--white);
     font-weight: bold;
     font-size: 1.5rem;
 }
-.ren-btn:hover{
-    border:2px solid var(--black);
+
+.ren-btn:hover {
+    border: 2px solid var(--black);
     background-color: var(--white);
-    color:var(--black);
-    cursor:pointer;
+    color: var(--black);
+    cursor: pointer;
+}
+
+/*Book Appointment Page*/
+.book-head {
+    font-size: 2rem;
+    padding: 5rem 0rem 1rem 10rem;
+}
+
+.bookapt {
+    padding: 1rem 2rem 2rem;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-gap: 2px;
+    background-color: var(--dark-blue);
+    background-position: center;
+    background-size: cover;
+    color: var(--white);
+}
+
+.form-p {
+    margin-bottom: 0.5rem;
+}
+
+.book-form textarea {
+    margin-top: 1rem;
+}
+
+.book-form {
+    justify-content: space-around;
+    width: 90%;
+    margin: auto auto;
+}
+
+.book-form input[type="button"] {
+    float: right;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5rem 3rem;
+    border: 2px solid var(--green);
+    color: var(--white);
+    background-color: var(--green);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.book-form input[type="button"]:hover {
+    background-color: var(--light-blue);
+    color: var(--white);
+    border: 2px solid var(--white);
+    cursor: pointer;
+
+}
+
+.glass-effect1 {
+    border-radius: 1rem;
+    padding: 1.5rem 1rem;
+    margin: auto auto;
+    width: 80%;
+}
+
+.book-form input {
+    margin-bottom: 0.5rem;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.form-group {
+    display: inline-block;
+    width: 100%;
+    margin-top: .5rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.p-4 {
+    padding: 3rem 4rem;
+}
+
+.form {
+    padding: 2rem 7rem;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.2rem;
+
+}
+
+input[type="date"],
+input[type="time"],
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: var(--green);
+    border-bottom: 1px solid var(--green);
+    border-radius: 0.2rem;
+    outline: white !important;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem;
+    box-shadow: 2px 2px 8px lightgray;
 }
 
 
@@ -3549,6 +3631,67 @@ iframe {
     .quicklinks {
         text-align: center;
     }
+
+    /*Book Appointment Page 500px*/
+    .book-head{
+        padding-left:1.5rem;
+    }
+    .bookapt {
+        padding: 0.5rem;
+        margin: auto auto;
+    }
+
+    .glass-effect1 {
+        width: 95%;
+        margin-bottom: 0.5rem;
+    }
+
+    .book-form input[type="button"] {
+        float: none;
+        margin: auto auto;
+        margin-top: 1rem;
+        width: auto;
+    }
+
+    .book-form textarea {
+        margin-top: 1rem;
+        min-height: 9rem;
+    }
+
+    .form-row {
+        margin-bottom: 0rem;
+    }
+
+    .flex1 {
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .form button {
+        width: auto;
+        margin: auto auto;
+        margin-top: 1rem;
+        float: none;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"] {
+        width: 100%;
+        margin-bottom: 0.5rem
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
