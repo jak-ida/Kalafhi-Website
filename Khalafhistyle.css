@@ -596,6 +596,7 @@ header button {
     width: 100%;
 }
 
+/*Home Page*/
 .inline {
     display: inline-flex;
 }
@@ -662,6 +663,31 @@ header button {
 
 }
 
+.home-modal h3 {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+
+.home-modal p {
+    font-size: large;
+    text-align: justify;
+    hyphens: auto;
+    display: grid;
+    align-items: center;
+}
+
+.home-modal {
+    color: white;
+    background-color: var(--light-blue);
+    padding-bottom: 0.5rem;
+}
+
+.hr-home {
+    border: 2px solid var(--white);
+    width: 30%;
+    margin: 1rem auto;
+}
 
 /* First Page Section 2*/
 
@@ -3633,9 +3659,10 @@ iframe {
     }
 
     /*Book Appointment Page 500px*/
-    .book-head{
-        padding-left:1.5rem;
+    .book-head {
+        padding-left: 1.5rem;
     }
+
     .bookapt {
         padding: 0.5rem;
         margin: auto auto;
@@ -4164,6 +4191,18 @@ iframe {
     border-top-left-radius: var(--bs-modal-inner-border-radius);
     border-top-right-radius: var(--bs-modal-inner-border-radius)
 }
+.modal-header1{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+    background-color: var(--white);
+    color:var(--light-blue);
+}
 
 .modal-header .btn-close {
     padding: calc(var(--bs-modal-header-padding-y) * .5) calc(var(--bs-modal-header-padding-x) * .5);
@@ -4179,6 +4218,13 @@ iframe {
     position: relative;
     flex: 1 1 auto;
     padding: var(--bs-modal-padding)
+}
+.modal-body1 {
+    position: relative;
+    flex: 1 1 auto;
+    padding: var(--bs-modal-padding);
+    background-color: var(--light-blue);
+    color:var(--white);
 }
 
 .modal-footer {
