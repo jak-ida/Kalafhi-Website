@@ -2897,8 +2897,47 @@ iframe {
     box-shadow: 2px 2px 8px lightgray;
 }
 
+/*Day Hospital Page*/
+.day-head {
+    font-size: 2rem;
+    padding: 5rem 0rem 1rem 10rem;
+}
 
+.day-body {
+    background-image: url(MainImages/day-hosp1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    height: 60vh;
+    color:var(--white)
+}
 
+.day-body h2 {
+    font-size: 2.5rem;
+}
+
+.day-body h3 {
+    font-size: 2rem;
+    padding: 0rem 1rem;
+}
+
+.day-body p {
+    width: 90%;
+    padding: 0rem 0.5rem;
+    font-size: large;
+}
+
+.coming-soon {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 2rem 4rem;
+}
+
+.coming-soon h2 {
+    font-size: 2rem;
+    text-align: center;
+}
 
 
 
@@ -4191,7 +4230,8 @@ iframe {
     border-top-left-radius: var(--bs-modal-inner-border-radius);
     border-top-right-radius: var(--bs-modal-inner-border-radius)
 }
-.modal-header1{
+
+.modal-header1 {
     display: flex;
     flex-shrink: 0;
     align-items: center;
@@ -4201,7 +4241,7 @@ iframe {
     border-top-left-radius: var(--bs-modal-inner-border-radius);
     border-top-right-radius: var(--bs-modal-inner-border-radius);
     background-color: var(--white);
-    color:var(--light-blue);
+    color: var(--light-blue);
 }
 
 .modal-header .btn-close {
@@ -4219,12 +4259,13 @@ iframe {
     flex: 1 1 auto;
     padding: var(--bs-modal-padding)
 }
+
 .modal-body1 {
     position: relative;
     flex: 1 1 auto;
     padding: var(--bs-modal-padding);
     background-color: var(--light-blue);
-    color:var(--white);
+    color: var(--white);
 }
 
 .modal-footer {
