@@ -130,11 +130,40 @@
                     <button class="mainpage__btn1" onclick="redirectToBookApt()">
                         <p>BOOK AN APPOINTMENT</p>
                     </button>
-                    <button class="mainpage__btn2">
-                        <a href="">
+                    <button class="mainpage__btn2" onclick="find('1')" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
                             <p>FIND A CLINIC</p>
-                        </a>
                     </button>
+                
+                </div>
+            </div>
+            <div class="row col-12 invisible home-modal" id="find-1">
+                <div class="col-3">
+                    <br>
+                    <h3> VILLAGE </h3>
+                    <hr class="hr-home"> 
+                    <p> Plot 21104 Village,</p>
+                    <p> Maratadiba, Gaborone</p>
+                </div>
+                <div class="col-3">
+                    <br>
+                    <h3> TLOKWENG </h3>
+                    <hr class="hr-home"> 
+                    <p>Plot 2306 Lenganeng, </p>
+                    <p>Tlokweng, Botswana </p>
+                </div>
+                <div class="col-3">
+                    <br>
+                    <h3> MAIN MALL</h3>
+                    <hr class="hr-home"> 
+                    <p>Plot 686 Main Mall, </p>
+                    <p>Gaborone, Botswana</p>
+                </div>
+                <div class="col-3">
+                    <h3> RENEWAL AESTHETICS / PHYSIOTHERAPY</h3>
+                    <hr class="hr-home"> 
+                    <p>Plot 319 Extension 5, </p>
+                    <p>Gaborone, Botswana</p>
                 </div>
             </div>
             <!-- Buttons End-->
@@ -409,6 +438,23 @@
 
 
     </footer>
+ <!-- Modal -->
+ <div class="modal Modalfade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
+ aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+     <div class="modal-content">
+         <div class="modal-header1">
+             <h3 class="modal-title" id="staticBackdropLabel">FIND A CLINIC</h3>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body1">
+             <div id="modeltreatments" class="">
+
+             </div>
+         </div>
+     </div>
+ </div>
+</div>
 
 
 
@@ -416,11 +462,23 @@
 
 
 
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
     <script src="jquery-3.6.4.min.js"></script>
 
+    <script>
 
+        //var textContent2 = document.getElementById('news-1-2');
+        function find(a) {
+            var textContent = document.getElementById('find-' + a);
+            //textContent2.classList.toggle('invisible');
+            textContent.classList.toggle('invisible');
+            document.getElementById('modeltreatments').innerHTML = textContent.outerHTML;
+            //document.getElementById('modeltreatments').innerHTML = textContent.outerHTML + textContent2.outerHTML;
+            //textContent2.classList.toggle('invisible');
+            textContent.classList.toggle('invisible');
+        }
+
+    </script>
 
     <script>
         function redirectToHome() {
