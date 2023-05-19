@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale:1.0">
     <link href="Khalafhistyle.css" rel="stylesheet" type="text/css" />
     <title> Kalafhi Medical Center</title>
-    <link rel="icon" href="MainImages/kalafhi-logo.jpg"/>
+    <link rel="icon" href="MainImages/kalafhi-logo.jpg" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -136,6 +136,7 @@
 
         <div class="departments1">
             <h2 class="col-12 departments"> Our Departments</h2>
+            <p class="departments-p"> Scroll to view.</p>
             <div class="row sect-2">
 
                 <div class="col-2 careers-departments">
@@ -159,7 +160,7 @@
                     <button class="careers-btn1" onclick="OpenPosition('5')"> View </button>
                 </div>
                 <div class="col-2 careers-departments">
-                    <h3> Volunteers  Department</h3>
+                    <h3> Volunteers Department</h3>
                     <button class="careers-btn1" onclick="OpenPosition('6')"> View </button>
                 </div>
             </div>
@@ -178,11 +179,16 @@
                 <div class="col-2">
                     <h4>Permanent Doctor & Locum Doctor</h4>
                 </div>
-                <div class="col-10">
-                    <p>We are looking for a Permanent & Locum Doctor that will be a welcome addition to our team. See more details in our flyer.</p>
+                <div class="col-8">
+                    <p>We are looking for a Permanent & Locum Doctor that will be a welcome addition to our team. See
+                        more details in our flyer.</p>
+
+                </div>
+                <div class="col-2">
                     <button class="careers-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
                         onclick="ModalDisplay('1-1')"> VIEW MORE</button>
-                </div>
+                    
+                    </div>
             </div>
             <!--<div class="row careers-section1">
                 <div class="col-2">
@@ -511,7 +517,7 @@
                     distinctio ipsam numquam iste unde ea?</p>
             </div>
         </div>
-        
+
 
 
 
@@ -534,10 +540,10 @@
         <!-- First Page Section 6-->
         <footer>
             <div class="row end">
-    
+
                 <div class="col--8 ">
                     <h3> OUR LOCATIONS</h3>
-    
+
                     <br>
                     <div class="row">
                         <div class="col--4">
@@ -545,7 +551,7 @@
                             <p> Plot 21104 Village,</p>
                             <p> Maratadiba, Gaborone</p>
                             <br>
-    
+
                             <div>
                                 <h4> Opening Times: <br> Mon-Fri: 07:30 - 00:00
                                     <br>
@@ -575,11 +581,12 @@
                             <h3> MAIN MALL</h3>
                             <p>Plot 686 Main Mall, </p>
                             <p>Gaborone, Botswana</p>
-    
+
                             <br>
                             <div>
-                                <h4> Opening Times: <br>Mon-Fri: 07:30 - 17:30 
-                                    <br> Saturday: 09:00 - 15:00</h4>
+                                <h4> Opening Times: <br>Mon-Fri: 07:30 - 17:30
+                                    <br> Saturday: 09:00 - 15:00
+                                </h4>
                                 <h4> Closed on Sundays and Public Holidays</h4>
                             </div>
                             <br>
@@ -588,10 +595,10 @@
                     </div>
                     <br>
                 </div>
-    
+
                 <div class="col-2 quicklinks">
                     <h3> QUICK LINKS</h3>
-    
+
                     <br>
                     <ul class="end-ul">
                         <li> <a onclick="redirectToAbout()"> About Kalafhi</a> </li>
@@ -603,10 +610,10 @@
                     <br>
                 </div>
                 <div class="col-2 contact-replace quicklinks">
-    
+
                     <div class="contact">
                         <h3> OTHER LOCATIONS </h3>
-    
+
                         <br>
                         <h5> Kalafhi Physiotherapy </h5>
                         <p><i class="fas fa-phone"></i>&nbsp;&nbsp;311 5929</p>
@@ -618,10 +625,10 @@
                     </div>
                 </div>
             </div>
-    
-    
+
+
         </footer>
-    
+
 
         <div class="modal Modalfade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
             aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -673,12 +680,12 @@
             function redirectToHome() {
                 window.location.href = "index.html";
             }
-          function redirectToAbout() {
+            function redirectToAbout() {
                 window.location.href = "about.html";
             }
             function redirectToServices() {
-            window.location.href = "services.html"
-        }
+                window.location.href = "services.html"
+            }
             function redirectToMedServices() {
                 window.location.href = "medicalservices.html";
             }
@@ -703,9 +710,9 @@
             function redirectToContact() {
                 window.location.href = "contact.html";
             }
-        function redirectToBookApt() {
-            window.location.href = "bookapt.html";
-        }
+            function redirectToBookApt() {
+                window.location.href = "bookapt.html";
+            }
 
             //Navbar settings for mobile starts// 
             // Get the dropdown and sub-dropdown buttons
