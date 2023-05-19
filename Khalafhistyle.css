@@ -1276,7 +1276,7 @@ main p {
     padding-top: 0.5rem;
 }
 
-.sect-2 {
+.sect-22 {
     height: auto;
     display: flex;
     justify-content: center;
@@ -1400,7 +1400,6 @@ main p {
 
 .consultation-ref__button:hover {
     border: 2px solid var(--green);
-    padding: 8px 40px;
     font-size: 1.5rem;
     background-color: var(--white);
     font-weight: bold;
@@ -1905,6 +1904,16 @@ iframe {
 }
 
 /*Careers Page*/
+.sect-2 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: auto auto;
+    padding: 3rem 2rem;
+    margin: 1rem auto 2rem;
+}
+
 .apply-modal {
     background-color: var(--green);
     color: var(--white);
@@ -2029,14 +2038,19 @@ iframe {
 
 .departments {
     text-align: center;
-    margin: 1rem;
+    margin: 0.5rem;
     font-size: 2rem;
+    color: var(--white)
+}
+
+.departments-p {
+    text-align: center;
+    font-size: large;
     color: var(--white)
 }
 
 .departments1 {
     background-color: var(--dark-blue);
-    ;
     padding: 1rem;
 
 }
@@ -2049,7 +2063,6 @@ iframe {
     border: 2px solid var(--green);
     border-radius: 0.2rem;
     width: 110%;
-    height: 20vh;
     background-color: var(--white);
 }
 
@@ -2518,9 +2531,6 @@ iframe {
     padding: 1rem 2rem;
 }
 
-
-
-
 .volunteer1 p {
     align-items: center;
     font-size: large;
@@ -2904,17 +2914,18 @@ iframe {
 }
 
 .day-body {
-    background-image: url(MainImages/day-hosp1.jpg);
+    background-image: url(MainImages/day-hosp.jpg);
     background-position: center;
     background-size: cover;
     display: grid;
     align-items: center;
     height: 60vh;
-    color:var(--white)
+    color: var(--dark-blue);
+    padding-left: 2rem;
 }
 
 .day-body h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .day-body h3 {
@@ -2923,9 +2934,10 @@ iframe {
 }
 
 .day-body p {
-    width: 90%;
+    width: 85%;
     padding: 0rem 0.5rem;
-    font-size: large;
+    font-size: 2rem;
+
 }
 
 .coming-soon {
@@ -3173,7 +3185,7 @@ iframe {
 
     .mainpage__h1 {
         font-size: 2.5em;
-        width: 70%;
+        width: 75%;
         line-height: normal;
     }
 
@@ -3182,15 +3194,21 @@ iframe {
     }
 
     .mainpage__btn1 {
-        padding: 4px 10px;
-        font-size: 0.6rem;
+        padding: 10px 10px;
+        font-size: 16px;
         margin-right: 5px;
+        border-radius: 1rem;
     }
 
     .mainpage__btn2 {
-        padding: 4px 13px;
-        margin-top: 1px;
+        padding: 10px 10px;
+        margin-top: 10px;
         font-size: 0.6rem;
+        border-radius: 1rem;
+    }
+
+    .inline {
+        flex-direction: column;
     }
 
     .mainpage__second {
@@ -3271,9 +3289,22 @@ iframe {
         padding-left: 1.5rem;
     }
 
+    .about-intro {
+        padding-bottom: 0rem;
+    }
+
+    .about-img {
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+
+    .about-img img {
+        padding-top: 0rem;
+    }
+
     .about-intro p {
         width: 90%;
-        ;
+        padding-bottom: 0.5rem;
     }
 
     .directors-h2 {
@@ -3282,7 +3313,7 @@ iframe {
     }
 
     .directors-intro p {
-        padding-top: 2rem;
+        padding-top: 1rem;
         width: auto;
         padding-bottom: 0rem;
     }
@@ -3292,7 +3323,7 @@ iframe {
         min-height: 300px;
         height: auto;
         width: auto;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .dir-info {
@@ -3300,7 +3331,7 @@ iframe {
         margin-top: -8rem;
     }
 
-    .sect-2 {
+    .sect-22 {
         width: auto;
         padding-top: 2rem;
         margin: auto
@@ -3373,6 +3404,49 @@ iframe {
         padding-top: 1rem;
     }
 
+    /*Doctors Page 500px*/
+.doctors-heading{
+    padding-left: 1.5rem;;
+}
+.doctors-intro{
+    padding:1rem;
+    margin:0rem 1rem 1rem;
+}
+.doctors-intro img{
+    padding-bottom:1rem;
+}
+.doctors-intro p{
+    width:90%;
+    text-align: justify;
+    hyphens: auto;
+}
+.doctors-carousel{
+    padding:1.5rem 1rem;
+}
+.car-1 h2{
+    padding:2rem 0rem;
+    font-size: 2rem;;
+}
+.doctors-head{
+    padding:1rem;
+    margin-top: 0rem;;
+}
+.doc-1, .doc-2{
+    padding:1rem;
+}
+.doc-2{
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+.doc-1 img, .doc-2 img{
+    height:auto;
+    width:auto;
+    margin:1.5rem auto;
+}
+
+
+
+
     /*Medical Services Page 500px*/
 
     .medical-head {
@@ -3383,6 +3457,11 @@ iframe {
         width: auto;
         text-align: justify;
         hyphens: auto;
+    }
+
+    .medical-opt h2 {
+        font-size: 1.4rem;
+        text-align: center;
     }
 
     .medical-opt,
@@ -3467,6 +3546,7 @@ iframe {
 
     .pharma_content {
         border: none;
+        padding: 1rem 1rem 0rem;
     }
 
     .pharma-1_content {
@@ -3493,6 +3573,7 @@ iframe {
 
     .consultation-ref1 {
         flex-wrap: wrap;
+        margin-top: 1rem;
     }
 
     .consultation-ref1 h2 {
@@ -3529,6 +3610,8 @@ iframe {
 
     .sect-2 {
         flex-wrap: wrap;
+        padding: 1rem;
+        padding-top: 0rem;
     }
 
     .physio-pos h2 {
@@ -3543,6 +3626,67 @@ iframe {
     .physio-pos p {
         width: 90%;
         margin: auto;
+    }
+
+    .physio-btn {
+        float: left;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+
+    }
+
+
+    /*Renewal Aesthetics Page 500px*/
+    .ren-content h2 {
+        font-size: 2.1rem;
+        padding: 8rem 2rem 1rem;
+    }
+
+    .ren-content-p {
+        opacity: 0.8;
+        padding: 1rem 0rem
+    }
+
+    .ren-content p {
+        padding-left: 0rem;
+        font-size: 1.5rem;
+        width: 90%;
+        margin: auto;
+        line-height: normal;
+    }
+
+    .ren-btn {
+        margin-top: 1rem;
+        font-size: 1rem;
+        margin: 1rem 1rem auto;
+    }
+
+    /*Day Hospital 500px*/
+    .day-head {
+        padding-left: 1.5rem;
+        ;
+    }
+
+    .day-body {
+        padding-left: 0rem;
+        ;
+    }
+
+    .day-body h2 {
+        font-size: 1.5rem;
+        ;
+    }
+
+    .day-body p {
+        font-size: large;
+        padding-left: 0rem;
+        padding-top: 0.2rem;
+        width: 65%;
+        color: var(--black);
+    }
+
+    .coming-soon {
+        padding: 1rem 2rem;
     }
 
     /*News Page 500px*/
@@ -3577,6 +3721,22 @@ iframe {
         padding: 0.5rem 1rem;
     }
 
+    .news-modal {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    .news-modal h3 {
+        font-size: 1.5rem;
+        padding-bottom: 0.8rem;
+        padding-top: 1rem;
+    }
+
+    .news-modal p {
+        padding-top: 0.5rem;
+        ;
+    }
+
     /*Careers Page 500px*/
     .careers-title {
         padding-left: 1.5rem;
@@ -3609,9 +3769,52 @@ iframe {
         hyphens: auto;
     }
 
+    .careers-apply {
+        padding: 1rem;
+    }
+
+    .careers-apply h4 {
+        font-size: 1.5rem;
+        ;
+
+    }
+
+    .careers-section {
+        padding: 1rem;
+
+    }
+
+    .careers-section h4 {
+        text-align: center;
+    }
+
+    .careers-section p {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        border: none;
+        margin-top: 0.5rem;
+        border-top: 1px solid var(--white)
+    }
+
+    .careers-btn {
+        float: right;
+        margin: 0.5rem auto auto;
+    }
+
+    .volunteer {
+        padding-top: 2rem;
+    }
+
     .volunteer p {
         padding-top: 1rem;
         hyphens: auto;
+    }
+
+    .volunteer-p2 {
+        border: none;
+        border-top: 1px solid var(--green);
+        margin-top: 1rem;
     }
 
     .volunteer h3 {
@@ -3646,6 +3849,7 @@ iframe {
 
     .wellness-1 h3 {
         font-size: 2rem;
+        padding-bottom: 0.5rem;
     }
 
     .wellness-1 {
@@ -3655,6 +3859,10 @@ iframe {
     .wellness-1 p {
         width: 90%;
         hyphens: auto;
+    }
+
+    .volunteer-h2 {
+        padding: 0rem 2rem 2rem;
     }
 
     /*Contact Page 500px*/
