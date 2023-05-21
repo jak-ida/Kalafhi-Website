@@ -1568,7 +1568,7 @@ iframe {
 }
 
 .doctors-carousel {
-    padding: 4rem;
+    padding: 1rem 4rem 4rem;
     height: auto;
     display: grid;
     align-items: center;
@@ -1594,7 +1594,14 @@ iframe {
     padding: 0.5rem;
 }
 
-.card-1 {
+.doctors-img p {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/*.card-1 {
     height: auto;
     width: 60%;
     padding: 1rem 2rem 3rem;
@@ -1634,6 +1641,11 @@ iframe {
     border-radius: 0.5rem;
     margin: auto;
     display: block;
+}*/
+.car-1 h2{
+font-size: 1.8rem;
+padding-top:1rem;
+padding-bottom:1.5rem;;
 }
 
 .doc-1,
@@ -3404,44 +3416,58 @@ iframe {
     }
 
     /*Doctors Page 500px*/
-.doctors-heading{
-    padding-left: 1.5rem;;
-}
-.doctors-intro{
-    padding:1rem;
-    margin:0rem 1rem 1rem;
-}
-.doctors-intro img{
-    padding-bottom:1rem;
-}
-.doctors-intro p{
-    width:90%;
-    text-align: justify;
-    hyphens: auto;
-}
-.doctors-carousel{
-    padding:1.5rem 1rem;
-}
-.car-1 h2{
-    padding:2rem 0rem;
-    font-size: 2rem;;
-}
-.doctors-head{
-    padding:1rem;
-    margin-top: 0rem;;
-}
-.doc-1, .doc-2{
-    padding:1rem;
-}
-.doc-2{
-    display:flex;
-    flex-wrap: wrap-reverse;
-}
-.doc-1 img, .doc-2 img{
-    height:auto;
-    width:auto;
-    margin:1.5rem auto;
-}
+    .doctors-heading {
+        padding-left: 1.5rem;
+        ;
+    }
+
+    .doctors-intro {
+        padding: 1rem;
+        margin: 0rem 1rem 1rem;
+    }
+
+    .doctors-intro img {
+        padding-bottom: 1rem;
+    }
+
+    .doctors-intro p {
+        width: 90%;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    .doctors-carousel {
+        padding: 1.5rem 1rem;
+    }
+
+    .car-1 h2 {
+        padding: 2rem 0rem;
+        font-size: 2rem;
+        ;
+    }
+
+    .doctors-head {
+        padding: 1rem;
+        margin-top: 0rem;
+        ;
+    }
+
+    .doc-1,
+    .doc-2 {
+        padding: 1rem;
+    }
+
+    .doc-2 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .doc-1 img,
+    .doc-2 img {
+        height: auto;
+        width: auto;
+        margin: 1.5rem auto;
+    }
 
 
 
