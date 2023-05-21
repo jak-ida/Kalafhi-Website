@@ -922,7 +922,7 @@ main h1 {
 }
 
 main p {
-    font-size: 1rem;
+    font-size: large;
     padding: 0.2rem 1rem;
 }
 
@@ -3242,7 +3242,7 @@ padding-bottom:1.5rem;;
     }
 
     .main__pp {
-        font-size: 1rem;
+        font-size: large;
         padding-top: 2rem;
     }
 
