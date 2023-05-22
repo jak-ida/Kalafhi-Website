@@ -1942,6 +1942,26 @@ padding-bottom:1.5rem;;
 }
 
 /*Careers Page*/
+.apl-form {
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+}
+.apl-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.apl-form-group {
+    display: inline-block;
+    width: 30%;
+}
+.apl-form-group label {
+    display: block;
+    margin-bottom: 0.2rem;
+}
 .sect-2 {
     height: auto;
     display: flex;
@@ -2190,6 +2210,9 @@ padding-bottom:1.5rem;;
 }
 
 /*Medical Services*/
+.med-opt{
+    display:grid;
+}
 .medical-head {
     font-size: 2rem;
     padding: 5rem 0rem 1rem 10rem;
@@ -2972,7 +2995,7 @@ padding-bottom:1.5rem;;
     display: grid;
     align-items: center;
     height: 60vh;
-    color: var(--dark-blue);
+    color:var(--white);
     padding-left: 2rem;
 }
 
@@ -2988,8 +3011,14 @@ padding-bottom:1.5rem;;
 .day-body p {
     width: 85%;
     padding: 0rem 0.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
+}
+.day-body-p {
+    width: 85%;
+    padding: 0rem 0.5rem;
+    font-size: 1.5rem;
+    
 }
 
 .coming-soon {
@@ -3003,6 +3032,24 @@ padding-bottom:1.5rem;;
     text-align: center;
 }
 
+#scroll-to-top-btn {
+    display: none;
+    /* Hide button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:var(--green);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#scroll-to-top-btn:hover {
+    background-color: var(--light-blue);
+}
 
 
 
@@ -3446,6 +3493,8 @@ padding-bottom:1.5rem;;
 
     .about-3 {
         padding: 2rem 1rem;
+        display: flex;
+        flex-wrap: wrap-reverse;
     }
 
     .about3 {
@@ -3462,7 +3511,7 @@ padding-bottom:1.5rem;;
 
     .values-img {
         height: auto;
-        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     /*Doctors Page 500px*/
@@ -3491,7 +3540,7 @@ padding-bottom:1.5rem;;
     }
 
     .car-1 h2 {
-        padding: 2rem 0rem;
+        padding: 1rem 0rem 1rem;
         font-size: 2rem;
         ;
     }
@@ -3500,6 +3549,10 @@ padding-bottom:1.5rem;;
         padding: 1rem;
         margin-top: 0rem;
         ;
+    }
+    .doctors-img p{
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
     }
 
     .doc-1,
@@ -3523,7 +3576,10 @@ padding-bottom:1.5rem;;
 
 
     /*Medical Services Page 500px*/
-
+.med-opt{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
     .medical-head {
         padding-left: 1.5rem;
     }
@@ -4302,10 +4358,6 @@ padding-bottom:1.5rem;;
         margin-top: 1rem;
     }
 
-
-
-
-
     .col-2 {
         grid-column: auto/span 12;
 
@@ -4787,7 +4839,7 @@ padding-bottom:1.5rem;;
 }
 
 .invisible {
-    display: none;
+    display: none!important;
 }
 
 
