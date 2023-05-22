@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale:1.0">
     <link href="Khalafhistyle.css" rel="stylesheet" type="text/css" />
     <title> Kalafhi Medical Center</title>
-    <link rel="icon" href="MainImages/kalafhi-logo.jpg"/>
+    <link rel="icon" href="MainImages/kalafhi-logo.jpg" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -123,7 +123,7 @@
 
         <h2 class="physio-head"> Physiotherapy </h2>
         <div class="row physio-intro">
-            
+
             <div class="col-6">
                 <p>Kalafhi Medical
                     Centre Physiotherapy
@@ -139,8 +139,8 @@
                     help promote tissue recovery, optimize
                     function and return to desired activity, work
                     or sport.</p>
-                    <p> Kalafhi Medical
-                        Centre Physiotherapy is located at Extension 5, Plot 319 in Gaborone, Botswana</p>
+                <p> Kalafhi Medical
+                    Centre Physiotherapy is located at Extension 5, Plot 319 in Gaborone, Botswana</p>
             </div>
             <div class="col-6">
                 <img class="physio-img" src="MainImages/physio-2.jpeg" />
@@ -176,6 +176,10 @@
             <div class="col-3 physio-2-1" onclick="OpenInfo('4')">
                 <img src="MainImages/pulmonary-rehab.jpg" />
                 <h3> Pulmonary Rehabilitation </h3>
+            </div>
+            <div class="col-3 physio-2-1" onclick="OpenInfo('5')">
+                <img src="MainImages/home-visit.jpg" />
+                <h3> Physio Home Visits</h3>
 
             </div>
         </div>
@@ -213,6 +217,12 @@
                 be strengthened.</p>
 
         </div>
+        <div class="physio-pos" style="display:none" id="info-5">
+            <h2> PHYSIO HOME VISITS </h2>
+            <p> Our physiotherapists provide at home care for clients that are unable to leave their residences due to
+                injury or old age. Through this service, our clients can rest assured that their physiotherapy needs are being met wherever they are.</p>
+
+        </div>
         <div class="physio-1 row">
             <div class="col-3">
                 <h3> Our Referral Network</h3>
@@ -222,7 +232,7 @@
                     surgeons and specialists which creates a
                     successful path to full recovery.</p>
                 <p> Contact us today to get your health in check.</p>
-                
+
             </div>
             <div class="col-2">
                 <button class="physio-btn" onclick="redirectToContact()"> CONTACT US </button>
@@ -329,10 +339,10 @@
 
         <footer>
             <div class="row end">
-    
+
                 <div class="col--8 ">
                     <h3> OUR LOCATIONS</h3>
-    
+
                     <br>
                     <div class="row">
                         <div class="col--4">
@@ -340,7 +350,7 @@
                             <p> Plot 21104 Village,</p>
                             <p> Maratadiba, Gaborone</p>
                             <br>
-    
+
                             <div>
                                 <h4> Opening Times: <br> Mon-Fri: 07:30 - 00:00
                                     <br>
@@ -370,11 +380,12 @@
                             <h3> MAIN MALL</h3>
                             <p>Plot 686 Main Mall, </p>
                             <p>Gaborone, Botswana</p>
-    
+
                             <br>
                             <div>
-                                <h4> Opening Times: <br>Mon-Fri: 07:30 - 17:30 
-                                    <br> Saturday: 09:00 - 15:00</h4>
+                                <h4> Opening Times: <br>Mon-Fri: 07:30 - 17:30
+                                    <br> Saturday: 09:00 - 15:00
+                                </h4>
                                 <h4> Closed on Sundays and Public Holidays</h4>
                             </div>
                             <br>
@@ -383,10 +394,10 @@
                     </div>
                     <br>
                 </div>
-    
+
                 <div class="col-2 quicklinks">
                     <h3> QUICK LINKS</h3>
-    
+
                     <br>
                     <ul class="end-ul">
                         <li> <a onclick="redirectToAbout()"> About Kalafhi</a> </li>
@@ -398,10 +409,10 @@
                     <br>
                 </div>
                 <div class="col-2 contact-replace quicklinks">
-    
+
                     <div class="contact">
                         <h3> OTHER LOCATIONS </h3>
-    
+
                         <br>
                         <h5> Kalafhi Physiotherapy </h5>
                         <p><i class="fas fa-phone"></i>&nbsp;&nbsp;311 5929</p>
@@ -413,8 +424,8 @@
                     </div>
                 </div>
             </div>
-    
-    
+
+
         </footer>
 
 
@@ -438,8 +449,8 @@
                 window.location.href = "about.html";
             }
             function redirectToServices() {
-            window.location.href = "services.html"
-        }
+                window.location.href = "services.html"
+            }
             function redirectToMedServices() {
                 window.location.href = "medicalservices.html";
             }
