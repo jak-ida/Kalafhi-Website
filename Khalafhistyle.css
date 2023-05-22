@@ -1155,7 +1155,7 @@ main p {
 
 .dir-img {
     width: 80%;
-    height: 550px;
+    height: auto;
     margin: auto;
 }
 
