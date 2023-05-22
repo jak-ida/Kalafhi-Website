@@ -219,7 +219,7 @@
         </div>
         <div class="pharma-services">
             <h2 class="pharma-services-h2"> Our Services & Products</h2>
-            <div class="row pharma-info-2">
+            <div class="row pharma-info-2 med-opt">
                 <div class="col-6 ">
                     <h2>DIAGNOSTIC EQUIPMENT</h2>
                     <p>These are any type of equipment or tools used in
@@ -246,7 +246,7 @@
                 </div>
 
             </div>
-            <div class="row pharma-info-2">
+            <div class="row pharma-info-2 med-opt">
                 <div class="col-6 ">
                     <h2>TREATMENT EQUIPMENT</h2>
                     <p>Treatment equipment is any type of medical device or tool that is designed to
@@ -282,7 +282,7 @@
                 </div>
 
             </div>
-            <div class="row pharma-info-2">
+            <div class="row pharma-info-2 med-opt">
                 <div class="col-6">
                     <h2>MEDICAL LABORATORY EQUIPMENT</h2>
                     <p>The use of medical laboratory equipment is
@@ -436,21 +436,24 @@
     
                     <div class="contact">
                         <h3> OTHER LOCATIONS </h3>
-    
+
                         <br>
                         <h5> Kalafhi Physiotherapy </h5>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;311 5929</p>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;74 532 311</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 74 532 311</p>
                         <br>
                         <h5> Renewal Aesthetics </h5>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;390 6944</p>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;73 275 990</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 73 275 990</p>
                     </div>
                 </div>
             </div>
     
     
         </footer>
+        <button id="scroll-to-top-btn">
+            <img width="20" height="20" class="lazyloading-hidden lazyloaded" data-src="up-long.svg" alt="Back to top" src="up-long.svg">
+        </button>
 
 
 
@@ -465,6 +468,23 @@
 
 
         <script>
+            // Show scroll-to-top button after scrolling halfway through the page
+window.onscroll = function() {
+var btn = document.getElementById("scroll-to-top-btn");
+if (document.body.scrollTop > (document.body.scrollHeight / 5) || document.documentElement.scrollTop > (document.documentElement.scrollHeight / 5)) {
+btn.style.display = "block";
+} else {
+btn.style.display = "none";
+}
+};
+
+// Scroll to top when button is clicked
+document.getElementById("scroll-to-top-btn").addEventListener("click", function() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+});
+
+
             function redirectToHome() {
                 window.location.href = "index.html";
             }
