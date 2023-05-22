@@ -212,7 +212,7 @@
             <div class="service-width">
                 <img src="MainImages/facemask.jpg" />
                 <h2> Renewal Aesthetics</h2>
-                <p> Our professionals use non-surgical treatments and medical products to personalize your skin care for
+                <p> Our professionals use non-surgical treatments and products to personalize your skin care for
                     optimal results, helping you look and feel your best.</p>
                 <button class="service_btn" onclick="redirectToRenewal()"> LEARN MORE</button>
             </div>
@@ -426,18 +426,21 @@
 
                     <br>
                     <h5> Kalafhi Physiotherapy </h5>
-                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;311 5929</p>
-                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;74 532 311</p>
+                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 390 6944</p>
+                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 74 532 311</p>
                     <br>
                     <h5> Renewal Aesthetics </h5>
-                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;390 6944</p>
-                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;73 275 990</p>
+                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 390 6944</p>
+                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 73 275 990</p>
                 </div>
             </div>
         </div>
 
 
     </footer>
+    <button id="scroll-to-top-btn">
+        <img width="20" height="20" class="lazyloading-hidden lazyloaded" data-src="up-long.svg" alt="Back to top" src="up-long.svg">
+    </button>
  <!-- Modal -->
  <div class="modal Modalfade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
  aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -482,6 +485,23 @@
     </script>
 
     <script>
+        // Show scroll-to-top button after scrolling halfway through the page
+window.onscroll = function() {
+var btn = document.getElementById("scroll-to-top-btn");
+if (document.body.scrollTop > (document.body.scrollHeight / 5) || document.documentElement.scrollTop > (document.documentElement.scrollHeight / 5)) {
+btn.style.display = "block";
+} else {
+btn.style.display = "none";
+}
+};
+
+// Scroll to top when button is clicked
+document.getElementById("scroll-to-top-btn").addEventListener("click", function() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+});
+
+
         function redirectToHome() {
                 window.location.href = "index.html";
             }
