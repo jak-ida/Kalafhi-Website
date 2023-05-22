@@ -122,8 +122,7 @@
         <!-- Social Media ends -->
 
         <h2 class="physio-head"> Physiotherapy </h2>
-        <div class="row physio-intro">
-
+        <div class="row physio-intro med-opt">
             <div class="col-6">
                 <p>Kalafhi Medical
                     Centre Physiotherapy
@@ -145,6 +144,8 @@
             <div class="col-6">
                 <img class="physio-img" src="MainImages/physio-2.jpeg" />
             </div>
+            </div>
+            <div class="row physio-intro">
             <div class="col-6">
                 <img class="physio-img" src="MainImages/physio-knee.jpg" />
             </div>
@@ -415,18 +416,21 @@
 
                         <br>
                         <h5> Kalafhi Physiotherapy </h5>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;311 5929</p>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;74 532 311</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 74 532 311</p>
                         <br>
                         <h5> Renewal Aesthetics </h5>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;390 6944</p>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;73 275 990</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 73 275 990</p>
                     </div>
                 </div>
             </div>
 
 
         </footer>
+        <button id="scroll-to-top-btn">
+            <img width="20" height="20" class="lazyloading-hidden lazyloaded" data-src="up-long.svg" alt="Back to top" src="up-long.svg">
+        </button>
 
 
 
@@ -442,6 +446,23 @@
 
 
         <script>
+            // Show scroll-to-top button after scrolling halfway through the page
+window.onscroll = function() {
+var btn = document.getElementById("scroll-to-top-btn");
+if (document.body.scrollTop > (document.body.scrollHeight / 5) || document.documentElement.scrollTop > (document.documentElement.scrollHeight / 5)) {
+btn.style.display = "block";
+} else {
+btn.style.display = "none";
+}
+};
+
+// Scroll to top when button is clicked
+document.getElementById("scroll-to-top-btn").addEventListener("click", function() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+});
+
+
             function redirectToHome() {
                 window.location.href = "index.html";
             }
