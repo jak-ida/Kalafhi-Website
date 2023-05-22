@@ -124,7 +124,7 @@
         <h2 class="day-head"> Kalafhi Day Hospital </h2>
 
         <div class=" row day-body">
-            <div class="col-8 p-2">
+            <div class="col-8 p-2 ">
                 <h2> KALAFHI'S DAY HOSPITAL</h2>
                 <p>Our smart day hospital is a 12 bed facility which uses the latest in technology and digital
                     health solutions, offering the use of 2 theatres and services such as Chemotherapy and Cardiology, Radiology,
@@ -132,7 +132,7 @@
                 </p>
             </div>
 
-            <!--<div class="col-4 ">
+            <div class="col-4 p-2 day-body-p">
                 <h3>Benefits of a Day Hospital:
                 </h3>
                 <p> • Quick Turnaround Time;
@@ -147,7 +147,7 @@
                     <br>
                     • They complement the major hospitals;
                 </p>
-            </div>-->
+            </div>
 
         </div>
         <div class="col-12 coming-soon">
@@ -250,18 +250,21 @@
 
                         <br>
                         <h5> Kalafhi Physiotherapy </h5>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;311 5929</p>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;74 532 311</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 74 532 311</p>
                         <br>
                         <h5> Renewal Aesthetics </h5>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;390 6944</p>
-                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;73 275 990</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 73 275 990</p>
                     </div>
                 </div>
             </div>
 
 
         </footer>
+        <button id="scroll-to-top-btn">
+            <img width="20" height="20" class="lazyloading-hidden lazyloaded" data-src="up-long.svg" alt="Back to top" src="up-long.svg">
+        </button>
 
 
         <!-- Modal -->
@@ -292,6 +295,23 @@
 
 
         <script>
+            // Show scroll-to-top button after scrolling halfway through the page
+window.onscroll = function() {
+var btn = document.getElementById("scroll-to-top-btn");
+if (document.body.scrollTop > (document.body.scrollHeight / 5) || document.documentElement.scrollTop > (document.documentElement.scrollHeight / 5)) {
+btn.style.display = "block";
+} else {
+btn.style.display = "none";
+}
+};
+
+// Scroll to top when button is clicked
+document.getElementById("scroll-to-top-btn").addEventListener("click", function() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+});
+
+
             function redirectToHome() {
                 window.location.href = "index.html";
             }
