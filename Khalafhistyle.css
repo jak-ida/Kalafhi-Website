@@ -6,6 +6,9 @@
     --green: #7dc241;
     --black: #000;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .reverse {
     flex-wrap: wrap;
