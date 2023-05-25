@@ -9,7 +9,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 .reverse {
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -600,6 +599,34 @@ header button {
 }
 
 /*Home Page*/
+.newsletter{
+    display:grid;
+    align-items: center;
+    padding:3rem 12rem;
+    background-color: var(--dark-blue);
+    color:var(--white);
+    font-size: large;
+}
+.news-btn{
+    padding:0.5rem 2.5rem;
+    background-color: var(--green);
+    color:var(--white);
+    border:2px solid var(--green);
+    border-radius: 0.5rem;
+    float:right;;
+    margin-left:2rem;
+    margin-bottom:0.1rem;
+}
+.flex{
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+.news-btn:hover{
+    background-color: var(--white);
+    color:var(--green);
+    cursor: pointer;
+}
 .inline {
     display: inline-flex;
 }
@@ -1155,7 +1182,7 @@ main p {
 
 .dir-img {
     width: 80%;
-    height: auto;
+    height: 550px;
     margin: auto;
 }
 
