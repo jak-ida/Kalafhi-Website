@@ -315,7 +315,11 @@
                 </div>
             </div>
         </div>
-
+<div class="rating">
+    <button class="rating-btn" data-bs-toggle="modal"
+    data-bs-target="#iframe-Modal">RATE OUR SERVICES</button>
+    
+</div>
 
 
     </div>
@@ -468,9 +472,33 @@
 
                     </div>
                 </div>
+               
             </div>
         </div>
     </div>
+    <div class="modal Modalfade" id="iframe-Modal" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header1">
+                <h3 class="modal-title" id="staticBackdropLabel">Rate Our Services</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body1">
+                <div id="modeltreatments" class="">
+
+                </div>
+                <div class="iframe-modal">
+                    <iframe class="" id="iframe-modal" src="Kalafhi-web-as.duckdns.org:229"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="iframe-modal">
+                <iframe class="invisible" id="iframe-modal" src="Kalafhi-web-as.duckdns.org:229" style="height:500px; width:500px;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -494,6 +522,11 @@
             //textContent2.classList.toggle('invisible');
             textContent.classList.toggle('invisible');
         }
+
+       // function iframeModal(){
+         //   var iframe = document.getElementById('iframe-modal');
+           // iframe.classList.toggle('invisible');
+        //}
 
     </script>
 
