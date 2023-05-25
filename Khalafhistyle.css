@@ -640,9 +640,10 @@ header button {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     float: right;
-    margin-bottom:0.2rem;
+    margin-bottom: 0.2rem;
     box-shadow: 2px 2px 8px var(--green);
 }
+
 .newsletter input[type="email"] {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -3061,19 +3062,23 @@ iframe {
     padding: 5rem 0rem 1rem 10rem;
 }
 
+
 .day-body {
-    background-image: url(MainImages/day-hosp.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: var(--dark-blue);
     display: grid;
     align-items: center;
-    height: 60vh;
     color: var(--white);
-    padding-left: 2rem;
+}
+.day-body-1 {   
+    display: grid;
+    align-items: center;
+}
+.day-body-1 p{
+padding:0.5rem 4rem;
 }
 
 .day-body h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .day-body h3 {
@@ -3084,7 +3089,7 @@ iframe {
 .day-body p {
     width: 85%;
     padding: 0rem 0.5rem;
-    font-size: 1.5rem;
+    font-size:large
 
 }
 
@@ -3092,11 +3097,10 @@ iframe {
     width: 85%;
     padding: 0rem 0.5rem;
     font-size: 1.5rem;
-
 }
 
 .coming-soon {
-    background-color: var(--dark-blue);
+    background-color: var(--green);
     color: var(--white);
     padding: 2rem 4rem;
 }
@@ -3105,6 +3109,76 @@ iframe {
     font-size: 2rem;
     text-align: center;
 }
+
+.hosp-mission {
+    padding: 4rem 4rem;
+    font-size: large;
+    width: 80%;
+    margin:auto auto;
+}
+.hosp-mission h2{
+    color:var(--green);
+    font-size: 2rem;;
+}
+.hosp-mission p{
+    text-align: justify;
+    hyphens: auto;
+}
+
+
+.values {
+    padding: 4rem 4rem;
+    font-size: large;
+    color:var(--white);
+    background-color: var(--dark-blue);
+
+}
+
+.values h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.values-1 {
+    display: grid;
+    align-items: center;
+}
+
+.values-1 p {
+    width: 70%;
+    margin: auto auto;
+}
+
+.values-1 button {
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem auto;
+    width: 90%;
+    color: var(--white);
+    background-color: var(--light-blue);
+    border: 1px solid var(--light-blue)
+}
+
+.values-1 button:hover {
+    background-color: var(--white);
+    color: var(--light-blue);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #scroll-to-top-btn {
     display: none;
