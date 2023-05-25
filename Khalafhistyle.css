@@ -1213,6 +1213,21 @@ main p {
 
 
 /* About Page*/
+.about-mission {
+    padding: 4rem 4rem;
+    font-size: large;
+    width: 80%;
+    margin:auto auto;
+
+}
+.about-mission h2{
+    color:var(--green);
+    font-size: 2rem;;
+}
+.about-mission p{
+    text-align: justify;
+    hyphens: auto;
+}
 
 .dir-img {
     width: 80%;
