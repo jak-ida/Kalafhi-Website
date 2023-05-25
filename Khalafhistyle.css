@@ -6,9 +6,11 @@
     --green: #7dc241;
     --black: #000;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 .reverse {
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -599,34 +601,64 @@ header button {
 }
 
 /*Home Page*/
-.newsletter{
-    display:grid;
+.rating {
+    display: grid;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.rating-btn {
+    padding: 0.5rem 2.5rem;
+    background-color: var(--green);
+    color: var(--white);
+    border: 2px solid var(--green);
+    border-radius: 0.5rem;
+    margin: auto auto;
+}
+
+.rating-btn:hover {
+    background-color: var(--white);
+    color: var(--green);
+    cursor: pointer;
+}
+
+.newsletter {
+    display: grid;
     align-items: center;
-    padding:3rem 12rem;
+    padding: 3rem 7rem;
     background-color: var(--dark-blue);
-    color:var(--white);
+    color: var(--white);
     font-size: large;
 }
-.news-btn{
-    padding:0.5rem 2.5rem;
+
+.news-btn {
+    padding: 0.44rem 2.5rem;
     background-color: var(--green);
-    color:var(--white);
-    border:2px solid var(--green);
+    color: var(--white);
+    border: 2px solid var(--green);
     border-radius: 0.5rem;
-    float:right;;
-    margin-left:2rem;
-    margin-bottom:0.1rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    float: right;
+    margin-bottom:0.2rem
 }
-.flex{
-    display:inline-flex;
+.newsletter input[type="email"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.news-btn:hover {
+    background-color: var(--white);
+    color: var(--green);
+    cursor: pointer;
+}
+
+.flex {
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
 }
-.news-btn:hover{
-    background-color: var(--white);
-    color:var(--green);
-    cursor: pointer;
-}
+
 .inline {
     display: inline-flex;
 }
@@ -1251,6 +1283,7 @@ main p {
     text-align: justify;
     hyphens: auto;
 }
+
 .about-intro1 {
     margin: auto;
     display: grid;
@@ -1321,6 +1354,7 @@ main p {
 .about-intro-p {
     padding-top: 0.5rem;
 }
+
 .about-intro1 h3 {
     font-size: 1.5rem;
     ;
@@ -1698,10 +1732,11 @@ iframe {
     margin: auto;
     display: block;
 }*/
-.car-1 h2{
-font-size: 1.8rem;
-padding-top:1rem;
-padding-bottom:1.5rem;;
+.car-1 h2 {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    ;
 }
 
 .doc-1,
@@ -1977,6 +2012,7 @@ padding-bottom:1.5rem;;
     width: 90%;
     margin: auto;
 }
+
 .apl-form-row {
     display: flex;
     flex-wrap: wrap;
@@ -1984,14 +2020,17 @@ padding-bottom:1.5rem;;
     margin-bottom: 1rem;
     text-align: left;
 }
+
 .apl-form-group {
     display: inline-block;
     width: 30%;
 }
+
 .apl-form-group label {
     display: block;
     margin-bottom: 0.2rem;
 }
+
 .sect-2 {
     height: auto;
     display: flex;
@@ -2113,8 +2152,8 @@ padding-bottom:1.5rem;;
     padding: 0.4rem 1rem;
     border-radius: 0.5rem;
     font-weight: bold;
-    width:10rem;
-    margin:1rem auto auto;
+    width: 10rem;
+    margin: 1rem auto auto;
 }
 
 .careers-btn1:hover {
@@ -2154,10 +2193,11 @@ padding-bottom:1.5rem;;
     width: 110%;
     background-color: var(--white);
 }
-.careers-departments p{
+
+.careers-departments p {
     text-align: center;
     font-size: large;
-    width:90%;
+    width: 90%;
     margin: auto;
 
 }
@@ -2240,9 +2280,10 @@ padding-bottom:1.5rem;;
 }
 
 /*Medical Services*/
-.med-opt{
-    display:grid;
+.med-opt {
+    display: grid;
 }
+
 .medical-head {
     font-size: 2rem;
     padding: 5rem 0rem 1rem 10rem;
@@ -2286,7 +2327,7 @@ padding-bottom:1.5rem;;
 .medical-opt h2 {
     font-size: 1.8rem;
     margin: auto;
-    width:90%;
+    width: 90%;
 }
 
 .medical-opt p {
@@ -2460,10 +2501,11 @@ padding-bottom:1.5rem;;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.pharma-1_content img{
-    width:80%;
-    height:auto;
-    margin:auto;
+
+.pharma-1_content img {
+    width: 80%;
+    height: auto;
+    margin: auto;
 }
 
 .pharma_content {
@@ -3025,7 +3067,7 @@ padding-bottom:1.5rem;;
     display: grid;
     align-items: center;
     height: 60vh;
-    color:var(--white);
+    color: var(--white);
     padding-left: 2rem;
 }
 
@@ -3044,11 +3086,12 @@ padding-bottom:1.5rem;;
     font-size: 1.5rem;
 
 }
+
 .day-body-p {
     width: 85%;
     padding: 0rem 0.5rem;
     font-size: 1.5rem;
-    
+
 }
 
 .coming-soon {
@@ -3071,7 +3114,7 @@ padding-bottom:1.5rem;;
     z-index: 99;
     border: none;
     outline: none;
-    background-color:var(--green);
+    background-color: var(--green);
     cursor: pointer;
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -3421,9 +3464,10 @@ padding-bottom:1.5rem;;
     .about-intro {
         padding-bottom: 0rem;
     }
+
     .about-intro1 {
         padding-bottom: 0rem;
-        display:flex;
+        display: flex;
         flex-wrap: wrap-reverse;
     }
 
@@ -3440,6 +3484,7 @@ padding-bottom:1.5rem;;
         width: 90%;
         padding-bottom: 0.5rem;
     }
+
     .about-intro1 p {
         width: 90%;
         padding-bottom: 0.5rem;
@@ -3580,9 +3625,10 @@ padding-bottom:1.5rem;;
         margin-top: 0rem;
         ;
     }
-    .doctors-img p{
-        padding-top:0.5rem;
-        padding-bottom:0.5rem;
+
+    .doctors-img p {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
     }
 
     .doc-1,
@@ -3606,10 +3652,11 @@ padding-bottom:1.5rem;;
 
 
     /*Medical Services Page 500px*/
-.med-opt{
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
+    .med-opt {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
     .medical-head {
         padding-left: 1.5rem;
     }
@@ -3928,7 +3975,7 @@ padding-bottom:1.5rem;;
         margin: auto;
         text-align: justify;
         hyphens: auto;
-       
+
     }
 
     .careers-apply {
@@ -4869,7 +4916,7 @@ padding-bottom:1.5rem;;
 }
 
 .invisible {
-    display: none!important;
+    display: none !important;
 }
 
 
