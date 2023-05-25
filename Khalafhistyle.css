@@ -640,7 +640,8 @@ header button {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     float: right;
-    margin-bottom:0.2rem
+    margin-bottom:0.2rem;
+    box-shadow: 2px 2px 8px var(--green);
 }
 .newsletter input[type="email"] {
     border-top-right-radius: 0;
