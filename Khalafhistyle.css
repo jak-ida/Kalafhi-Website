@@ -9,6 +9,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .reverse {
@@ -18,7 +19,7 @@ html {
 }
 
 p {
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .p-2 {
@@ -628,7 +629,7 @@ header button {
     padding: 3rem 7rem;
     background-color: var(--dark-blue);
     color: var(--white);
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .news-btn {
@@ -671,15 +672,15 @@ header button {
 }
 
 .mainpage__h1 {
-    font-size: 5em;
+    font-size: 3em;
     width: 60%;
-    line-height: 5rem;
+    line-height: 3rem;
     margin-bottom: 10px;
     color: #21274A;
 }
 
 .mainpage__h2 {
-    font-size: 2.5rem;
+    font-size: 1rem;
     color: #21274A;
 }
 
@@ -689,14 +690,14 @@ header button {
     border-radius: 1.5rem;
     border: 2px solid var(--green);
     padding: 10px 40px;
-    font-size: 16px;
+    font-size: 0.5rem;
     margin-right: 10px;
     font-weight: bold;
 }
 
 .mainpage__btn1:hover {
     border: 2px solid var(--green);
-    font-size: 18px;
+    font-size: 0.5rem!important;
     transition: .2s;
     font-weight: bold;
     color: var(--green);
@@ -711,14 +712,14 @@ header button {
     border: 2px solid var(--light-blue);
     padding: 10px 40px;
     margin-top: 0px;
-    font-size: 16px;
+    font-size: 0.5rem!important;
     font-weight: bold;
     transition: .2s;
 }
 
 .mainpage__btn2:hover {
     border: 2px solid var(--light-blue);
-    font-size: 18px;
+    font-size: 0.5rem!important;
     transition: .2s;
     background-color: var(--off-white);
     color: var(--light-blue);
@@ -734,7 +735,7 @@ header button {
 }
 
 .home-modal p {
-    font-size: large;
+    font-size: 1rem;;
     text-align: justify;
     hyphens: auto;
     display: grid;
@@ -823,7 +824,7 @@ header button {
     height: auto;
     background-color: var(--white);
     color: var(--black);
-    width: 60%;
+    width: 70%;
     margin: auto auto;
     position: relative;
     bottom: 100px;
@@ -833,19 +834,20 @@ header button {
 
 .main__holder h2 {
     font-size: 2rem;
-    padding-bottom: 1rem;
+    padding-left: 2rem;;
 }
 
 .main__holder p {
-    font-size: large;
     margin: auto auto;
-    width: 80%;
-    padding: 0.5rem;
+    width: 90%;
+    text-align: justify;
+    padding: 1rem 0.5rem 1rem;
+    font-size: 1rem;
 }
 
 .abt_btn {
     display: block;
-    width: 30%;
+    width: 50%;
     background-color: var(--green);
     border: 2px solid var(--green);
     color: var(--white);
@@ -871,6 +873,7 @@ header button {
 .second__cluster p {
     width: 80%;
     margin: auto auto;
+    font-size: 1rem;
 
 }
 
@@ -939,6 +942,9 @@ header button {
     color: var(--black);
     margin: 0.6rem 0.6rem 1rem 1rem;
 }
+.service-width p{
+    font-size: 1rem;
+}
 
 .no-a:hover {
     text-decoration: none !important;
@@ -986,7 +992,7 @@ main h1 {
 }
 
 main p {
-    font-size: large;
+    font-size: 1rem;;
     padding: 0.2rem 1rem;
 }
 
@@ -1003,6 +1009,7 @@ main p {
 .mainpage__f-sect p {
     text-align: center;
     padding: 1rem;
+    font-size: 1rem;
 }
 
 .mainpage__f-sect h1 {
@@ -1021,7 +1028,7 @@ main p {
 }
 
 .testimonial1 {
-    font-size: large;
+    font-size: 1rem;;
     display: grid;
     padding: 1rem;
     width: auto;
@@ -1033,7 +1040,7 @@ main p {
 }
 
 .testimonial2 {
-    font-size: large;
+    font-size: 1rem;;
     display: grid;
     padding: 1rem;
     width: auto;
@@ -1046,7 +1053,7 @@ main p {
 }
 
 .testimonial3 {
-    font-size: large;
+    font-size: 1rem;;
     display: grid;
     padding: 1rem;
     width: auto;
@@ -1112,6 +1119,7 @@ main p {
 .carousel-focus-item:nth-child(n+4) {
     display: none;
 }
+
 
 .carousel-focus-item img {
     border: 1px solid #555;
@@ -1215,22 +1223,25 @@ main p {
 /* About Page*/
 .about-mission {
     padding: 4rem 4rem;
-    font-size: large;
+    font-size: 1rem;;
     width: 80%;
-    margin:auto auto;
+    margin: auto auto;
 
 }
-.about-mission h2{
-    color:var(--green);
-    font-size: 2rem;;
+
+.about-mission h2 {
+    color: var(--green);
+    font-size: 2rem;
+    ;
 }
-.about-mission p{
+
+.about-mission p {
     text-align: justify;
     hyphens: auto;
 }
 
 .dir-img {
-    width: 80%;
+    min-width: 80%;
     height: 550px;
     margin: auto;
 }
@@ -1265,7 +1276,7 @@ main p {
 
 .directors-intro p {
     padding-bottom: 1rem;
-    font-size: large;
+    font-size: 1rem;;
     text-align: justify;
     hyphens: auto;
     width: 90%;
@@ -1294,7 +1305,7 @@ main p {
 }
 
 .about-intro p {
-    font-size: large;
+    font-size: 1rem;;
     width: 80%;
     margin: auto;
     text-align: justify;
@@ -1311,7 +1322,7 @@ main p {
 }
 
 .about-intro1 p {
-    font-size: large;
+    font-size: 1rem;;
     width: 80%;
     margin: auto;
     text-align: justify;
@@ -1335,7 +1346,7 @@ main p {
 }
 
 .about-page p {
-    font-size: large;
+    font-size: 1rem;;
     padding-bottom: 1rem;
 }
 
@@ -1463,7 +1474,7 @@ main p {
 .about3 {
     width: 70%;
     margin: auto auto;
-    font-size: large;
+    font-size: 1rem;;
     text-align: justify;
     hyphens: auto;
 }
@@ -1664,7 +1675,7 @@ iframe {
 
 .doctors-intro p {
     width: 80%;
-    font-size: larger;
+    font-size: 1rem;r;
     margin: auto;
     padding-bottom: 1rem;
 }
@@ -1782,7 +1793,7 @@ iframe {
 
 .doc-1 p {
     padding-bottom: 0.5rem;
-    font-size: large;
+    font-size: 1rem;;
     text-align: justify;
     width: 80%;
 }
@@ -1793,7 +1804,7 @@ iframe {
 
 .doc-2 p {
     padding-bottom: 0.5rem;
-    font-size: large;
+    font-size: 1rem;;
     text-align: justify;
     width: 80%;
     margin: auto auto;
@@ -1815,33 +1826,32 @@ iframe {
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--green);
-    color: var(--dark-blue);
+    color: var(--white);
     ;
 }
 
 .consultation-ref1 p {
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .consultation-ref1__button {
-    border: 2px solid var(--dark-blue);
-    ;
-    padding: 8px 40px;
-    font-size: 1.5rem;
-    background-color: var(--white);
-    font-weight: bold;
-    color: var(--dark-blue);
-    ;
-    border-radius: 0.5rem;
-}
-
-.consultation-ref1__button:hover {
-    border: 2px solid var(--green);
+    border: 2px solid var(--white);
     padding: 8px 40px;
     font-size: 1.5rem;
     background-color: var(--white);
     font-weight: bold;
     color: var(--green);
+    ;
+    border-radius: 0.5rem;
+}
+
+.consultation-ref1__button:hover {
+    border: 2px solid var(--dark-blue);
+    padding: 8px 40px;
+    font-size: 1.5rem;
+    background-color: var(--white);
+    font-weight: bold;
+    color: var(--dark-blue);
     border-radius: 0.5rem;
     cursor: pointer;
 }
@@ -1937,7 +1947,7 @@ iframe {
     margin: auto;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
-    font-size: large;
+    font-size: 1rem;;
     text-align: justify;
     hyphens: auto;
 
@@ -1997,7 +2007,7 @@ iframe {
     padding: 2rem 1rem;
     text-align: justify;
     hyphens: auto;
-    font-size: large;
+    font-size: 1rem;;
     margin-left: 1rem
 }
 
@@ -2087,7 +2097,7 @@ iframe {
     width: 80%;
     margin: auto;
     padding: 4rem 2.5rem;
-    font-size: large;
+    font-size: 1rem;;
     text-align: justify;
     hyphens: auto;
 }
@@ -2105,12 +2115,12 @@ iframe {
 }
 
 .careers-head p {
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .careers-section {
     padding: 2rem 5rem;
-    font-size: large;
+    font-size: 1rem;;
     background-color: var(--dark-blue);
     ;
     color: var(--white);
@@ -2126,7 +2136,7 @@ iframe {
 
 .careers-section1 {
     padding: 2rem 5rem;
-    font-size: large;
+    font-size: 1rem;;
     color: var(--dark-blue);
     ;
     display: grid;
@@ -2190,7 +2200,7 @@ iframe {
 
 .departments-p {
     text-align: center;
-    font-size: large;
+    font-size: 1rem;;
     color: var(--white)
 }
 
@@ -2213,7 +2223,7 @@ iframe {
 
 .careers-departments p {
     text-align: center;
-    font-size: large;
+    font-size: 1rem;;
     width: 90%;
     margin: auto;
 
@@ -2265,7 +2275,7 @@ iframe {
 }
 
 .services p {
-    font-size: large;
+    font-size: 1rem;;
     padding: 1rem 3rem;
 }
 
@@ -2350,7 +2360,7 @@ iframe {
 .medical-opt p {
     width: 90%;
     margin: auto;
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .medical-opt1 {
@@ -2369,13 +2379,13 @@ iframe {
 .medical-opt1 p {
     width: 90%;
     margin: auto;
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .more-info {
     width: 80%;
     margin: auto;
-    font-size: large;
+    font-size: 1rem;;
     padding: 1rem;
 }
 
@@ -2421,7 +2431,7 @@ iframe {
 
 .flip-card-back {
     padding: 1rem;
-    font-size: large;
+    font-size: 1rem;;
     background-color: #2980b9;
     display: grid;
     align-items: center;
@@ -2462,7 +2472,7 @@ iframe {
     margin: auto auto;
     width: 90%;
     padding: 0.5rem;
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .pharma-info {
@@ -2509,7 +2519,7 @@ iframe {
     width: 90%;
     margin: auto auto;
     hyphens: auto;
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .pharma-1_content {
@@ -2538,7 +2548,7 @@ iframe {
 
 .pharma-info p {
     padding: 0.75rem 0rem;
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .pharma-info-1 p {
@@ -2548,7 +2558,7 @@ iframe {
     padding-bottom: 0.8rem;
     text-align: justify;
     hyphens: auto;
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .pharma-info-1 {
@@ -2573,7 +2583,7 @@ iframe {
     padding: 0rem 1rem 0.8rem 1rem;
     text-align: justify;
     hyphens: auto;
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .pharma-info-2 h2 {
@@ -2614,7 +2624,7 @@ iframe {
     padding-bottom: 1rem;
     text-align: justify;
     hyphens: auto;
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .partnership {
@@ -2676,7 +2686,7 @@ iframe {
 
 .volunteer-p {
     align-items: center;
-    font-size: large;
+    font-size: 1rem;;
     padding-bottom: 1rem;
     ;
 }
@@ -2684,11 +2694,11 @@ iframe {
 .volunteer-p2 {
     border-left: 2px solid var(--green);
     padding-left: 1rem;
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .volunteer-p2-1 {
-    font-size: large;
+    font-size: 1rem;;
 }
 
 .volunteer img {
@@ -2697,7 +2707,7 @@ iframe {
 
 .volunteer1 p {
     align-items: center;
-    font-size: large;
+    font-size: 1rem;;
     width: 80%;
     margin: auto;
     text-align: justify;
@@ -2721,7 +2731,7 @@ iframe {
 }
 
 .wellness-1 p {
-    font-size: large;
+    font-size: 1rem;;
     width: 80%;
     margin: auto;
     text-align: justify;
@@ -2785,7 +2795,7 @@ iframe {
 }
 
 .physio-intro p {
-    font-size: larger;
+    font-size: 1rem;r;
     margin: auto;
     width: 80%;
     padding-bottom: 0.5rem;
@@ -2858,7 +2868,7 @@ iframe {
 }
 
 .physio-pos p {
-    font-size: large;
+    font-size: 1rem;;
     width: 80%;
     margin: auto;
 }
@@ -2877,7 +2887,7 @@ iframe {
 }
 
 .physio-1 p {
-    font-size: larger;
+    font-size: 1rem;r;
     width: 90%;
     margin: auto;
     text-align: justify;
@@ -2886,7 +2896,7 @@ iframe {
 
 .physio-btn {
     float: right;
-    font-size: large;
+    font-size: 1rem;;
     font-weight: bold;
     padding: 0.5rem 3rem;
     border: 2px solid var(--green);
@@ -2984,7 +2994,7 @@ iframe {
 
 .book-form input[type="button"] {
     float: right;
-    font-size: large;
+    font-size: 1rem;;
     font-weight: bold;
     padding: 0.5rem 3rem;
     border: 2px solid var(--green);
@@ -3084,12 +3094,14 @@ iframe {
     align-items: center;
     color: var(--white);
 }
-.day-body-1 {   
+
+.day-body-1 {
     display: grid;
     align-items: center;
 }
-.day-body-1 p{
-padding:0.5rem 4rem;
+
+.day-body-1 p {
+    padding: 0.5rem 4rem;
 }
 
 .day-body h2 {
@@ -3104,8 +3116,7 @@ padding:0.5rem 4rem;
 .day-body p {
     width: 85%;
     padding: 0rem 0.5rem;
-    font-size:large
-
+    font-size: 1rem;
 }
 
 .day-body-p {
@@ -3127,15 +3138,18 @@ padding:0.5rem 4rem;
 
 .hosp-mission {
     padding: 4rem 4rem;
-    font-size: large;
+    font-size: 1rem;;
     width: 80%;
-    margin:auto auto;
+    margin: auto auto;
 }
-.hosp-mission h2{
-    color:var(--green);
-    font-size: 2rem;;
+
+.hosp-mission h2 {
+    color: var(--green);
+    font-size: 2rem;
+    ;
 }
-.hosp-mission p{
+
+.hosp-mission p {
     text-align: justify;
     hyphens: auto;
 }
@@ -3143,20 +3157,22 @@ padding:0.5rem 4rem;
 
 .values {
     padding: 4rem 4rem;
-    font-size: large;
-    color:var(--white);
+    font-size: 1rem;;
+    color: var(--white);
     background-color: var(--dark-blue);
 
 }
+
 .values1 {
     padding: 4rem 4rem;
-    font-size: large;
-    color:var(--black);
+    font-size: 1rem;;
+    color: var(--black);
     background-color: var(--white);
 
 }
 
-.values h2, .values1 h2 {
+.values h2,
+.values1 h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -3189,42 +3205,50 @@ padding:0.5rem 4rem;
 }
 
 /*Supplier Page*/
-.supplier-head{
+.supplier-head {
     font-size: 2rem;
     padding: 5rem 0rem 1rem 10rem;
 }
-.supplier{
-    padding:2rem 7rem;
-    font-size: large;
+
+.supplier {
+    padding: 2rem 7rem;
+    font-size: 1rem;;
 }
-.supplier h1{
+
+.supplier h1 {
     font-size: 1.5rem;
     text-align: center;
 }
-.supplier h2{
+
+.supplier h2 {
     font-size: 1.5rem;
-    padding:1rem 2rem;
-    color:var(--light-blue);
+    padding: 1rem 2rem;
+    color: var(--light-blue);
 }
-.supplier ul{
-    display:flex;
+
+.supplier ul {
+    display: flex;
     flex-direction: column;
-    margin-left:2rem;
+    margin-left: 2rem;
 }
-.supplier ol{
-    display:flex;
+
+.supplier ol {
+    display: flex;
     flex-direction: column;
-    margin-left:2rem;
+    margin-left: 2rem;
 }
-.supplier li{
-    margin:3px;
+
+.supplier li {
+    margin: 3px;
 }
-.supplier p{
-    margin-left:3rem;
-    padding-bottom:0.5rem;
-    padding-top:0.5rem;
-    
-} 
+
+.supplier p {
+    margin-left: 3rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+
+}
+
 .partnership h3 {
     font-size: 2rem;
     width: 80%;
@@ -3245,9 +3269,11 @@ padding:0.5rem 4rem;
     display: grid;
     align-items: center;
 }
+
 .form1 {
     padding: 1rem 2rem;
 }
+
 .form1-btn {
     display: block !important;
     background-color: black;
@@ -3279,6 +3305,7 @@ padding:0.5rem 4rem;
     width: 90%;
     margin-top: .5rem;
 }
+
 .form-group1 label {
     display: block;
     margin-bottom: 0.2rem;
@@ -3287,7 +3314,8 @@ padding:0.5rem 4rem;
 .form-group1 input {
     margin-right: 2rem;
 }
-input[type="file"]{
+
+input[type="file"] {
     margin-bottom: 0.5rem;
 }
 
@@ -3490,6 +3518,50 @@ input[type="file"]{
 
 
     /*Home Page 500px*/
+    .carousel-focus-item:first-of-type {
+        /*left: 0;
+        transform: translate(0, 25%);
+        opacity: .5;*/
+        border-color: rgb(0, 105, 217);
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 50%;
+        z-index: 1;
+        opacity: 1;
+    }
+    
+    .carousel-focus-item:nth-of-type(2) {
+        border-color: rgb(0, 105, 217);
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 50%;
+        z-index: 1;
+        opacity: 1;
+    }
+    
+    .carousel-focus-item:nth-of-type(3) {
+        /*right: 0;
+        transform: translate(0, 25%);
+        opacity: .5;
+        */
+        border-color: rgb(0, 105, 217);
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 50%;
+        z-index: 1;
+        opacity: 1;
+    }
+    
+    .carousel-focus-item:nth-child(n+2) {
+        display: none;
+    }
+    .carousel-focus-item {
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
     .abt_btn {
         width: auto;
@@ -3521,6 +3593,7 @@ input[type="file"]{
 
     .main__holder h2 {
         text-align: center;
+
     }
 
     .main__holder p {
@@ -3586,12 +3659,12 @@ input[type="file"]{
     }
 
     .main__hh2 {
-        font-size: large;
+        font-size: 1rem;;
         line-height: 1.5rem;
     }
 
     .main__pp {
-        font-size: large;
+        font-size: 1rem;;
         padding-top: 2rem;
     }
 
@@ -4074,7 +4147,7 @@ input[type="file"]{
     }
 
     .day-body p {
-        font-size: large;
+        font-size: 1rem;;
         padding-left: 0rem;
         padding-top: 0.2rem;
         width: 65%;
