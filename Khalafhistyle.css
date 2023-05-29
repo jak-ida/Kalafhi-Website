@@ -619,7 +619,7 @@ header button {
     padding: 0.5rem 2.5rem;
     background-color: var(--green);
     color: var(--white);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     border-radius: 0.5rem;
     margin: auto auto;
 }
@@ -643,7 +643,7 @@ header button {
     padding: 0.44rem 2.5rem;
     background-color: var(--green);
     color: var(--white);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     border-radius: 0.5rem;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -695,7 +695,7 @@ header button {
     color: var(--white);
     background-color: var(--green);
     border-radius: 1.5rem;
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     padding: 10px 40px;
     font-size: 0.5rem;
     margin-right: 10px;
@@ -703,7 +703,7 @@ header button {
 }
 
 .mainpage__btn1:hover {
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     font-size: 0.5rem!important;
     transition: .2s;
     font-weight: bold;
@@ -716,7 +716,7 @@ header button {
     color: var(--white);
     background-color: var(--light-blue);
     border-radius: 1.5rem;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     padding: 10px 40px;
     margin-top: 0px;
     font-size: 0.5rem!important;
@@ -725,7 +725,7 @@ header button {
 }
 
 .mainpage__btn2:hover {
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     font-size: 0.5rem!important;
     transition: .2s;
     background-color: var(--off-white);
@@ -756,7 +756,7 @@ header button {
 }
 
 .hr-home {
-    border: 2px solid var(--white);
+    border: 1px solid var(--white);
     width: 30%;
     margin: 1rem auto;
 }
@@ -778,7 +778,7 @@ header button {
     color: var(--white);
     background-color: var(--green);
     border-radius: 1.5rem;
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     margin-top: 2rem;
     padding: 10px 20px;
     font-size: 16px;
@@ -790,7 +790,7 @@ header button {
     color: var(--green);
     background-color: var(--off-white);
     border-radius: 1.5rem;
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     margin-top: 18px;
     cursor: pointer;
 
@@ -856,7 +856,7 @@ header button {
     display: block;
     width: 50%;
     background-color: var(--green);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     color: var(--white);
     padding: 8px 40px;
     border-radius: 0.5rem;
@@ -865,7 +865,7 @@ header button {
 }
 
 .abt_btn:hover {
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     background-color: var(--white);
     color: var(--green);
     font-weight: bold;
@@ -973,7 +973,7 @@ main h2 {
     border: none;
     margin-left: 1rem;
     margin-top: 0.5rem;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     padding: 8px 20px;
     font-size: 1rem;
     font-weight: bold;
@@ -985,7 +985,7 @@ main h2 {
     color: var(--light-blue);
     background-color: var(--off-white);
     border-radius: .5rem;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     cursor: pointer;
     padding: 8px 20px;
     font-size: 1rem;
@@ -1374,7 +1374,7 @@ main p {
 }
 
 .abt-hr {
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     width: 80%;
     margin: auto
 }
@@ -1441,7 +1441,7 @@ main p {
 .doctors-btn {
     font-weight: bold;
     padding: 0.5rem 1rem;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     color: white;
     background-color: var(--light-blue);
     border-radius: 0.5rem;
@@ -1456,7 +1456,7 @@ main p {
 .doctors-btn:hover {
     background-color: var(--white);
     color: var(--light-blue);
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     cursor: pointer;
 }
 
@@ -1520,7 +1520,7 @@ main p {
 }
 
 .consultation-ref__button {
-    border: 2px solid var(--dark-blue);
+    border: 1px solid var(--dark-blue);
     ;
     padding: 8px 40px;
     font-size: 1.5rem;
@@ -1532,7 +1532,7 @@ main p {
 }
 
 .consultation-ref__button:hover {
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     font-size: 1.5rem;
     background-color: var(--white);
     font-weight: bold;
@@ -1636,7 +1636,7 @@ textarea {
 button[type="submit"] {
     display: block;
     background-color: var(--green);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     color: white;
     padding: 0.5rem 5rem;
     text-align: center;
@@ -1650,7 +1650,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: var(--white);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     color: var(--green);
     cursor: pointer
 }
@@ -1745,7 +1745,7 @@ iframe {
     background-color: var(--white);
     margin: 0 1rem;
     padding: 1rem;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     border-radius: 1rem;
     box-shadow: 5px 5px 10px var(--light-blue);
     text-align: center;
@@ -1770,7 +1770,7 @@ iframe {
     background-color: var(--light-blue);
     color: var(--white);
     padding: 0.2rem 1rem;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     border-radius: 0.5rem;
     margin: auto;
     display: block;
@@ -1850,7 +1850,7 @@ iframe {
 }
 
 .consultation-ref1__button {
-    border: 2px solid var(--white);
+    border: 1px solid var(--white);
     padding: 8px 40px;
     font-size: 1.5rem;
     background-color: var(--white);
@@ -1861,7 +1861,7 @@ iframe {
 }
 
 .consultation-ref1__button:hover {
-    border: 2px solid var(--dark-blue);
+    border: 1px solid var(--dark-blue);
     padding: 8px 40px;
     font-size: 1.5rem;
     background-color: var(--white);
@@ -1872,7 +1872,7 @@ iframe {
 }
 
 .doc-hr {
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     width: 70%;
     margin: auto;
 }
@@ -1896,7 +1896,7 @@ iframe {
 }
 
 .news-referral__button {
-    border: 2px solid var(--dark-blue);
+    border: 1px solid var(--dark-blue);
     ;
     padding: 8px 40px;
     font-size: 1.5rem;
@@ -1908,7 +1908,7 @@ iframe {
 }
 
 .news-referral__button:hover {
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     padding: 8px 40px;
     font-size: 1.5rem;
     background-color: var(--white);
@@ -1985,7 +1985,7 @@ iframe {
 
 .news-content__button {
     background-color: var(--light-blue);
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     margin-top: 2rem;
     margin-right: 1rem;
     color: white;
@@ -1996,7 +1996,7 @@ iframe {
 
 .news-content__button:hover {
     background-color: var(--off-white);
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     margin-top: 2rem;
     margin-right: 1rem;
     color: var(--light-blue);
@@ -2037,13 +2037,13 @@ iframe {
 }
 
 .news-hr {
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     width: 70%;
     margin: auto;
 }
 
 .news-hr1 {
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     width: 70%;
     margin: auto;
 }
@@ -2087,14 +2087,14 @@ iframe {
     background-color: var(--green);
     color: var(--white);
     padding: 0.5rem 1rem;
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     border-radius: 0.2rem;
 }
 
 .apply-modal:hover {
     color: var(--green);
     background-color: var(--white);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     cursor: pointer;
 }
 
@@ -2173,7 +2173,7 @@ iframe {
 
 .careers-btn {
     background-color: var(--light-blue);
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     color: white;
     padding: 0.4rem 1.5rem;
     float: right;
@@ -2182,14 +2182,14 @@ iframe {
 
 .careers-btn:hover {
     color: var(--light-blue);
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     background-color: white;
     cursor: pointer;
 }
 
 .careers-btn1 {
     background-color: var(--green);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     color: white;
     padding: 0.4rem 1rem;
     border-radius: 0.5rem;
@@ -2200,7 +2200,7 @@ iframe {
 
 .careers-btn1:hover {
     color: var(--green);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     background-color: white;
     cursor: pointer;
     font-weight: bold;
@@ -2230,7 +2230,7 @@ iframe {
     display: grid;
     justify-content: center;
     margin: 1rem;
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     border-radius: 0.2rem;
     width: 110%;
     background-color: var(--white);
@@ -2269,7 +2269,7 @@ iframe {
 }
 
 .services-hr {
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     width: 70%;
     margin: auto;
 }
@@ -2302,7 +2302,7 @@ iframe {
     border: none;
     margin-left: 3rem;
     margin-top: 0.5rem;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     padding: 8px;
     font-size: 1rem;
     font-weight: bold;
@@ -2315,7 +2315,7 @@ iframe {
     color: var(--light-blue);
     background-color: var(--off-white);
     border-radius: .5rem;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     cursor: pointer;
     padding: 8px;
     font-size: 1rem;
@@ -2456,7 +2456,7 @@ iframe {
 
 .med-btn {
     background-color: var(--green);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     color: var(--white);
     font-weight: bold;
     padding: 8px;
@@ -2754,13 +2754,13 @@ iframe {
 }
 
 .hr-events {
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     width: 30%;
     margin: 1rem auto;
 }
 
 .hr-events1 {
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
 
 }
 
@@ -2769,7 +2769,7 @@ iframe {
 .event-btn {
     display: block !important;
     background-color: var(--green);
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     color: white;
     padding: 0.2rem 0.8rem;
     text-align: center;
@@ -2784,7 +2784,7 @@ iframe {
     cursor: pointer;
     color: var(--green);
     background-color: white;
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
 }
 
 .events {
@@ -2839,13 +2839,13 @@ iframe {
     justify-content: center;
     padding: 0.5rem;
     margin: 1rem;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     border-radius: 0.2rem;
     box-shadow: 2px 2px 5px var(--light-blue);
 }
 
 .physio-2-1:hover {
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     border-radius: 0.5rem;
     box-shadow: 2px 2px 5px var(--light-blue);
     background-color: var(--light-blue);
@@ -2915,7 +2915,7 @@ iframe {
     font-size: 1rem;;
     font-weight: bold;
     padding: 0.5rem 3rem;
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     color: var(--green);
     background-color: var(--white);
     border-radius: 0.5rem;
@@ -2924,7 +2924,7 @@ iframe {
 .physio-btn:hover {
     background-color: var(--green);
     color: var(--white);
-    border: 2px solid var(--white);
+    border: 1px solid var(--white);
     cursor: pointer;
 }
 
@@ -2963,7 +2963,7 @@ iframe {
     margin: 3rem 0rem 0rem 5rem;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
-    border: 2px solid var(--white);
+    border: 1px solid var(--white);
     background-color: tan;
     color: var(--white);
     font-weight: bold;
@@ -2971,7 +2971,7 @@ iframe {
 }
 
 .ren-btn:hover {
-    border: 2px solid var(--black);
+    border: 1px solid var(--black);
     background-color: var(--white);
     color: var(--black);
     cursor: pointer;
@@ -3013,7 +3013,7 @@ iframe {
     font-size: 1rem;;
     font-weight: bold;
     padding: 0.5rem 3rem;
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     color: var(--white);
     background-color: var(--green);
     border-radius: 0.5rem;
@@ -3023,7 +3023,7 @@ iframe {
 .book-form input[type="button"]:hover {
     background-color: var(--light-blue);
     color: var(--white);
-    border: 2px solid var(--white);
+    border: 1px solid var(--white);
     cursor: pointer;
 
 }
@@ -3307,7 +3307,7 @@ iframe {
 .form1-btn {
     display: block !important;
     background-color: black;
-    border: 2px solid black;
+    border: 1px solid black;
     color: white;
     padding: 0.5rem 0.5rem;
     text-align: center;
@@ -3327,7 +3327,7 @@ iframe {
     cursor: pointer;
     color: black;
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .form-group1 {
