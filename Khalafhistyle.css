@@ -3148,6 +3148,13 @@ padding:0.5rem 4rem;
     background-color: var(--dark-blue);
 
 }
+.values1 {
+    padding: 4rem 4rem;
+    font-size: large;
+    color:var(--white);
+    background-color: var(--white);
+
+}
 
 .values h2 {
     text-align: center;
@@ -3283,17 +3290,6 @@ padding:0.5rem 4rem;
 input[type="file"]{
     margin-bottom: 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
