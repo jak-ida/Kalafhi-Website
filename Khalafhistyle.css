@@ -11,8 +11,12 @@ p {
 }
 html {
     scroll-behavior: smooth;
-    font-family: 'Montserrat', sans-serif;
+   
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
 
 .reverse {
     flex-wrap: wrap;
@@ -22,6 +26,7 @@ html {
 
 p {
     font-size: 1rem;;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .p-2 {
@@ -674,7 +679,7 @@ header button {
 }
 
 .mainpage__h1 {
-    font-size: 3em;
+    font-size: 4em;
     width: 60%;
     line-height: 3rem;
     margin-bottom: 10px;
@@ -682,7 +687,7 @@ header button {
 }
 
 .mainpage__h2 {
-    font-size: 1rem;
+    font-size: 2rem;
     color: #21274A;
 }
 
@@ -1461,10 +1466,18 @@ main p {
     align-items: center;
 }
 
+.sect2 img {
+   width:70%;
+   margin:auto auto;
+}
+
 .about2 {
     width: 85%;
     text-align: justify;
     hyphens: auto;
+}
+.about2 p {
+    padding-bottom: 1rem;
 }
 
 .about-3 {
@@ -3171,7 +3184,6 @@ iframe {
     font-size: 1rem;;
     color: var(--black);
     background-color: var(--white);
-
 }
 
 .values h2,
@@ -3204,6 +3216,21 @@ iframe {
 .values-1 button:hover {
     background-color: var(--white);
     color: var(--light-blue);
+    cursor: pointer;
+}
+.values1 button {
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem auto;
+    width: 90%;
+    color: var(--white);
+    background-color: var(--green);
+    border: 1px solid var(--green)
+}
+
+.values1 button:hover {
+    background-color: var(--white);
+    color: var(--green);
     cursor: pointer;
 }
 
@@ -4651,6 +4678,7 @@ input[type="file"] {
     .grid {
         display: grid;
         justify-content: center;
+        align-items: center;
     }
 
 
