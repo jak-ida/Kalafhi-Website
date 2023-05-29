@@ -6,7 +6,9 @@
     --green: #7dc241;
     --black: #000;
 }
-
+p {
+    font-size: 1rem!important;
+}
 html {
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
@@ -1675,7 +1677,7 @@ iframe {
 
 .doctors-intro p {
     width: 80%;
-    font-size: 1rem;r;
+    font-size: 1rem;
     margin: auto;
     padding-bottom: 1rem;
 }
@@ -2795,7 +2797,7 @@ iframe {
 }
 
 .physio-intro p {
-    font-size: 1rem;r;
+    font-size: 1rem;
     margin: auto;
     width: 80%;
     padding-bottom: 0.5rem;
@@ -2836,6 +2838,7 @@ iframe {
     background-color: var(--light-blue);
     color: var(--white);
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .physio-2-1 p,
@@ -2887,7 +2890,7 @@ iframe {
 }
 
 .physio-1 p {
-    font-size: 1rem;r;
+    font-size: 1rem;
     width: 90%;
     margin: auto;
     text-align: justify;
@@ -2930,7 +2933,7 @@ iframe {
 .ren-content p {
     margin-top: 1rem;
     padding-left: 5rem;
-    font-size: 2rem;
+    font-size: 2rem!important;
     width: 50%;
     color: var(--white);
     line-height: 3rem;
