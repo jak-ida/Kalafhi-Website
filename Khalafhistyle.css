@@ -6,14 +6,22 @@
     --green: #7dc241;
     --black: #000;
 }
+
 p {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
 }
+
 html {
     scroll-behavior: smooth;
-   
+
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Tiro Devanagari Hindi', serif;
 }
 
@@ -25,7 +33,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -347,6 +356,7 @@ body {
     width: auto;
     height: 100%;
     margin-left: 3vw;
+    cursor: pointer;
 }
 
 header a {
@@ -636,7 +646,8 @@ header button {
     padding: 3rem 7rem;
     background-color: var(--dark-blue);
     color: var(--white);
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .news-btn {
@@ -704,7 +715,7 @@ header button {
 
 .mainpage__btn1:hover {
     border: 1px solid var(--green);
-    font-size: 0.5rem!important;
+    font-size: 0.5rem !important;
     transition: .2s;
     font-weight: bold;
     color: var(--green);
@@ -719,14 +730,14 @@ header button {
     border: 1px solid var(--light-blue);
     padding: 10px 40px;
     margin-top: 0px;
-    font-size: 0.5rem!important;
+    font-size: 0.5rem !important;
     font-weight: bold;
     transition: .2s;
 }
 
 .mainpage__btn2:hover {
     border: 1px solid var(--light-blue);
-    font-size: 0.5rem!important;
+    font-size: 0.5rem !important;
     transition: .2s;
     background-color: var(--off-white);
     color: var(--light-blue);
@@ -742,7 +753,8 @@ header button {
 }
 
 .home-modal p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     text-align: justify;
     hyphens: auto;
     display: grid;
@@ -841,7 +853,8 @@ header button {
 
 .main__holder h2 {
     font-size: 2rem;
-    padding-left: 2rem;;
+    padding-left: 2rem;
+    ;
 }
 
 .main__holder p {
@@ -949,8 +962,11 @@ header button {
     color: var(--black);
     margin: 0.6rem 0.6rem 1rem 1rem;
 }
-.service-width p{
-    font-size: 1rem;
+
+.service-width p {
+    font-size: 1rem !important;
+    text-align: justify;
+    hyphens: auto;
 }
 
 .no-a:hover {
@@ -999,11 +1015,12 @@ main h1 {
 }
 
 main p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     padding: 0.2rem 1rem;
 }
 
-/* First Page Section 4*/
+
 .mainpage__f-sect {
     height: auto;
     padding: 2rem;
@@ -1035,7 +1052,8 @@ main p {
 }
 
 .testimonial1 {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     display: grid;
     padding: 1rem;
     width: auto;
@@ -1047,7 +1065,8 @@ main p {
 }
 
 .testimonial2 {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     display: grid;
     padding: 1rem;
     width: auto;
@@ -1060,7 +1079,8 @@ main p {
 }
 
 .testimonial3 {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     display: grid;
     padding: 1rem;
     width: auto;
@@ -1230,7 +1250,8 @@ main p {
 /* About Page*/
 .about-mission {
     padding: 4rem 4rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     width: 80%;
     margin: auto auto;
 
@@ -1283,7 +1304,8 @@ main p {
 
 .directors-intro p {
     padding-bottom: 1rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     text-align: justify;
     hyphens: auto;
     width: 90%;
@@ -1312,7 +1334,8 @@ main p {
 }
 
 .about-intro p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     width: 80%;
     margin: auto;
     text-align: justify;
@@ -1329,7 +1352,8 @@ main p {
 }
 
 .about-intro1 p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     width: 80%;
     margin: auto;
     text-align: justify;
@@ -1353,7 +1377,8 @@ main p {
 }
 
 .about-page p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     padding-bottom: 1rem;
 }
 
@@ -1467,8 +1492,8 @@ main p {
 }
 
 .sect2 img {
-   width:70%;
-   margin:auto auto;
+    width: 70%;
+    margin: auto auto;
 }
 
 .about2 {
@@ -1476,6 +1501,7 @@ main p {
     text-align: justify;
     hyphens: auto;
 }
+
 .about2 p {
     padding-bottom: 1rem;
 }
@@ -1489,7 +1515,8 @@ main p {
 .about3 {
     width: 70%;
     margin: auto auto;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     text-align: justify;
     hyphens: auto;
 }
@@ -1808,7 +1835,8 @@ iframe {
 
 .doc-1 p {
     padding-bottom: 0.5rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     text-align: justify;
     width: 80%;
 }
@@ -1819,7 +1847,8 @@ iframe {
 
 .doc-2 p {
     padding-bottom: 0.5rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     text-align: justify;
     width: 80%;
     margin: auto auto;
@@ -1846,7 +1875,8 @@ iframe {
 }
 
 .consultation-ref1 p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .consultation-ref1__button {
@@ -1962,7 +1992,8 @@ iframe {
     margin: auto;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     text-align: justify;
     hyphens: auto;
 
@@ -2022,7 +2053,8 @@ iframe {
     padding: 2rem 1rem;
     text-align: justify;
     hyphens: auto;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     margin-left: 1rem
 }
 
@@ -2112,7 +2144,8 @@ iframe {
     width: 80%;
     margin: auto;
     padding: 4rem 2.5rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     text-align: justify;
     hyphens: auto;
 }
@@ -2130,12 +2163,14 @@ iframe {
 }
 
 .careers-head p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .careers-section {
     padding: 2rem 5rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     background-color: var(--dark-blue);
     ;
     color: var(--white);
@@ -2151,7 +2186,8 @@ iframe {
 
 .careers-section1 {
     padding: 2rem 5rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     color: var(--dark-blue);
     ;
     display: grid;
@@ -2215,7 +2251,8 @@ iframe {
 
 .departments-p {
     text-align: center;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     color: var(--white)
 }
 
@@ -2238,7 +2275,8 @@ iframe {
 
 .careers-departments p {
     text-align: center;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     width: 90%;
     margin: auto;
 
@@ -2290,7 +2328,8 @@ iframe {
 }
 
 .services p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     padding: 1rem 3rem;
 }
 
@@ -2375,7 +2414,8 @@ iframe {
 .medical-opt p {
     width: 90%;
     margin: auto;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .medical-opt1 {
@@ -2394,13 +2434,15 @@ iframe {
 .medical-opt1 p {
     width: 90%;
     margin: auto;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .more-info {
     width: 80%;
     margin: auto;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     padding: 1rem;
 }
 
@@ -2409,6 +2451,7 @@ iframe {
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    cursor: pointer;
 }
 
 .flip-card-inner {
@@ -2446,7 +2489,8 @@ iframe {
 
 .flip-card-back {
     padding: 1rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     background-color: #2980b9;
     display: grid;
     align-items: center;
@@ -2487,7 +2531,8 @@ iframe {
     margin: auto auto;
     width: 90%;
     padding: 0.5rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .pharma-info {
@@ -2534,7 +2579,8 @@ iframe {
     width: 90%;
     margin: auto auto;
     hyphens: auto;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .pharma-1_content {
@@ -2563,7 +2609,8 @@ iframe {
 
 .pharma-info p {
     padding: 0.75rem 0rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .pharma-info-1 p {
@@ -2573,7 +2620,8 @@ iframe {
     padding-bottom: 0.8rem;
     text-align: justify;
     hyphens: auto;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .pharma-info-1 {
@@ -2598,7 +2646,8 @@ iframe {
     padding: 0rem 1rem 0.8rem 1rem;
     text-align: justify;
     hyphens: auto;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .pharma-info-2 h2 {
@@ -2639,7 +2688,8 @@ iframe {
     padding-bottom: 1rem;
     text-align: justify;
     hyphens: auto;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .partnership {
@@ -2701,7 +2751,8 @@ iframe {
 
 .volunteer-p {
     align-items: center;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     padding-bottom: 1rem;
     ;
 }
@@ -2709,11 +2760,13 @@ iframe {
 .volunteer-p2 {
     border-left: 2px solid var(--green);
     padding-left: 1rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .volunteer-p2-1 {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .volunteer img {
@@ -2722,7 +2775,8 @@ iframe {
 
 .volunteer1 p {
     align-items: center;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     width: 80%;
     margin: auto;
     text-align: justify;
@@ -2746,7 +2800,8 @@ iframe {
 }
 
 .wellness-1 p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     width: 80%;
     margin: auto;
     text-align: justify;
@@ -2884,7 +2939,8 @@ iframe {
 }
 
 .physio-pos p {
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     width: 80%;
     margin: auto;
 }
@@ -2912,7 +2968,8 @@ iframe {
 
 .physio-btn {
     float: right;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     font-weight: bold;
     padding: 0.5rem 3rem;
     border: 1px solid var(--green);
@@ -2946,7 +3003,7 @@ iframe {
 .ren-content p {
     margin-top: 1rem;
     padding-left: 5rem;
-    font-size: 2rem!important;
+    font-size: 2rem !important;
     width: 50%;
     color: var(--white);
     line-height: 3rem;
@@ -3010,7 +3067,8 @@ iframe {
 
 .book-form input[type="button"] {
     float: right;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     font-weight: bold;
     padding: 0.5rem 3rem;
     border: 1px solid var(--green);
@@ -3154,7 +3212,8 @@ iframe {
 
 .hosp-mission {
     padding: 4rem 4rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     width: 80%;
     margin: auto auto;
 }
@@ -3173,7 +3232,8 @@ iframe {
 
 .values {
     padding: 4rem 4rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     color: var(--white);
     background-color: var(--dark-blue);
 
@@ -3181,7 +3241,8 @@ iframe {
 
 .values1 {
     padding: 4rem 4rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     color: var(--black);
     background-color: var(--white);
 }
@@ -3218,6 +3279,7 @@ iframe {
     color: var(--light-blue);
     cursor: pointer;
 }
+
 .values1 button {
     border-radius: 1rem;
     padding: 1rem 2rem;
@@ -3242,7 +3304,8 @@ iframe {
 
 .supplier {
     padding: 2rem 7rem;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
 }
 
 .supplier h1 {
@@ -3559,7 +3622,7 @@ input[type="file"] {
         z-index: 1;
         opacity: 1;
     }
-    
+
     .carousel-focus-item:nth-of-type(2) {
         border-color: rgb(0, 105, 217);
         left: 50%;
@@ -3568,7 +3631,7 @@ input[type="file"] {
         z-index: 1;
         opacity: 1;
     }
-    
+
     .carousel-focus-item:nth-of-type(3) {
         /*right: 0;
         transform: translate(0, 25%);
@@ -3581,10 +3644,11 @@ input[type="file"] {
         z-index: 1;
         opacity: 1;
     }
-    
+
     .carousel-focus-item:nth-child(n+2) {
         display: none;
     }
+
     .carousel-focus-item {
         position: absolute;
         display: inline-block;
@@ -3599,6 +3663,8 @@ input[type="file"] {
 
     .second__cluster p {
         width: auto;
+        text-align: justify;
+        hyphens: auto
     }
 
     .second__cluster {
@@ -3607,6 +3673,12 @@ input[type="file"] {
     }
 
     .second__content {
+        padding: 2rem 0rem;
+        border-right: none;
+        border-bottom: 1px solid gray;
+    }
+
+    .second__content1 {
         padding: 2rem 0rem;
         border-right: none;
         border-bottom: 1px solid gray;
@@ -3622,7 +3694,8 @@ input[type="file"] {
     }
 
     .main__holder h2 {
-        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
 
     }
 
@@ -3681,6 +3754,21 @@ input[type="file"] {
 
     }
 
+    .mainpage__f-sect {
+        padding: 1rem 0rem;
+    }
+
+    .mainpage__f-sect.container {
+        padding: 0rem 2rem 7rem;
+        height: auto;
+    }
+
+    .carousel-focus-item:first-of-type {
+        width: 100%;
+        margin: auto;
+    }
+
+
     .main__btn {
         margin-top: 1.5rem;
         padding: 0.5rem 2rem;
@@ -3689,18 +3777,49 @@ input[type="file"] {
     }
 
     .main__hh2 {
-        font-size: 1rem;;
+        font-size: 1rem;
+        ;
         line-height: 1.5rem;
     }
 
     .main__pp {
-        font-size: 1rem;;
+        font-size: 1rem;
+        ;
         padding-top: 2rem;
     }
 
     .col--4 {
         grid-column: auto/span 4;
 
+    }
+
+    .newsletter {
+        padding: 3rem 2rem;
+    }
+
+    .newsletter .col-7 p {
+        padding: 1rem 0;
+    }
+
+    .news-btn {
+        padding: 0.5rem 1rem;
+        background-color: var(--green);
+        color: var(--white);
+        border: 1px solid var(--green);
+        border-radius: 0.5rem;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        float: right;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+        box-shadow: 2px 2px 8px var(--green);
+    }
+
+    .newsletter input[type="email"],
+    input[type="tel"] {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
     }
 
     .end .col--4 {
@@ -3830,6 +3949,10 @@ input[type="file"] {
         margin: 1rem auto 2rem;
     }
 
+    .about-mission {
+        padding: 2.5rem 1rem;
+    }
+
     .sect2 {
         padding: 1rem;
     }
@@ -3855,6 +3978,7 @@ input[type="file"] {
     .consultation-ref__button {
         margin-top: 2rem;
         padding: 0.8rem 2rem;
+        font-size: 1.3rem;
     }
 
     .about-3 {
@@ -3878,6 +4002,11 @@ input[type="file"] {
     .values-img {
         height: auto;
         padding-bottom: 1rem;
+    }
+
+    .values1 {
+        padding: 2rem 1rem;
+
     }
 
     /*Doctors Page 500px*/
@@ -4045,7 +4174,13 @@ input[type="file"] {
 
     .pharma_content {
         border: none;
-        padding: 1rem 1rem 0rem;
+        text-align: center;
+
+
+    }
+
+    .pharma-1_content h1 {
+        text-align: center;
     }
 
     .pharma-1_content {
@@ -4137,7 +4272,7 @@ input[type="file"] {
 
     /*Renewal Aesthetics Page 500px*/
     .ren-content h2 {
-        font-size: 2.1rem;
+        font-size: 2.1rem !important;
         padding: 8rem 2rem 1rem;
     }
 
@@ -4148,7 +4283,7 @@ input[type="file"] {
 
     .ren-content p {
         padding-left: 0rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem !important;
         width: 90%;
         margin: auto;
         line-height: normal;
@@ -4168,7 +4303,13 @@ input[type="file"] {
 
     .day-body {
         padding-left: 0rem;
-        ;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .day-body-1 {
+        padding-left: 0rem;
+        display: flex;
+        flex-wrap: wrap-reverse;
     }
 
     .day-body h2 {
@@ -4177,15 +4318,32 @@ input[type="file"] {
     }
 
     .day-body p {
-        font-size: 1rem;;
-        padding-left: 0rem;
-        padding-top: 0.2rem;
-        width: 65%;
-        color: var(--black);
+        font-size: 1rem;
+        padding: 0.5rem 0rem;
+        width: 100%;
+        text-align: justify;
+        hyphens: auto;
+        color: var(--white);
+    }
+    .hosp-mission {
+        padding: 2.5rem 1rem;
+    }
+
+    .day-body-1 p {
+        font-size: 1rem;
+        padding: 1rem 0rem 0.5rem;
+        width: 80%;
+        margin:auto;
+        text-align: justify;
+        hyphens: auto;
     }
 
     .coming-soon {
         padding: 1rem 2rem;
+    }
+    .values {
+        padding: 2rem 1rem;
+
     }
 
     /*News Page 500px*/
