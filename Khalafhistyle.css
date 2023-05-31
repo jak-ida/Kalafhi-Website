@@ -853,8 +853,7 @@ header button {
 
 .main__holder h2 {
     font-size: 2rem;
-    padding-left: 2rem;
-    ;
+    padding: 1rem 0rem 1rem 2rem;
 }
 
 .main__holder p {
@@ -1171,7 +1170,7 @@ main p {
 /* First Page Section 5*/
 .partners {
     height: auto;
-    padding: 4rem 3rem;
+    padding: 4rem 3rem 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
