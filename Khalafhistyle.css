@@ -3008,7 +3008,8 @@ iframe {
     font-size: 2rem !important;
     width: 50%;
     color: var(--white);
-    line-height: 3rem;
+    line-height: 2.5rem;
+    
     ;
 
 }
