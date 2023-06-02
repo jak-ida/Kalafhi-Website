@@ -119,7 +119,7 @@
     <h2 class="doctors-heading"> Meet The Team </h2>
     <div class="row doctors-intro">
         <div class="col-6 a-c">
-            <img src="MainImages/med-team.jpg">
+            <img src="MainImages/IMG_8043.jpg">
 
         </div>
         <div class="col-6">
@@ -134,8 +134,11 @@
             </p>
         </div>
     </div>
-
-    <div class="doctors-carousel">
+    <div class="news-referral">
+        <h2> We are always looking for talented individuals to join our team.<br> Check our Careers Page.</h2>
+        <button class="news-referral__button" onclick="redirectToCareers()"> View Careers</button>
+    </div>
+    <!--<div class="doctors-carousel">
         <div class="car-1">
 
             <h2> Our Doctors</h2>
@@ -206,7 +209,7 @@
             </div>
 
         </div>
-    </div>
+    </div>-->
     <div class="doctors">
         <h2 class="doctors-head"> Head Doctors </h2>
 
@@ -253,23 +256,23 @@
                 <h2> Dr. Mpho Alphonce Setime </h2>
                 <h4> Specialization: General Practitioner </h4>
                 <h5> Head Doctor at <em>Tlokweng</em></h5>
-
                 <p> Dr. Setime holds a degree in Bachelor of Medicine, Bachelor of Surgery and a Masters of Business
-                    Administration from the Medical School of Southern AFri:ca. He is a practicing doctor at Kalafhi
-                    Medical
-                    Center. He has worked at multiple hospitals in the country and has over 17 years of work experience.
+                    Administration from the Medical School of Southern Africa. He is a practicing doctor at Kalafhi
+                    Medical Center. He has worked at multiple hospitals in the country and has over 17 years of work
+                    experience.
                 </p>
-
             </div>
         </div>
         <div class="row doc-2">
             <div class="col-6 grid">
-                <h2> Dr. Arnold</h2>
+                <h2> Dr. Arnold Muchenje</h2>
                 <h4> Specialization: General Practitioner </h4>
                 <h5> Head Doctor at <em>Physiotherapy</em></h5>
 
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex maiores voluptatem nisi veniam iure doloribus unde ipsa officiis sunt, saepe, nesciunt quisquam voluptate laboriosam sed officia tempora numquam in fugiat!
-                Quod perferendis porro optio, cum ut labore maiores? Incidunt totam, officiis repudiandae deleniti excepturi doloribus sunt modi suscipit amet deserunt. Possimus ut, delectus tempora inventore fugiat soluta dicta. Praesentium, earum!</p>
+                <p> Dr. Muchenje holds a Bachelor of Science Honors Degree in Physiotherapy at University of Zimbabwe
+                    and is currently practicing as a senior Physiotherapist at Kalafhi Medical Center (Physiotherapy).
+                    He has nine years of clinical experience, both inpatient and outpatient, in management of
+                    orthopedic, neurological, cardio-pulmonary and sports related injuries.</p>
 
             </div>
             <div class="col-6  grid">
@@ -393,7 +396,7 @@
                     <br>
                     <p>
                         Plot 319 Extension 5,
-                        
+
                         Gaborone, Botswana</p>
                 </div>
             </div>
@@ -402,7 +405,8 @@
 
     </footer>
     <button id="scroll-to-top-btn">
-        <img width="20" height="20" class="lazyloading-hidden lazyloaded" data-src="up-long.svg" alt="Back to top" src="up-long.svg">
+        <img width="20" height="20" class="lazyloading-hidden lazyloaded" data-src="up-long.svg" alt="Back to top"
+            src="up-long.svg">
     </button>
 
 
@@ -420,20 +424,20 @@
 
     <script>
         // Show scroll-to-top button after scrolling halfway through the page
-window.onscroll = function() {
-var btn = document.getElementById("scroll-to-top-btn");
-if (document.body.scrollTop > (document.body.scrollHeight / 5) || document.documentElement.scrollTop > (document.documentElement.scrollHeight / 5)) {
-btn.style.display = "block";
-} else {
-btn.style.display = "none";
-}
-};
+        window.onscroll = function () {
+            var btn = document.getElementById("scroll-to-top-btn");
+            if (document.body.scrollTop > (document.body.scrollHeight / 5) || document.documentElement.scrollTop > (document.documentElement.scrollHeight / 5)) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
 
-// Scroll to top when button is clicked
-document.getElementById("scroll-to-top-btn").addEventListener("click", function() {
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
-});
+        // Scroll to top when button is clicked
+        document.getElementById("scroll-to-top-btn").addEventListener("click", function () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
 
 
         function redirectToHome() {
