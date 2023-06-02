@@ -1269,7 +1269,7 @@ main p {
 }
 
 .dir-img {
-    min-width: 80%;
+    width: 90%;
     height: 550px;
     margin: auto;
 }
@@ -2521,6 +2521,11 @@ iframe {
 }
 
 /*Pharmaceuticals*/
+.pharma-hr {
+    border: 1px solid var(--green);
+    width: 70%;
+    margin: auto;
+}
 .pharma-head {
     font-size: 2rem;
     padding: 5rem 0rem 1rem 10rem;
@@ -3177,7 +3182,7 @@ iframe {
 }
 
 .day-body-1 p {
-    padding: 0.5rem 4rem;
+    padding: 1rem 4rem;
     text-align: justify;
     hyphens: auto;
 }
@@ -3915,6 +3920,10 @@ input[type="file"] {
         padding-top: 1rem;
         width: auto;
         padding-bottom: 0rem;
+    }
+    .directors-intro{
+        margin-top:2rem;
+        margin-bottom:0.5rem;
     }
 
     .dir-img {
@@ -4931,8 +4940,10 @@ input[type="file"] {
     }
 
     .about-page-h21 {
-        padding-left: 15%;
-        padding-bottom: 0rem;
+            padding-left: 3rem;
+    }
+    .about-page-h2{
+        text-align: center;
     }
 
     .about-intro {
@@ -4940,15 +4951,21 @@ input[type="file"] {
     }
 
     .dir-img {
-        width: auto;
-        min-width: 0%;
+       width:60%;
+       height: auto;
     }
 
     .dir-info {
-        width: 65%;
+        width: 85%;
         text-align: center;
     }
-
+    .directors-intro{
+        margin-top:3rem;
+        margin-bottom:1rem;
+    }
+.doc .col-3 {
+grid-column: auto/span 6;
+}
     .doc-para {
         width: 90%;
         padding-right: 0;
@@ -5021,9 +5038,7 @@ input[type="file"] {
     }
 
 
-    .contact-img h2 {
-        padding: 8rem 5rem;
-    }
+   
 
     .col-4 {
         grid-column: auto/span 12;
@@ -5036,27 +5051,209 @@ input[type="file"] {
 .medical-opt{
     padding:1.5rem 3rem;
 }
+.med-opt {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
 .careers-head{
     padding:3rem;
 }
 .careers-head p{
     padding:1rem;
 }
-
+.careers-head .col-3, .careers-head .col--9{
+    grid-column: auto/span 6;
+}
 
 /*Pharmaceuticals*/
 .pharma-info-1 img{
-    padding-bottom: 1rem;
+    padding: 2rem;
+    width:80%;
+    margin: auto;
 }
 .pharma-info-1{
-    padding-bottom:5rem;
+    padding:0rem 2rem 3rem 2rem;
 }
-.news-hr{
+.pharma-hr{
     margin:0;
     width:60%;
 }
+.pharma-1_cluster .col-3{
+    grid-column: auto/span 6;
+}
+
+.pharma_content{
+    border:none;
+}
+.pharma_content h1{
+    font-size: 2rem;
+}
+.pharma-1, .pharma-1_cluster{
+    padding:1rem;
+}
+.pharma-1_cluster p{
+    width:auto;
+    padding-bottom:2rem;
+}
+.consultation-ref h2{
+    padding:1rem;
+}
+.pharma-info-2 .col-6{
+    padding:2rem 4rem;
+}
+/*Physiotherapy Page 1000px*/
+.sect-2 {
+    flex-direction: column;
+}
+.physio-1 .col-7, .physio-1 .col-3, .physio-1 .col-2 {
+    grid-column: auto/span 12;
+}
+.physio-btn{
+   float:none;;
+}
+.physio-1{
+    gap:1rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+/*Renewal Aesthetics Page 1000px*/
+.ren-content p{
+    width:80%;
+    font-size: 1.6rem!important;
+    line-height: 2rem;
+}
+.ren-content h2{
+    line-height: 4rem;
+}
+.ren-content-p{
+    margin-top:2rem;
+}
+.ren-btn{
+    margin-top:2rem;
+}
 
 
+/*Day Hospital 1000px*/
+.day-body p{
+    margin:auto;
+}
+.day-body-1 img {
+    padding-bottom: 2rem;
+}
+.day-body {
+    padding-left: 0rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.values{
+    padding:2rem;
+}
+.hosp-mission{
+padding:2rem;
+}
+/*News Page 1000px*/
+.news-second .col-7, .news-second .col-5{
+    grid-column: auto/span 12;
+}
+.news-second{
+    padding:2rem;
+}
+.news-hr{
+    margin:auto;
+}
+
+/*Careers Page 1000px*/
+.careers-departments{
+    width:auto;
+}
+.careers-apply{
+    padding:1rem
+}
+.careers-apply h4{
+    font-size: 1rem!important;
+}
+.careers-section p{
+    width:auto;
+}
+.careers-section{
+    padding:2rem;
+}
+.careers-section .col-7{
+    grid-column: auto/span 12;
+}
+.careers-section .col-2{
+    grid-column: auto/span 8;
+}
+.careers-section .col-1{
+    grid-column: auto/span 4;
+}
+/*Events Page 1000px*/
+.upcoming-event p{
+    width:auto;
+}
+.main-event .col-8{
+    padding-top:2rem;
+    grid-column: auto/ span 12;
+}
+.main-event p{
+    width:80%;
+    margin: auto;
+}
+.event-img img{
+    padding:1rem;
+}
+.wellness-1 .col-3, .wellness-1 .col--9{
+    grid-column: auto/span 12;
+}
+.volunteer {
+    padding:2rem;
+}
+.volunteer .col-3{
+    grid-column: auto/span 12;
+}
+.vol-1{
+    padding:1rem;
+}
+.volunteer-p2-1{
+    padding:0.5rem 1rem 0rem
+}
+.volunteer-p2{
+    padding:1rem 1rem 0rem;
+    border:none;
+    border-top:1px solid var(--green);
+    margin-top:1.5rem;
+}
+.book-head {
+    padding-left: 3rem;
+}
+.medical-head {
+    padding-left: 3rem;
+}
+.careers-title {
+    padding-left: 3rem;
+}
+.pharma-head {
+    padding-left: 3rem;
+}
+.day-head {
+    padding-left: 3rem;
+}
+.news-head {
+    padding-left: 3rem;
+}
+.physio-head {
+    padding-left: 3rem;
+}
+.contact-img h2 {
+    padding-left: 0.5rem;
+    font-size: 2.5rem;;
+}
+.contact-2 .form{
+    padding:2rem;
+}
 
 
 
