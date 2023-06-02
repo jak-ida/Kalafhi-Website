@@ -1,6 +1,7 @@
 :root {
-    --dark-blue: #21274A;
-    --light-blue: #1D5B92;
+    --dark-blue: #04115c;
+    /*--light-blue: #1D5B92;*/
+    --light-blue: #2574b9;
     --white: #fff;
     --off-white: #f7f7f7;
     --green: #7dc241;
@@ -651,7 +652,7 @@ header button {
 }
 
 .news-btn {
-    padding: 0.44rem 2.5rem;
+    padding: 0.5rem 2.5rem;
     background-color: var(--green);
     color: var(--white);
     border: 1px solid var(--green);
@@ -975,7 +976,7 @@ header button {
 
 
 main h2 {
-    color: #21274A;
+    color: var(--dark-blue);
     padding: 0.2rem 1rem;
 }
 
@@ -1718,6 +1719,8 @@ iframe {
     width: 80%;
     font-size: 1rem;
     margin: auto;
+    text-align: justify;
+    hyphens: auto;
     padding-bottom: 1rem;
 }
 
@@ -2130,7 +2133,6 @@ iframe {
 }
 
 .careers-img img {
-    height: 30vh;
     width: 100%;
 }
 
@@ -2380,7 +2382,7 @@ iframe {
 .medic-intro p {
     width: 80%;
     margin: auto;
-    
+
 }
 
 .medical-img {
@@ -2869,7 +2871,7 @@ iframe {
 .physio-intro p {
     font-size: 1rem;
     margin: auto;
-    width: 80%;
+    width: 70%;
     padding-bottom: 0.5rem;
     text-align: justify;
     hyphens: auto;
@@ -3009,9 +3011,6 @@ iframe {
     width: 50%;
     color: var(--white);
     line-height: 2.5rem;
-    
-    ;
-
 }
 
 .ren-content-p {
@@ -3247,7 +3246,7 @@ iframe {
 }
 
 .values1 {
-    padding: 4rem 4rem;
+    padding: 3rem  4rem 4rem;
     font-size: 1rem;
     ;
     color: var(--black);
@@ -4312,6 +4311,7 @@ input[type="file"] {
         display: flex;
         flex-wrap: wrap-reverse;
     }
+
     .day-body-1 {
         padding-left: 0rem;
         display: flex;
@@ -4331,6 +4331,7 @@ input[type="file"] {
         hyphens: auto;
         color: var(--white);
     }
+
     .hosp-mission {
         padding: 2.5rem 1rem;
     }
@@ -4339,7 +4340,7 @@ input[type="file"] {
         font-size: 1rem;
         padding: 1rem 0rem 0.5rem;
         width: 80%;
-        margin:auto;
+        margin: auto;
         text-align: justify;
         hyphens: auto;
     }
@@ -4347,6 +4348,7 @@ input[type="file"] {
     .coming-soon {
         padding: 1rem 2rem;
     }
+
     .values {
         padding: 2rem 1rem;
 
@@ -4647,11 +4649,9 @@ input[type="file"] {
 
 @media (min-width:500px) and (max-width:1000px) {
     .reverse {
-
         flex-wrap: wrap;
         flex-direction: column-reverse;
         display: flex;
-
     }
 
     /*Home Page 1000px*/
@@ -4707,7 +4707,7 @@ input[type="file"] {
 
     .mainpage__h1 {
         font-size: 3.75em;
-        width: 80%;
+
     }
 
     .mainpage__h2 {
@@ -4751,7 +4751,12 @@ input[type="file"] {
     }
 
     .main__holder p {
-        width: 100%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .main__holder h2 {
+        padding: 2rem 0rem 0rem 3rem;
     }
 
     .main_white {
@@ -4759,8 +4764,71 @@ input[type="file"] {
         width: 80%;
     }
 
+    .main_white img {
+        width: 80%;
+        margin: auto;
+    }
+
     .flex-container {
         padding: 0rem;
+    }
+
+    .mainpage__second {
+        padding: 1rem;
+    }
+
+    .second__cluster {
+        padding: 1rem;
+    }
+
+    .abt_btn {
+        width: 30%;
+    }
+
+    .carousel-focus-item:first-of-type {
+        /*left: 0;
+    transform: translate(0, 25%);
+    opacity: .5;*/
+        border-color: rgb(0, 105, 217);
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 90%;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    .carousel-focus-item:nth-of-type(2) {
+        border-color: rgb(0, 105, 217);
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 90%;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    .carousel-focus-item:nth-of-type(3) {
+        /*right: 0;
+    transform: translate(0, 25%);
+    opacity: .5;
+    */
+        border-color: rgb(0, 105, 217);
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 90%;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    .carousel-focus-item:nth-child(n+2) {
+        display: none;
+    }
+
+    .carousel-focus-item {
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .second__content {
@@ -4781,15 +4849,42 @@ input[type="file"] {
 
     }
 
+    .partners {
+        padding: 1rem;
+    }
+
+    .partners img {
+        height: auto;
+        width: 20vw;
+        margin: 20px 20px;
+    }
+
+    .partners .col-2 {
+        grid-column: auto/span 12;
+    }
+
+    .newsletter .col-7 {
+        grid-column: auto/span 6;
+    }
+
+    .newsletter .col-5 {
+        grid-column: auto/span 6;
+    }
+
+    .newsletter {
+        padding: 2rem 4rem
+    }
+
     .col--8 {
         grid-column: auto/span 12;
     }
 
-    /*About Kalafhi*/
     .col- {
         grid-column: auto/span 6;
 
     }
+
+
 
     .contact .col4 {
         grid-column: auto/span 7 !important;
@@ -4800,7 +4895,7 @@ input[type="file"] {
         grid-column: auto/span 12;
     }
 
-    /*Footer Starts*/
+    /*Footer 1000px*/
     .quicklinks {
         margin-top: 1rem;
         text-align: center;
@@ -4820,25 +4915,70 @@ input[type="file"] {
         text-align: center;
     }
 
-    /*Footer Ends*/
-
     .contact-replace {
         grid-column: auto/span 7;
 
     }
 
-
+    /*About Page 1000px*/
     .about-img {
-        height: 90%;
-        width: 90%;
-        position: relative;
-        top: 3vh;
-
-
-        border-radius: 24% 63% 40% 61% / 47% 40% 67% 61%;
-        margin: auto auto;
+        width: 80%;
+        margin: 1rem auto 2rem;
     }
 
+    .about-img img {
+        padding-top: 0rem;
+    }
+
+    .about-page-h21 {
+        padding-left: 15%;
+        padding-bottom: 0rem;
+    }
+
+    .about-intro {
+        padding-bottom: 0rem;
+    }
+
+    .dir-img {
+        width: auto;
+        min-width: 0%;
+    }
+
+    .dir-info {
+        width: 65%;
+        text-align: center;
+    }
+
+    .doc-para {
+        width: 90%;
+        padding-right: 0;
+    }
+
+    .consultation-ref {
+        padding: 0rem;
+    }
+
+    .quote {
+        padding: 2rem 1.5rem 2rem 2rem
+    }
+    .consultation-ref__button{
+        margin:1rem;
+    }
+    .about-mission{
+        padding:3rem 1.5rem;
+    }
+.about2{
+    width:auto;
+    padding:1rem;
+}
+.sect2{
+    padding:2rem 3rem;
+}
+.values1{
+    padding:1rem 2rem;
+    width:90%;
+    margin: auto;
+}
     .grid {
         display: grid;
         justify-content: center;
@@ -4853,35 +4993,10 @@ input[type="file"] {
     }
 
 
-
-
-    .block1 {
-        min-width: 50vw;
-        left: 3rem;
-    }
-
-    .block2 {
-        min-width: 50vw;
-        left: -5rem;
-    }
-
-    .block3 {
-
-        min-width: 50vw;
-
-        left: 5rem;
-
-    }
-
-
-
-    .about1 {
+   .about1 {
         padding: 0.5rem 4rem;
     }
 
-    .about2 {
-        padding: 0.5rem 4rem;
-    }
 
     .about3 {
         padding: 0.5rem 4rem;
@@ -4914,12 +5029,32 @@ input[type="file"] {
         grid-column: auto/span 12;
 
     }
+/*Medical Services 1000px*/
+.medic-intro p{
+    width:90%;
+}
+.medical-opt{
+    padding:1.5rem 3rem;
+}
+.careers-head{
+    padding:3rem;
+}
+.careers-head p{
+    padding:1rem;
+}
 
 
-
-
-
-
+/*Pharmaceuticals*/
+.pharma-info-1 img{
+    padding-bottom: 1rem;
+}
+.pharma-info-1{
+    padding-bottom:5rem;
+}
+.news-hr{
+    margin:0;
+    width:60%;
+}
 
 
 
