@@ -1283,7 +1283,7 @@ main p {
 }
 
 .dir-info {
-    width: 80%;
+    width: 100%;
     margin: auto;
     background-color: var(--dark-blue);
     opacity: 0.5;
@@ -6140,3 +6140,59 @@ padding:2rem;
         transition: none
     }
 }
+/*Animations*/
+.reveal-fade-up{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1.5s all ease;
+  }
+  
+  .reveal-fade-up.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .reveal-fade-up-2{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  
+  .reveal-fade-up-2.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .reveal-fade-up-3{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2.5s all ease;
+  }
+  
+  .reveal-fade-up-3.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .reveal-fade-left{
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: 1.5s all ease;
+  }
+  
+  .reveal-fade-left.active{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .reveal-fade-right{
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: 1.5s all ease;
+  }
+  
+  .reveal-fade-right.active{
+    transform: translateX(0);
+    opacity: 1;
+  }
