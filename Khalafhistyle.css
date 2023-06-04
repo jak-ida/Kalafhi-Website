@@ -1646,6 +1646,7 @@ main p {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
+input[type="number"],
 textarea {
     width: 100%;
     padding: 0.5rem;
@@ -5167,6 +5168,9 @@ padding:2rem;
 .news-hr{
     margin:auto;
 }
+.news-second img {
+    height: auto;
+}
 
 /*Careers Page 1000px*/
 .careers-departments{
@@ -5205,8 +5209,10 @@ padding:2rem;
     width:80%;
     margin: auto;
 }
-.event-img img{
-    padding:1rem;
+.event-img img {
+    padding: 1rem;
+    height: auto;
+    width: 80%;
 }
 .wellness-1 .col-3, .wellness-1 .col--9{
     grid-column: auto/span 12;
@@ -6146,6 +6152,7 @@ padding:2rem;
     transform: translateY(150px);
     opacity: 0;
     transition: 1.5s all ease;
+    overflow:hidden
   }
   
   .reveal-fade-up.active{
@@ -6157,6 +6164,7 @@ padding:2rem;
     transform: translateY(150px);
     opacity: 0;
     transition: 2s all ease;
+    overflow:hidden
   }
   
   .reveal-fade-up-2.active{
@@ -6168,6 +6176,7 @@ padding:2rem;
     transform: translateY(150px);
     opacity: 0;
     transition: 2.5s all ease;
+    overflow-y:hidden
   }
   
   .reveal-fade-up-3.active{
@@ -6179,6 +6188,7 @@ padding:2rem;
     transform: translateX(150px);
     opacity: 0;
     transition: 1.5s all ease;
+    overflow-x:hidden
   }
   
   .reveal-fade-left.active{
@@ -6190,6 +6200,7 @@ padding:2rem;
     transform: translateX(-150px);
     opacity: 0;
     transition: 1.5s all ease;
+    overflow-x:hidden
   }
   
   .reveal-fade-right.active{
