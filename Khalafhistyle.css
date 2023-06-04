@@ -272,6 +272,7 @@ h6 {
 body {
     box-sizing: border-box;
     background: white;
+    overflow-x: hidden;
 }
 
 /* Columns */
@@ -6184,14 +6185,21 @@ padding:2rem;
     opacity: 1;
   }
   .reveal-fade-left{
-    position: relative;
+    /* position: relative;
     transform: translateX(150px);
+    opacity: 0;
+    transition: 1.5s all ease;
+    overflow-x:hidden */
+    position: relative;
+    transform: translateX(-150px);
     opacity: 0;
     transition: 1.5s all ease;
     overflow-x:hidden
   }
   
   .reveal-fade-left.active{
+    /* transform: translateX(0);
+    opacity: 1; */
     transform: translateX(0);
     opacity: 1;
   }
