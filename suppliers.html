@@ -404,6 +404,103 @@
 
 
             function SendApplication() {
+                var firstname = document.getElementById("first-name").value;
+    var lastname = document.getElementById("last-name").value;
+    var email = document.getElementById("email").value;
+    var phone = document.getElementById("phone").value;
+    var body = document.getElementById("message").value; 
+    var newMessage = "Good day, <br> <br> The following query has been made with the following details: <br> <br> First Name: " + firstname + "<br> <br> Last Name: " + lastname + " Email: " + email + "<br> <br> Phone: " + phone + "<br> <br> Message: " + body + "<br> <br> Kindly respond to them within 24 hours. <br> Thank you.";
+    
+    var message = newMessage;
+    
+    if (firstname == "" || lastname == "" || email == "" || phone == "" || message == "") {
+    
+        document.getElementById("snackmessage").innerHTML = "Please Fill All Details And Try Again";
+    
+        // Get the snackbar DIV
+        var x = document.getElementById("Negative-snackbar");
+    
+        // Add the "show" class to DIV
+        x.className = "show";
+    
+        // After 3 seconds, remove the show class from DIV
+        setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+    
+    }
+    else {
+    
+        //document.getElementById("ContactSubmit").disabled = true;
+    
+       /* var key = CryptoJS.enc.Utf8.parse('8080808080808080');
+        //var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+    
+        //var encryptedfirstname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(firstname), key,
+           // {
+           //     keySize: 128,
+                iv: iv,
+                mode: CryptoJS.mode.CBC,
+                //padding: CryptoJS.pad.Pkcs7 
+            });
+    
+        var encryptedlastname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(lastname), key,
+            {
+                keySize: 128,
+                iv: iv,
+                mode: CryptoJS.mode.CBC,
+                //padding: CryptoJS.pad.Pkcs7 
+            });
+    
+        var encryptedemail = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(email), key,
+            {
+                keySize: 128,
+                iv: iv,
+                mode: CryptoJS.mode.CBC,
+                //padding: CryptoJS.pad.Pkcs7 
+            });
+    
+        var encryptedphone = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(phone), key,
+            {
+                keySize: 128,
+                iv: iv,
+                mode: CryptoJS.mode.CBC,
+                //padding: CryptoJS.pad.Pkcs7 
+            });
+    
+        var encryptedmessage = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(message), key,
+            {
+                keySize: 128,
+                iv: iv,
+                mode: CryptoJS.mode.CBC,
+                //padding: CryptoJS.pad.Pkcs7 
+            });
+    
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                // Typical action to be performed when the document is ready:
+                var res = JSON.parse(xhttp.responseText);
+    
+                //alert(res[0].emailStatus);
+            }
+        };
+    
+        //xhttp.open("GET", "https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmail?Firstname=" + encryptedfirstname + "&Lastname=" + encryptedlastname + "&Email=" + encryptedemail + "&Phone=" + encryptedphone + "&Message=" + encryptedmessage, true);
+        //xhttp.send();
+        */
+        document.getElementById("snackmessage").innerHTML = "Message Successfully Sent";
+                     
+                        // Get the snackbar DIV
+                        var x = document.getElementById("snackbar");
+                      
+                        // Add the "show" class to DIV
+                        x.className = "show";
+                       
+                        // After 3 seconds, remove the show class from DIV
+                        setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+                       
+                        document.getElementById("ContactSubmit").disabled = false;
+                        
+                    }
 
             }
 
@@ -449,6 +546,108 @@
 
 
         </script>
+        <script>
+            function SendComment() {
+
+var firstname = document.getElementById("first-name").value;
+var lastname = document.getElementById("last-name").value;
+var email = document.getElementById("email").value;
+var phone = document.getElementById("phone").value;
+var body = document.getElementById("message").value; 
+var newMessage = "Good day, <br> <br> The following query has been made with the following details: <br> <br> First Name: " + firstname + "<br> <br> Last Name: " + lastname + " Email: " + email + "<br> <br> Phone: " + phone + "<br> <br> Message: " + body + "<br> <br> Kindly respond to them within 24 hours. <br> Thank you.";
+
+var message = newMessage;
+
+if (firstname == "" || lastname == "" || email == "" || phone == "" || message == "") {
+
+    document.getElementById("snackmessage").innerHTML = "Please Fill All Details And Try Again";
+
+    // Get the snackbar DIV
+    var x = document.getElementById("Negative-snackbar");
+
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+
+}
+else {
+
+    //document.getElementById("ContactSubmit").disabled = true;
+
+   /* var key = CryptoJS.enc.Utf8.parse('8080808080808080');
+    //var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+
+    //var encryptedfirstname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(firstname), key,
+       // {
+       //     keySize: 128,
+            iv: iv,
+            mode: CryptoJS.mode.CBC,
+            //padding: CryptoJS.pad.Pkcs7 
+        });
+
+    var encryptedlastname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(lastname), key,
+        {
+            keySize: 128,
+            iv: iv,
+            mode: CryptoJS.mode.CBC,
+            //padding: CryptoJS.pad.Pkcs7 
+        });
+
+    var encryptedemail = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(email), key,
+        {
+            keySize: 128,
+            iv: iv,
+            mode: CryptoJS.mode.CBC,
+            //padding: CryptoJS.pad.Pkcs7 
+        });
+
+    var encryptedphone = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(phone), key,
+        {
+            keySize: 128,
+            iv: iv,
+            mode: CryptoJS.mode.CBC,
+            //padding: CryptoJS.pad.Pkcs7 
+        });
+
+    var encryptedmessage = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(message), key,
+        {
+            keySize: 128,
+            iv: iv,
+            mode: CryptoJS.mode.CBC,
+            //padding: CryptoJS.pad.Pkcs7 
+        });
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            // Typical action to be performed when the document is ready:
+            var res = JSON.parse(xhttp.responseText);
+
+            //alert(res[0].emailStatus);
+        }
+    };
+
+    //xhttp.open("GET", "https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmail?Firstname=" + encryptedfirstname + "&Lastname=" + encryptedlastname + "&Email=" + encryptedemail + "&Phone=" + encryptedphone + "&Message=" + encryptedmessage, true);
+    //xhttp.send();
+    */
+    document.getElementById("snackmessage").innerHTML = "Message Successfully Sent";
+                 
+                    // Get the snackbar DIV
+                    var x = document.getElementById("snackbar");
+                  
+                    // Add the "show" class to DIV
+                    x.className = "show";
+                   
+                    // After 3 seconds, remove the show class from DIV
+                    setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+                   
+                    document.getElementById("ContactSubmit").disabled = false;
+                    
+                }
+            }
+        </script> 
 
 
 
