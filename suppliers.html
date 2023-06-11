@@ -204,22 +204,22 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="form-group1">
-                                <input type="text" id="representative" name="representative" placeholder="Representative" required >  
+                                <input type="text" id="RepresentativeId" name="representative" placeholder="Representative" required >  
                             </div>
                             <div class="form-group1">
-                                <input type="text" id="company" name="company" placeholder="Company Name" required >
+                                <input type="text" id="CompanyNameId" name="company" placeholder="Company Name" required >
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-group1">
-                                <input type="email" id="email" name="email" placeholder="Email" required >
+                                <input type="email" id="EmailId" name="email" placeholder="Email" required >
                             </div>
                             <div class="form-group1">
-                                <input type="number" id="phone" name="phone" placeholder="Number" required >
+                                <input type="number" id="PhoneId" name="phone" placeholder="Number" required >
                             </div>
                         </div>
                         <div class="col-12 form-group1">
-                            <input type="file" id="file" name="file" multiple="multiple" required>
+                            <input type="file" id="fileInput" name="file" multiple="multiple" required>
                         </div>
                     </div>
 
@@ -332,13 +332,29 @@
 
 
 
-
-
-
+        <div id="snackbar">
+            <div class="">
+                <i class="fas fa-circle-check" style="padding:4px 10px;color:white;"></i>
+                <span id="snackmessage">
+                    Some text some message..
+                </span>
+            </div>
+        </div>
+    
+        <div id="Negative-snackbar" style=" background-color: red;">
+            <div class="">
+                <i class="fas fa-circle-xmark" style="padding:4px 10px; color:white;"></i>
+                <span id="snackmessage">
+                    Please Fill All Details
+                </span>
+            </div>
+        </div>
+    
 
 
 
         <script src="jquery-3.6.4.min.js"></script>
+		<script src="crypto-js.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
         <script src="Animations.js"></script>
 
@@ -399,110 +415,130 @@
                 window.location.href = "bookapt.html";
             }
 
+    function SendApplication() {
+	
+		document.getElementById("ContactSubmit").disabled = true;
 
+        var companyname = document.getElementById('CompanyNameId').value;
+		var representative = document.getElementById('RepresentativeId').value;
+		var email = document.getElementById('EmailId').value;
+		var phone = document.getElementById('PhoneId').value;
+		var fileInput = document.getElementById('fileInput');
 
+		
+		if (companyname == "" || representative == "" || email == "" || phone == "") {
+		
+			document.getElementById("snackmessage").innerHTML = "Please Fill All Details And Try Again";
+		
+			// Get the snackbar DIV
+			var x = document.getElementById("Negative-snackbar");
+		
+			// Add the "show" class to DIV
+			x.className = "show";
+		
+			// After 3 seconds, remove the show class from DIV
+			setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+		
+		}
+		else {
+			
+			var files = fileInput.files;
+			
+			var formData = new FormData();
+			
+			for (var i = 0; i < files.length; i++) {
+				formData.append('files', files[i]);
+			}
+			
+			var key = CryptoJS.enc.Utf8.parse('8080808080808080'); 
+			var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+			
+			var encryptedCompanyName = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(companyname), key,
+			{
+				keySize: 128,
+				iv: iv, 
+				mode: CryptoJS.mode.CBC, 
+				//padding: CryptoJS.pad.Pkcs7  
+			}); 
+			
+			var encryptedRepresentative = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(representative), key, 
+			{ 
+				keySize: 128, 
+				iv: iv, 
+				mode: CryptoJS.mode.CBC, 
+				//padding: CryptoJS.pad.Pkcs7  
+			}); 
 
+			var encryptedemail = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(email), key, 
+			{ 
+				keySize: 128, 
+				iv: iv, 
+				mode: CryptoJS.mode.CBC, 
+				//padding: CryptoJS.pad.Pkcs7  
+			}); 
 
-            function SendApplication() {
-                var firstname = document.getElementById("first-name").value;
-    var lastname = document.getElementById("last-name").value;
-    var email = document.getElementById("email").value;
-    var phone = document.getElementById("phone").value;
-    var body = document.getElementById("message").value; 
-    var newMessage = "Good day, <br> <br> The following query has been made with the following details: <br> <br> First Name: " + firstname + "<br> <br> Last Name: " + lastname + " Email: " + email + "<br> <br> Phone: " + phone + "<br> <br> Message: " + body + "<br> <br> Kindly respond to them within 24 hours. <br> Thank you.";
-    
-    var message = newMessage;
-    
-    if (firstname == "" || lastname == "" || email == "" || phone == "" || message == "") {
-    
-        document.getElementById("snackmessage").innerHTML = "Please Fill All Details And Try Again";
-    
-        // Get the snackbar DIV
-        var x = document.getElementById("Negative-snackbar");
-    
-        // Add the "show" class to DIV
-        x.className = "show";
-    
-        // After 3 seconds, remove the show class from DIV
-        setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
-    
-    }
-    else {
-    
-        //document.getElementById("ContactSubmit").disabled = true;
-    
-       /* var key = CryptoJS.enc.Utf8.parse('8080808080808080');
-        //var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
-    
-        //var encryptedfirstname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(firstname), key,
-           // {
-           //     keySize: 128,
-                iv: iv,
-                mode: CryptoJS.mode.CBC,
-                //padding: CryptoJS.pad.Pkcs7 
-            });
-    
-        var encryptedlastname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(lastname), key,
-            {
-                keySize: 128,
-                iv: iv,
-                mode: CryptoJS.mode.CBC,
-                //padding: CryptoJS.pad.Pkcs7 
-            });
-    
-        var encryptedemail = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(email), key,
-            {
-                keySize: 128,
-                iv: iv,
-                mode: CryptoJS.mode.CBC,
-                //padding: CryptoJS.pad.Pkcs7 
-            });
-    
-        var encryptedphone = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(phone), key,
-            {
-                keySize: 128,
-                iv: iv,
-                mode: CryptoJS.mode.CBC,
-                //padding: CryptoJS.pad.Pkcs7 
-            });
-    
-        var encryptedmessage = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(message), key,
-            {
-                keySize: 128,
-                iv: iv,
-                mode: CryptoJS.mode.CBC,
-                //padding: CryptoJS.pad.Pkcs7 
-            });
-    
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                // Typical action to be performed when the document is ready:
-                var res = JSON.parse(xhttp.responseText);
-    
-                //alert(res[0].emailStatus);
-            }
-        };
-    
-        //xhttp.open("GET", "https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmail?Firstname=" + encryptedfirstname + "&Lastname=" + encryptedlastname + "&Email=" + encryptedemail + "&Phone=" + encryptedphone + "&Message=" + encryptedmessage, true);
-        //xhttp.send();
-        */
-        document.getElementById("snackmessage").innerHTML = "Message Successfully Sent";
-                     
-                        // Get the snackbar DIV
-                        var x = document.getElementById("snackbar");
-                      
-                        // Add the "show" class to DIV
-                        x.className = "show";
-                       
-                        // After 3 seconds, remove the show class from DIV
-                        setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
-                       
-                        document.getElementById("ContactSubmit").disabled = false;
-                        
-                    }
+			var encryptedphone = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(phone), key, 
+			{ 
+				keySize: 128, 
+				iv: iv, 
+				mode: CryptoJS.mode.CBC, 
+				//padding: CryptoJS.pad.Pkcs7  
+			}); 
+			
+			fetch('https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmailKalafhiSupplier?CompanyName=' + encryptedCompanyName + '&Representative=' + encryptedRepresentative + '&Email=' + encryptedemail + '&Phone=' + encryptedphone, {
+			method: 'POST',
+			body: formData
+			})
+			.then(function(response) {
+			  if (response.ok) {
+			  
+				document.getElementById("snackmessage").innerHTML = "Application uploaded successfully!";
+		 
+				// Get the snackbar DIV
+				var x = document.getElementById("snackbar");
+			  
+				// Add the "show" class to DIV
+				x.className = "show";
+			   
+				// After 3 seconds, remove the show class from DIV
+				setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+			   
+			  } else {
+			  				
+				document.getElementById("snackmessage").innerHTML = "Application upload failed. Try Uploading smaller files if there are any.";
+			
+				// Get the snackbar DIV
+				var x = document.getElementById("Negative-snackbar");
+			
+				// Add the "show" class to DIV
+				x.className = "show";
+			
+				// After 3 seconds, remove the show class from DIV
+				setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+			
+			  }
+			  
+			})
+			.catch(function(error) {
+			
+				document.getElementById("snackmessage").innerHTML = "An error occurred during the files upload:" + error;
+			
+				// Get the snackbar DIV
+				var x = document.getElementById("Negative-snackbar");
+			
+				// Add the "show" class to DIV
+				x.className = "show";
+			
+				// After 3 seconds, remove the show class from DIV
+				setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+			});
+			
+			
+			document.getElementById("ContactSubmit").disabled = false;
+			
+		}
 
-            }
+	}
 
             //Navbar settings for mobile starts// 
             // Get the dropdown and sub-dropdown buttons
