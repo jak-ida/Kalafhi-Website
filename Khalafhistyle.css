@@ -68,7 +68,7 @@ p {
     /* Padding */
     position: fixed;
     /* Sit on top of the screen */
-    z-index: 1;
+    z-index: 1000000000;
     /* Add a z-index if needed */
     right: 1%;
     /* Center the snackbar */
@@ -108,7 +108,7 @@ p {
     /* Padding */
     position: fixed;
     /* Sit on top of the screen */
-    z-index: 1;
+    z-index: 1000000000;
     /* Add a z-index if needed */
     right: 1%;
     /* Center the snackbar */
