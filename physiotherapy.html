@@ -185,44 +185,46 @@
             </div>
         </div>
 
-        <div class="physio-pos" style="display:none" id="info-1">
-            <h2> MUSCULOSKELETAL DISORDERS </h2>
-            <p> Our physiotherapists specialize in treating injuries and
-                conditions that affect joints, muscles and soft tissues</p>
-
-        </div>
-        <div class="physio-pos" style="display:none" id="info-2">
-            <h2> SPORTS MEDICINE</h2>
-            <p> Our physiotherapists have extensive experience in
-                working with professional and amateur sportsman and
-                have a high success rate of full recovery with
-                return to desired choice of activity.</p>
-
-        </div>
-        <div class="physio-pos" style="display:none" id="info-3">
-            <h2> POST-OPERATIVE REHABILITATION </h2>
-            <p> Kalafhi Medical Centre Physiotherapy have expertise in
-                rehabilitating a variety of post-surgical procedures not
-                limited to; total hip replacement, lumbar laminectomy,
-                knee replacement, ORIF, arthroplasties. We guide you
-                on how to get moving till full function, movement and
-                strength is restored</p>
-
-        </div>
-        <div class="physio-pos" style="display:none" id="info-4">
-            <h2>PULMONARY REHABILITATION</h2>
-            <p>Our physiotherapists can help you recover from chest
-                pain, shortness of breath, fatigue and excessive lung
-                secretions. Through chest physiotherapy, lung
-                function will be restored and respiratory muscles will
-                be strengthened.</p>
-
-        </div>
-        <div class="physio-pos" style="display:none" id="info-5">
-            <h2> PHYSIO HOME VISITS </h2>
-            <p> Our physiotherapists provide at home care for clients that are unable to leave their residences due to
-                injury or old age. Through this service, our clients can rest assured that their physiotherapy needs are being met wherever they are.</p>
-
+        <div id="target-section">
+            <div class="physio-pos" style="display:none" id="info-1">
+                <h2> MUSCULOSKELETAL DISORDERS </h2>
+                <p> Our physiotherapists specialize in treating injuries and
+                    conditions that affect joints, muscles and soft tissues</p>
+    
+            </div>
+            <div class="physio-pos" style="display:none" id="info-2">
+                <h2> SPORTS MEDICINE</h2>
+                <p> Our physiotherapists have extensive experience in
+                    working with professional and amateur sportsman and
+                    have a high success rate of full recovery with
+                    return to desired choice of activity.</p>
+    
+            </div>
+            <div class="physio-pos" style="display:none" id="info-3">
+                <h2> POST-OPERATIVE REHABILITATION </h2>
+                <p> Kalafhi Medical Centre Physiotherapy have expertise in
+                    rehabilitating a variety of post-surgical procedures not
+                    limited to; total hip replacement, lumbar laminectomy,
+                    knee replacement, ORIF, arthroplasties. We guide you
+                    on how to get moving till full function, movement and
+                    strength is restored</p>
+    
+            </div>
+            <div class="physio-pos" style="display:none" id="info-4">
+                <h2>PULMONARY REHABILITATION</h2>
+                <p>Our physiotherapists can help you recover from chest
+                    pain, shortness of breath, fatigue and excessive lung
+                    secretions. Through chest physiotherapy, lung
+                    function will be restored and respiratory muscles will
+                    be strengthened.</p>
+    
+            </div>
+            <div class="physio-pos" style="display:none" id="info-5">
+                <h2> PHYSIO HOME VISITS </h2>
+                <p> Our physiotherapists provide at home care for clients that are unable to leave their residences due to
+                    injury or old age. Through this service, our clients can rest assured that their physiotherapy needs are being met wherever they are.</p>
+    
+            </div>
         </div>
         <div class="physio-1 row">
             <div class="col-3 reveal-fade-right">
@@ -599,7 +601,15 @@ document.documentElement.scrollTop = 0;
                         var div = document.getElementById("info-" + a);
                         if (div.style.display === "none" || div.style.display === " ") {
                             div.style.display = "block";
-                            //window.location.href = "physiotherapy.html#info-" + a;
+                            window.location.href = href = "physiotherapy.html#target-section";
+                            var section = document.getElementById("target-section");
+                            var offset = 100; // Adjust this value to scroll up a bit more or less
+
+                            //Scroll to the section's top position minus the offset
+                            window.scrollTo({
+                                top: section.offsetTop - offset,
+                                behavior: "smooth" // Use "auto" for instant scrolling
+                            });
 
                         } else {
                             div.style.display = "none";
