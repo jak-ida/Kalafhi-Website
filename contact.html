@@ -504,14 +504,14 @@ document.documentElement.scrollTop = 0;
                 }
                 else {
 
-                    //document.getElementById("ContactSubmit").disabled = true;
+                    document.getElementById("ContactSubmit").disabled = true;
 
-                   /* var key = CryptoJS.enc.Utf8.parse('8080808080808080');
-                    //var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+                   var key = CryptoJS.enc.Utf8.parse('8080808080808080');
+                    var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
 
-                    //var encryptedfirstname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(firstname), key,
-                       // {
-                       //     keySize: 128,
+                    var encryptedfirstname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(firstname), key,
+                       {
+                            keySize: 128,
                             iv: iv,
                             mode: CryptoJS.mode.CBC,
                             //padding: CryptoJS.pad.Pkcs7 
@@ -559,24 +559,24 @@ document.documentElement.scrollTop = 0;
                         }
                     };
 
-                    //xhttp.open("GET", "https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmail?Firstname=" + encryptedfirstname + "&Lastname=" + encryptedlastname + "&Email=" + encryptedemail + "&Phone=" + encryptedphone + "&Message=" + encryptedmessage, true);
-                    //xhttp.send();
-                    */
+                    xhttp.open("GET", "https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmail?Firstname=" + encryptedfirstname + "&Lastname=" + encryptedlastname + "&Email=" + encryptedemail + "&Phone=" + encryptedphone + "&Message=" + encryptedmessage, true);
+                    xhttp.send();
+                    
 
-                    alert("Hi There");
+                    
                     document.getElementById("snackmessage").innerHTML = "Message Successfully Sent";
-                    alert("Hi There 1");
+                    
                     // Get the snackbar DIV
                     var x = document.getElementById("snackbar");
-                    alert("Hi There 2");
+                    
                     // Add the "show" class to DIV
                     x.className = "show";
-                    alert("Hi There 3");
+                    
                     // After 3 seconds, remove the show class from DIV
                     setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
-                    alert("Hi There 4");
+                    
                     document.getElementById("ContactSubmit").disabled = false;
-                    alert("Hi There 5");
+                    
                 }
             }
             </script>
