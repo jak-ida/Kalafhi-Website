@@ -1699,11 +1699,46 @@ button[type="submit"]:hover {
     margin: auto;
     font-size: 1rem;
 }
+.iframe{
+    height:33rem;
+width: 100%;
+border:none;}
 
-iframe {
-    width: 100%;
-    height: 30rem;
+.iframe1-1 {
+    width: 60%;
+    height: 33rem;
     border: 0;
+}
+.iframe1 {
+    width: 60%;
+    border: 0;
+}
+.iframe-wellness{
+
+    display:flex;
+    justify-content: center;
+}
+.iframe-dayhospital{
+    height:auto;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+}
+.iframe-pharma{
+    height:auto;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+}
+.iframe-about{
+    display:flex;
+    justify-content: center;
+}
+.iframe-about1{
+    justify-content: center;
+    height: 150%;
+    margin: auto;
+    display: flex;
 }
 
 /* Doctors Page */
@@ -2638,7 +2673,7 @@ iframe {
 }
 
 .pharma-info-1 {
-    padding: 0rem 6rem 6rem;
+    padding: 0rem 6rem 4rem;
     display: grid;
     align-items: center;
 }
@@ -3266,7 +3301,7 @@ iframe {
 .values1 h2 {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .values-1 {
