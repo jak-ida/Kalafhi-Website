@@ -475,8 +475,8 @@ document.documentElement.scrollTop = 0;
                         }
                     };
 
-                    //xhttp.open("GET", "https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmail?Firstname=" + encryptedfirstname + "&Lastname=" + encryptedlastname + "&Email=" + encryptedemail + "&Phone=" + encryptedphone + "&Message=" + encryptedmessage, true);
-                    //xhttp.send();
+                    xhttp.open("GET", "https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmail?Firstname=" + encryptedfirstname + "&Lastname=" + encryptedlastname + "&Email=" + encryptedemail + "&Phone=" + encryptedphone + "&Message=" + encryptedmessage, true);
+                   xhttp.send();
 
 
                     document.getElementById("snackmessage").innerHTML = "Message Successfully Sent";
