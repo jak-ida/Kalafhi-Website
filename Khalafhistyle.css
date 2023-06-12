@@ -430,7 +430,9 @@ button a {
     padding: 9px 11px;
 
 }
-
+.social-list a{
+    text-decoration: none;
+}
 .social-list li {
     margin-bottom: 20px;
     background-color: var(--light-blue);
