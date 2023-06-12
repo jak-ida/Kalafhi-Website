@@ -4637,7 +4637,54 @@ input[type="file"] {
         margin-bottom: 0.5rem
     }
 
+    /*Services Page 500px*/
+    .services {
+        padding: 2rem 3rem;
+    }
+    .service_btn1 {
+        width: 60%;
+        display: block;
+        color: var(--white);
+        background-color: var(--light-blue);
+        border-radius: .5rem;
+        border: none;
+        margin: auto auto;
+    }
+    
+    .services-1 {
+        padding:0.5rem;
+        
+    }
+    .services p{
+        padding:1rem 1.5rem;
+        text-align: justify;
+        hyphens: auto;
+    }
+    
+    .services-h2 {
+        padding-left: 3rem ;
+    }
+    .services h3 {
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    .services img{
+        padding: 2rem;
+        width: auto;
+        margin:auto;
+    }
+.services-hr {
+    border: 1px solid var(--green);
+    width: 70%;
+    margin-left: 2rem;
+}
 
+    .reverse {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        display: flex;
+    }
 
 
 
@@ -4664,6 +4711,32 @@ input[type="file"] {
 
 
 @media (min-width:500px) and (max-width:1000px) {
+    /*Services Page 1000px*/
+    .services {
+        padding: 2rem 3rem;
+    }
+    
+    
+    .services-1 {
+        padding:2rem;
+        
+    }
+    
+    .services-h2 {
+        padding-left: 3rem ;
+    }
+    
+    .services img{
+        padding: 2rem;
+        width: auto;
+        margin:auto;
+    }
+.services-hr {
+    border: 1px solid var(--green);
+    width: 70%;
+    margin-left: 2rem;
+}
+
     .reverse {
         flex-wrap: wrap;
         flex-direction: column-reverse;
@@ -5124,6 +5197,10 @@ grid-column: auto/span 6;
     text-align: center;
     flex-direction: column;
     align-items: center;
+}
+.physio-pos h2 {
+    
+    margin-left: 2.5rem
 }
 /*Renewal Aesthetics Page 1000px*/
 .ren-content p{
