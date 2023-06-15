@@ -1729,6 +1729,13 @@ border:none;}
     margin:auto;
     display:flex;
     justify-content: center;
+    background-color: var(--off-white);
+    padding:2rem 0rem;
+}
+.iframe-pharma1{
+    height:auto;
+    display:flex;
+    justify-content: center;
 }
 .iframe-about{
     display:flex;
@@ -1736,9 +1743,11 @@ border:none;}
 }
 .iframe-about1{
     justify-content: center;
+    padding-top:2.5rem;
     height: 150%;
     margin: auto;
     display: flex;
+    background-color: var(--off-white);
 }
 
 /* Doctors Page */
@@ -3635,6 +3644,24 @@ input[type="file"] {
         top: 0.2rem;
     }
 
+.iframe1-1{
+    padding-bottom: 2rem;
+    width: 90%;
+    height: 16rem;
+}
+.iframe2{
+    padding-bottom: 2rem;
+    width: 40%!important;
+    height: 10rem!important;
+}
+.iframe-about1{
+    justify-content: center;
+    height: 50%!important;
+    width:60%!important;
+    margin: auto;
+    display: flex;
+    
+}
 
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
@@ -4736,9 +4763,21 @@ input[type="file"] {
 
 
 
+@media (min-width:500px) and (max-width:800px) {
+    .iframe1-1{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        width: 90%;
+        height: 25rem!important ;
+    }
+    .iframe2{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        width: 90%;
+        height: 15rem!important ;
+    }
 
-
-
+}
 
 
 
@@ -4746,6 +4785,12 @@ input[type="file"] {
 
 
 @media (min-width:500px) and (max-width:1000px) {
+    .iframe1-1{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        width: 90%;
+        height: 35rem;
+    }
     /*Services Page 1000px*/
     .services {
         padding: 2rem 3rem;
