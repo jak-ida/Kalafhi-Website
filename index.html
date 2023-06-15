@@ -411,7 +411,7 @@
             <form class="">
                 <input type="email" id="newsletter-email" name="email" placeholder="Enter Your Email Here" required>
             </form>
-            <button class="news-btn" onclick="">
+            <button class="news-btn" id="NewsletterButton" onclick="SendComment()">
                 <p> Subscribe</p>
             </button>
         </div>
@@ -729,7 +729,63 @@
         }
 
     </script>
+ <script> function SendComment() {
 
+    var email = document.getElementById("newsletter-email").value;
+   
+    if (email == "") {
+
+        document.getElementById("snackmessage").innerHTML = "Please Fill All Details And Try Again";
+
+        // Get the snackbar DIV
+        var x = document.getElementById("Negative-snackbar");
+
+        // Add the "show" class to DIV
+        x.className = "show";
+
+        // After 3 seconds, remove the show class from DIV
+        setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+
+    }
+    else {
+
+        document.getElementById("NewsletterButton").disabled = true;
+
+       var key = CryptoJS.enc.Utf8.parse('8080808080808080');
+        var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+
+       
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                // Typical action to be performed when the document is ready:
+                var res = JSON.parse(xhttp.responseText);
+
+                //alert(res[0].emailStatus);
+            }
+        };
+
+        xhttp.open("GET", "https://kalafhi-web-as.duckdns.org:224/Renewalserv/AddToEmailStorage?Email=" + email, true);
+        xhttp.send();
+        
+
+        
+        document.getElementById("snackmessage").innerHTML = "Message Successfully Sent";
+        
+        // Get the snackbar DIV
+        var x = document.getElementById("snackbar");
+        
+        // Add the "show" class to DIV
+        x.className = "show";
+        
+        // After 3 seconds, remove the show class from DIV
+        setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+        
+        document.getElementById("NewsletterButton").disabled = false;
+        
+    }
+}
+</script>
 
 
 </body>
