@@ -1,6 +1,5 @@
 :root {
     --dark-blue: #04115c;
-    /*--light-blue: #1D5B92;*/
     --light-blue: #2574b9;
     --white: #fff;
     --off-white: #f7f7f7;
@@ -1300,9 +1299,7 @@ main p {
     padding: 1rem 2rem 6rem;
     background-color: var(--dark-blue);
     color: var(--white);
-    /*display: grid;
-    align-items: center;
-    align-content: center;*/
+    
 }
 
 .directors-intro p {
@@ -1812,47 +1809,6 @@ padding:2rem 0rem;
     hyphens: auto;
 }
 
-/*.card-1 {
-    height: auto;
-    width: 60%;
-    padding: 1rem 2rem 3rem;
-    margin: auto;
-}
-
-.card- {
-    background-color: var(--white);
-    margin: 0 1rem;
-    padding: 1rem;
-    border: 1px solid var(--light-blue);
-    border-radius: 1rem;
-    box-shadow: 5px 5px 10px var(--light-blue);
-    text-align: center;
-}
-
-.card-img {
-    height: 200px;
-    width: auto;
-
-}
-
-.card- p {
-    padding-bottom: 0.5rem;
-    padding-top: 0.2rem;
-}
-
-.card- h4 {
-    padding-top: 0.2rem;
-}
-
-.card-button {
-    background-color: var(--light-blue);
-    color: var(--white);
-    padding: 0.2rem 1rem;
-    border: 1px solid var(--light-blue);
-    border-radius: 0.5rem;
-    margin: auto;
-    display: block;
-}*/
 .car-1 h2 {
     font-size: 1.8rem;
     padding-top: 1rem;
@@ -5270,7 +5226,7 @@ grid-column: auto/span 6;
     grid-column: auto/span 12;
 }
 .physio-btn{
-   float:none;;
+   float:none;
 }
 .physio-1{
     gap:1rem;
@@ -5419,7 +5375,7 @@ padding:2rem;
 }
 .contact-img h2 {
     padding-left: 0.5rem;
-    font-size: 2.5rem;;
+    font-size: 2.5rem;
 }
 .contact-2 .form{
     padding:2rem;
