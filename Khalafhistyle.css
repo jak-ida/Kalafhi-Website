@@ -1714,7 +1714,8 @@ border:none;}
     border: 0;
 }
 .iframe-wellness{
-
+background-color: var(--off-white);
+padding:2rem 0rem;
     display:flex;
     justify-content: center;
 }
