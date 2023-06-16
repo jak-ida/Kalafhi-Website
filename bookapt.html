@@ -1,636 +1,274 @@
-
 <!doctype html>
 <html lang="en">
-<head> 
-	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale:1.0">
-	<link href="Renewal.css" rel="stylesheet" type="text/css"/>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap" rel="stylesheet">
-	<title> Renewal Aesthetics </title>
-	  <link rel="icon" href="MainImages/Renewal Logo-02.png" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <style>
-	
-		
-        .wrapper .icon {
-        position: relative;
-        }
-        
-        .wrapper .tooltip {
-        position: absolute;
-        text-align:center;
-        top: 0;
-        z-index:10000000000000;
-        width:290%;
-        font-size: 14px;
-        background: #fff;
-        color: #ffffff;
-        padding: 5px 8px;
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-        opacity: 0;
-        pointer-events: none;
-        border-radius: 4px;
-        background: #000;
-        color: #fff;
-        margin-left:-5rem;
-        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -moz-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -ms-border-radius: 4px;
-        -o-border-radius: 4px;
-        }
-        
-        .wrapper .tooltip::before {
-        position: absolute;
-        z-index:10000000000000;
-        content: "";
-        height: 8px;
-        width: 8px;
-        background: #000;
-        bottom: -3px;
-        left: 50%;
-        transform: translate(-50%) rotate(45deg);
-        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -webkit-transform: translate(-50%) rotate(45deg);
-        -moz-transform: translate(-50%) rotate(45deg);
-        -ms-transform: translate(-50%) rotate(45deg);
-        -o-transform: translate(-50%) rotate(45deg);
-        -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -moz-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        }
-        
-        .wrapper .icon:hover .tooltip {
-        top: -60px;
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-        }
-        
-        .wrapper .icon:hover span,
-        .wrapper .icon:hover .tooltip {
-        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.01);
-        }
-        
-        
-        
-        
-          .background-tan{
-        
-            background-color: tan;
-        
-          }
-          .background-white{
-        
-            background-color: white;
-        
-          }
-          .color-white{
-            color:white;
-          }
-          .vh-100{
-        
-            height: 100vh;
-        
-          }
-          .ml-1{
-            margin-left: 1rem;
-          }
-          .ml-2{
-            margin-left: 2rem;
-          }
-          .p-1{
-            padding: 1rem;
-          }
-          .p-2{
-            padding: 2rem;
-          }
-          .p-2-1{
-            padding: 2rem 1rem;
-          }
-          input[type='radio'] {
-            accent-color: black;
-        }
-        
-        .Categorybutton{
-            border: 2px solid black;
-            padding: 2px 25px;
-            border-radius: 0.75rem;
-            background-color: black;
-            color: white;
-            font-weight: bold;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            cursor:pointer;
-            align-items: center;
-        }
-        .Categorybutton:hover {
-            border: 2px solid black;
-            background-color: white;
-            color: black;
-        }
-        .Categorybutton:hover > i {
-            color: black;
-        }
-        
-        .col-s-3 {
-                  grid-column: auto/span 3;
-              }
-        @media (min-width:500px) and (max-width:1000px) {
-                .p-2-1{
-                    padding: 2rem;
-                  }
-            
-              .col-s-4 {
-                  grid-column: auto/span 12;
-              }
-              .col-s-3 {
-                  grid-column: auto/span 12;
-              }
-            }
-            
-            @media (max-width: 500px) {
-             .col-s-3 {
-                  grid-column: auto/span 12;
-              }
-              .p-2-1{
-                    padding: 2rem;
-                  }
-            
-            }
-            
-            .vh-90{
-                height:90vh!important;
-            }
-        
-            .remove-padding{
-                padding:0!important;
-            }
-            
-            .form-row-p {
-            
-            text-align: center;
-            font-size: 0.85rem;
-            
-            }
-                </style>
-                </head> 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale:1.0">
+    <link href="Khalafhistyle.css" rel="stylesheet" type="text/css" />
+    <title> Kalafhi Medical Center</title>
+    <link rel="icon" href="MainImages/kalafhi-logo.jpg"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
 <body>
-    <!--First Section-->
-    <div class="aboutmain__">
-     <header>
-         <img  onclick="redirectToHome()" class="Logo" src="MainImages/Renewal%20Logo-01.png"/>
-		<div class="navbar">
-            <a href="index.html">HOME</a>
-            <a href="aboutren.html" >ABOUT RENEWAL</a>
-            <div class="dropdown">
-                <button class="dropbtn"><a class="no-a" href="treatmentsren.html">TREATMENTS</a>
+    <!-- First Page Section 1-->
+    <div>
+        <header>
+            <img class="Logo" onclick="redirectToHome()" src="MainImages/kalafhi-logo.jpg" />
+            <div class="navbar">
+                <a class="pg-active" href="index.html">HOME</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="about.html">ABOUT KALAFHI</a>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="doctors.html">Our Staff</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a class="no-a" href="services.html">SERVICES</a>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="medicalservices.html">Medical Services</a>
+                        <a href="pharmaceuticals.html">Pharmaceuticals</a>
+                        <a href="physiotherapy.html">Physiotherapy</a>
+                        <a href="renewalaesthetics.html">Renewal Aesthetics</a>
+                        <a href="dayhospital.html">Day Hospital</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a class="no-a">RESOURCES</a>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="news.html">News</a>
+                        <a href="careers.html">Careers</a>
+                        <a href="kal-events.html">Events</a>
+                        <a href="suppliers.html">Suppliers</a>
+                    </div>
+                </div>
+                <a href="contact.html">CONTACT US</a>
+            </div>
+            <!-- Social Media starts -->
+            <ul class="social-list">
+                <li class="odd-fa-f-radius">
+                    <a target="_blank" href="https://www.facebook.com/Kalafhimc/">
+                        <i class="fab fa-facebook-f" src="facebook-f.svg"></i>
+                    </a>
+                </li>
+
+                <li class="odd-fa-insta-radius">
+                    <a target="_blank" href="https://www.instagram.com/kalafhi_medical_center/?hl=en">
+                        <i class="fab fa-instagram" src="instagram.svg"></i>
+                    </a>
+                </li>
+
+                <li class="odd-fa-linkedin-radius"><a target="_blank"
+                        href="https://www.linkedin.com/company/kalafhi-medical-center/?originalSubdomain=bw"><i
+                            class="fab fa-linkedin" src="linkedin.svg"></i></a></li>
+            </ul>
+            <div class="dropdown-3 ">
+                <!-- Button one -->
+                <button class="btn button-one dropdown" data-widget="pushmenu" href="#" role="button"
+                    aria-controls="primary-navigation" aria-expanded="false"
+                    style="width:35px; height:31px;border-radius:.2rem!important;padding:inherit!important;">
+                    <svg fill="var(--button-color)" class="hamburger" viewBox="0 0 100 100" width="20">
+                        <rect class="line top" width="80" height="10" x="10" y="25" rx="5">
+                        </rect>
+                        <rect class="line middle" width="80" height="10" x="10" y="45" rx="5">
+                        </rect>
+                        <rect class="line bottom" width="80" height="10" x="10" y="65" rx="5">
+                        </rect>
+                    </svg>
                 </button>
                 <div class="dropdown-content">
-                    <a href="treatmentsren.html#chemical-peels">Chemical Peel</a>
-                    <a href="treatmentsren.html#plateletrichplasma">PRP Treatment</a>
-                    <a href="treatmentsren.html#microneedling">Micro-needling</a>
-                    <a href="treatmentsren.html#lamelle-facials">Lamelle Professional Facials</a>
-                    <a href="treatmentsren.html#injectables">Injectables</a>
-                    <a href="treatmentsren.html#healing-earth">Healing Earth</a>
-                    <a href="treatmentsren.html#other-skin-treatments">Other Skin Treatments</a>
+                    <a href="index.html">HOME</a>
+                    <a class="dropdown-content1" href="about.html">ABOUT KALAFHI</a>
+                    <!--<div class="dropdown">
+                        <button class="dropbtn row">
+                            <a class="no-a hamburger dropdown-content1">Services</a>
+                        </button>
+                        <div class="menu-items">
+                            
+                        </div>
+                    </div>-->
+                    <a class="dropdown-content1" href="medicalservices.html">MEDICAL SERVICES</a>
+                    <a class="dropdown-content1" href="pharmaceuticals.html">PHARMACEUTICALS</a>
+                    <a class="dropdown-content1" href="physiotherapy.html">PHYSIOTHERAPY</a>
+                    <a class="dropdown-content1" href="renewalaesthetics.html">RENEWAL AESTHETICS</a>
+                    <a class="dropdown-content1" href="dayhospital.html">DAY HOSPITAL</a>
+                    <a class="dropdown-content1" href="news.html">NEWS</a>
+                    <a class="dropdown-content1" href="careers.html">CAREERS</a>
+                    <a class="dropdown-content1" href="kal-events.html">EVENTS</a>
+                    <a class="dropdown-content1" href="bookapt.html">BOOK NOW</a>
+                    <div class="dropdown">
+                        <!--<button class="dropbtn row">
+                            <a class="dropdown-content1 no-a hamburger">Resources</a>
+                        </button>
+                        <div class="menu-items">-->
+
+                        <!--</div>-->
+                    </div>
+                    <div class="dropdown-content1">
+                        <a href="contact.html">CONTACT</a>
+                    </div>
+
                 </div>
             </div>
-            <div class="dropdown">
-                <a class="no-a" href="productsren.html">PRODUCTS</a>
-            
-                <div class="dropdown-content">
-                    
-                   <a href="productsren.html#product-4">Dermalogica</a>
-                    <a href="productsren.html#product-1">BioMedical Emporium</a>
-                    <a href="productsren.html#product-3">Lamelle</a>
-                    <a href="productsren.html#product-5">Mesoestetic</a>
-                    <a href="productsren.html#product-2">Other Products</a>
+        </header>
+        <!-- Social Media ends -->
+        <h2 class="book-head"> Book A Consultation</h2>
+        <div class="bookapt">
+            <div class="glass-effect1">
+                <div class="book-form">
+                    <form>
+                        <div class="form-row">
+                            <p class="form-p">Please leave your details in the form below to book an appointment.</p>
+                            <p class="form-p"><strong>We are currently only accepting appointments for <em>Physiotherapy</em>.</strong></p>
+                        </div>
+                        <div class="flex1">
+                            <div>
+                                <label for="date">Date of Consultation:</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div>
+                                <label for="time">Available Time:</label>
+                                <input type="time" id="time" name="time" required>
+                            </div>
+                        </div>
+                        <div class="form-group1">
+                            <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group1">
+                            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-group1">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group1">
+                            <input type="number" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+
+
+                        <textarea id="message" name="message"
+                            placeholder="Any additional information: e.g. Medical history and any other relevant conditions."
+                            required></textarea>
+
+                        <input onclick="SendComment()" type="button" value="BOOK NOW">
+                    </form>
                 </div>
             </div>
-            <div class="dropdown">
-                <a>RESOURCES</a>
-                <div class="dropdown-content">
-                    <a href="events.html">EVENTS</a>
-                    <a href="gallery.html">GALLERY</a>
-                    <a class="no-a" href="newsren.html">NEWS</a>
+        </div>
+        <!-- Footer-->
+        <footer>
+            <div class="row end">
+
+                <div class="col--8 ">
+                    <h3> OUR LOCATIONS</h3>
+
+                    <br>
+                    <div class="row">
+                        <div class="col--4">
+                            <h3> VILLAGE </h3>
+                            <p> Plot 21104 Village,</p>
+                            <p> Maratadiba, Gaborone</p>
+                            <br>
+
+                            <div>
+                                <h4> Opening Times: <br> Mon-Fri: 07:30 - 00:00
+                                    <br>
+                                    Saturday & Sunday: 09:00 - 00:00
+                                </h4>
+                                <h4> Open during Public Holidays</h4>
+                            </div>
+                            <br>
+                            <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 311 5929</p>
+                        </div>
+                        <div class="col--4 ">
+                            <h3> TLOKWENG </h3>
+                            <p>Plot 2306 Lenganeng, </p>
+                            <p>Tlokweng, Botswana </p>
+                            <br>
+                            <div>
+                                <h4> Opening Times:<br> Mon-Fri: 07:00 - 19:00
+                                    <br>
+                                    Saturday & Sunday: 09:00 - 18:00
+                                </h4>
+                                <h4> Closed on Public Holidays</h4>
+                            </div>
+                            <br>
+                            <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 397 5237</p>
+                        </div>
+                        <div class="col--4 ">
+                            <h3> MAIN MALL</h3>
+                            <p>Plot 686 Main Mall, </p>
+                            <p>Gaborone, Botswana</p>
+
+                            <br>
+                            <div>
+                                <h4> Opening Times: <br>Mon-Fri: 07:30 - 17:30
+                                    <br> Saturday: 09:00 - 15:00
+                                </h4>
+                                <h4> Closed on Sundays and Public Holidays</h4>
+                            </div>
+                            <br>
+                            <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 316 4269.</p>
+                        </div>
+                    </div>
+                    <br>
                 </div>
-            </div>
-            <a href="contactren.html">CONTACT US</a>
-            
+
+                <div class="col-2 quicklinks">
+                    <h3> QUICK LINKS</h3>
+
+                    <br>
+                    <ul class="end-ul">
+                        <li> <a onclick="redirectToAbout()"> About Kalafhi</a> </li>
+                        <li> <a onclick="redirectToServices()"> Services </a> </li>
+                        <li> <a onclick="redirectToNews()"> News</a> </li>
+                        <li> <a onclick="redirectToCareers()"> Careers</a> </li>
+                        <li> <a onclick="redirectToContact()"> Contact Us</a> </li>
+                        <li> <a href="suppliers.html" target="_blank">Suppliers</a></li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="col-2 contact-replace quicklinks">
+
+                    <div class="contact">
+                        <h3> OTHER LOCATIONS </h3>
+
+                        <br>
+                        <h5> Kalafhi Physiotherapy </h5>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 74 532 311</p>
+                        <br>
+                        <h5> Renewal Aesthetics </h5>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 390 6944</p>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+267 73 275 990</p>
+                        <br>
+                    <p>
+                        Plot 319 Extension 5,
                         
-            <button class="booking__btn1 active-pg" onclick="redirectToBookApt()"><p>BOOK NOW</p></button>
-        </div>
-  
-         <div  class="dropdown-3 ">
-            <!-- Button one -->
-            <button class="btn button-one dropdown" data-widget="pushmenu" href="#" role="button" aria-controls="primary-navigation" aria-expanded="false" style="width:35px; height:31px;border-radius:.2rem!important;padding:inherit!important;">
-                <svg fill="var(--button-color)" class="hamburger" viewBox="0 0 100 100" width="20">
-                    <rect class="line top" width="80" height="10" x="10" y="25" rx="5">
-                    </rect>
-                    <rect class="line middle" width="80" height="10" x="10" y="45" rx="5">
-                    </rect>
-                    <rect class="line bottom" width="80" height="10" x="10" y="65" rx="5">
-                    </rect>
-                </svg>
-            </button>
-    <div class="dropdown-content" >
-        <a href="index.html">HOME</a>
-        <a class="dropdown-content1" href="aboutren.html">ABOUT RENEWAL</a>
-       
-	    <a class="no-a hamburger dropdown-content1" href="treatmentsren.html">TREATMENTS</a>
-
-		<a class="dropdown-content1" href="productsren.html">PRODUCTS</a>
-		<a class="dropdown-content1" href="gallery.html">GALLERY</a>
-		<a class="dropdown-content1" href="newsren.html">NEWS</a>
-        <a class="dropdown-content1" href="events.html">EVENTS</a>
-		<a href="contactren.html" class="dropdown-content1" >CONTACT US</a>
-	    <a href="bookapt.html" class="dropdown-content1 active-pg1"> BOOK NOW</a>
-    </div>
-</div>
-</header>
-    </div>
-    <div class="about-img"> 
-        <h2> Book A Consultation</h2>
-    </div>
-
-
-    <div id="BackgroundControl" class="row background-tan vh-100" >
-        <div>
-
-          
-        </div>
-    </div>
-
-<div id="NewClient" class="bookapt invisible remove-padding">
-    
-        <div>
-		
-		<div class="row">
-			<div class="col-1">
-				<h3 class="FAQ-header w-dth" onclick="BackToSelect()">Back</h3>
-					
-			</div>
-		</div>
-		<br/>
-		<p class="form-row-p"> NB: To secure your Consultation, there is a <b>P 100 non-refundable payment</b> that will be required to finalised the online booking. </p>
-
-        </div>
-		<div class="FAQ_questions row">
-
-			<div class="col-6">
-				<h3 class="FAQ-header w-dth" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="false" aria-controls="faq-1">Consultation</h3>
-				<div class="FAQ-header1 w-dth collapse" id="faq-1">
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('100', 'Clinical Consultation (1st)')"> Clinical Consultation<span style="float:right;">P350</span></h4>
-					</div>
-				
-			</div>
-		</div>
-			
-</div>
-
-
-
-<div id="ReviewClient" class="bookapt invisible remove-padding">
-   
-		<div>
-		<div class="row">
-			<div class="col-1">
-				<h3 class="FAQ-header w-dth" onclick="BackToSelect()">Back</h3>
-					
-			</div>
-		</div>
-		<br/>
-        <p class="form-row-p">Please select the apropriate date and time of your appointment </p>
-        </div>
-		
-		<div class="FAQ_questions row">
-
-			<div class="col-6">
-				<h3 class="FAQ-header w-dth" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="false" aria-controls="faq-1">Review</h3>
-				<div class="FAQ-header1 w-dth collapse" id="faq-1">
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('0','Clinical Consultation')"> Clinical Consultation Review <span style="float:right;">P 0</span></h4>
-					
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('0','Treatment Review')"> Treatment Review <span style="float:right;">P 0</span></h4>
-					
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('0','Skin Renewal Peel Removal')"> Skin Renewal Peel Removal <span style="float:right;">P 0</span></h4>
-					
-				</div>
-				
-			</div>
-		</div>
-		
-		
-        
-</div>
-
-
-<div id="ReturningClient" class="bookapt invisible remove-padding" >
-    
-    
-		<div >
-		<div class="row">
-			<div class="col-1">
-				<h3 class="FAQ-header w-dth" onclick="BackToSelect()">Back</h3>
-					
-			</div>
-		</div>
-		<br/>
-		<p class="form-row-p"> NB: To secure your appointment, there is a <b>50% non-refundable payment</b> that will be required to finalize the online booking. </p>
-        </div>
-      
-		<div class="FAQ_questions row">
-			<div class="col-6">
-				<h3 class="FAQ-header w-dth" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="false" aria-controls="faq-1">Fillers</h3>
-				<div class="FAQ-header1 w-dth collapse" id="faq-1">
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('1837.50', 'Dermal Filler(0.5ml)')">Dermal Filler(0.5ml) <span style="float:right;">P3675</span></h4>
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('2250' , 'Dermal Filler(1ml)')">Dermal Filler(1ml)  <span style="float:right;">P4500 </span></h4>
-				</div>
-				
-				
-				<h3 class="FAQ-header w-dth" data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false" aria-controls="faq-2">Threading</h3>
-				<div class="FAQ-header1 w-dth collapse" id="faq-2">
-					<h4 class="FAQ-sub-head" onclick="ProceedToPay('2500', 'PDO Threads')">PDO Threads  <span style="float:right;">P5000 </span></h4>
-					
-					
-				</div>
-				
-				
-				<h3 class="FAQ-header w-dth" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false" aria-controls="faq-3">Injectables</h3>
-				<div class="FAQ-header1 w-dth collapse" id="faq-3">
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('1200', 'Botox-20U')">Botox-20U<span style="float:right;">P2400 </span></h4>
-					
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('1800', 'Botox-30U')">Botox-30U<span style="float:right;">P3600 </span></h4>
-				  
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('2500', 'Botox Other')">Botox Other<span style="float:right;">P5000 </span></h4>
-					
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('100', 'Lipolosis 1 injection')">Lipolosis Chin (1 injection) <span style="float:right;">P200 </span></h4>
-				   
-				   	<h4 class="FAQ-sub-head"  onclick="ProceedToPay('700', 'Lipolosis 8 injections')">Lipolosis Body (8 injections)<span style="float:right;">P1400 </span></h4>
-					
-				   	<h4 class="FAQ-sub-head"  onclick="ProceedToPay('2100', 'PRP therapy (Hair, vampire facial, sexual rejuvenation)')">PRP therapy (Hair, vampire facial, sexual rejuvenation)<span style="float:right;">P4200 </span></h4>
-					
-				   	<h4 class="FAQ-sub-head"  onclick="ProceedToPay('2250', 'Profhilo')">Profhilo<span style="float:right;">P4500 </span></h4>
-
-				</div>
-				
-				
-				<h3 class="FAQ-header w-dth" data-bs-toggle="collapse" data-bs-target="#faq-4" aria-expanded="false" aria-controls="faq-4">IV Therapy</h3>
-				<div class="FAQ-header1 w-dth collapse" id="faq-4">
-				
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('375', 'Vita-Glow Drip')" >Vita-Glow Drip <span style="float:right;">P750</span></h4>
-				   
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('600', 'Delux Vita-Glow Drip')" >Delux Vita-Glow Drip <span style="float:right;">P1200 </span></h4>
-				   
-								   
-				</div>
-				
-				
-				<h3 class="FAQ-header w-dth" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false" aria-controls="faq-5">Peels</h3>
-				<div class="FAQ-header1 w-dth collapse" id="faq-5">
-				
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('825', 'Getglow micropeel - Elaine Brennan')">Getglow micropeel - Elaine Brennan <span style="float:right;">P1650 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('275', 'Bio Glow Peel (glycolic)')">Bio Glow Peel (glycolic) <span style="float:right;">P550 </span></h4>
-				   
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('37.5', 'Meso Rejuva Peel (Jessner)')">Meso Rejuva Peel (Jessner) <span style="float:right;">P675 </span></h4>
-				   
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('275', 'Meso Acne conditioning Peel (Mandelic)')">Meso Acne conditioning Peel (Mandelic) <span style="float:right;">P550 </span></h4>
-				   
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('37.5', 'Meso Acne Treatment Peel (Azelan)')">Meso Acne Treatment Peel (Azelan) <span style="float:right;">P675 </span></h4>
-				   
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('337.5', 'Meso Hyperpigmentation Peel (Melat tran3x)')">Meso Hyperpigmentation Peel (Melat tran3x) <span style="float:right;">P675 </span></h4>
-				   
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('7500', 'Meso cosmelan peel (hyperpigmentation gold standard)')">Meso cosmelan peel (hyperpigmentation gold standard) <span style="float:right;">P15000 </span></h4>
-					
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('3500', 'Elaine Brennan Skin Renewal Peel')">Elaine Brennan Skin Renewal Peel <span style="float:right;">P7000 </span></h4>
-					
-				</div>
-				
-			</div>
-			
-		
-        <div class="col-6">
-            <h3 class="FAQ-header w-dth" data-bs-toggle="collapse" data-bs-target="#faq-6" aria-expanded="false" aria-controls="faq-6">Microneedling</h3>
-            <div class="FAQ-header1 w-dth collapse" id="faq-6">
-                	<h4 class="FAQ-sub-head"  onclick="ProceedToPay('725', 'Bio Gold Standard Microneedling')">Bio Gold Standard Microneedling <span style="float:right;">P1450 </span></h4>
-					
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('900', 'Stretch Mark Microneedeling')">Stretch Mark Microneedeling <span style="float:right;">P1800</span></h4>
-					
-                	<h4 class="FAQ-sub-head"  onclick="ProceedToPay('900', 'Hair Restoration Microneedling')">Hair Restoration Microneedling <span style="float:right;">P1800 </span></h4>
-					
-                	<h4 class="FAQ-sub-head"  onclick="ProceedToPay('1250', 'Hair and Face Microneedling Combo')">Hair and Face Microneedling Combo <span style="float:right;">P2500 </span></h4>
-									   				   
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('2100', 'PRP Microneedeling')">PRP Microneedeling <span style="float:right;">P4200 </span></h4>
-				   				   
-            </div>
-			
-            <h3 class="FAQ-header w-dth" data-bs-toggle="collapse" data-bs-target="#faq-7" aria-expanded="false" aria-controls="faq-7">Skin Tag Removal</h3>
-            <div class="FAQ-header1 collapse" id="faq-7">
-                  	<h4 class="FAQ-sub-head"  onclick="ProceedToPay('250', 'Skin tags, warts & Mole Removal 15 mins')">Skin tags, warts & Mole Removal 15 mins<span style="float:right;">P500 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('500', 'Skin tags, warts & Mole Removal 30 mins')">Skin tags, warts & Mole Removal 30 mins <span style="float:right;">P1000 </span></h4>
-				   
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('750', 'Skin tags, warts & Mole Removal 45 mins')">Skin tags, warts & Mole Removal 45 mins <span style="float:right;">P1500</span></h4>
-				   
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('1000', 'Skin tags, warts & Mole Removal 60 mins')">Skin tags, warts & Mole Removal 60 mins <span style="float:right;">P2000 </span></h4>
-				   		
-            </div>
-						
-			<h3 class="FAQ-header" data-bs-toggle="collapse" data-bs-target="#faq-8" aria-expanded="false" aria-controls="faq-8">Lamelle</h3>
-            <div class="FAQ-header1 collapse" id="faq-8">
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('425', 'Lamelle lactifacial')">Lamelle lactifacial <span style="float:right;">P850 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('225', 'Lamelle Deep Cleansing')">Lamelle Deep Cleansing <span style="float:right;">P450 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('225', 'Lamelle Hydration Facial')">Lamelle Hydration Facial <span style="float:right;">P450 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('275', 'Lamelle Anti-Ageing Facial')">Lamelle Anti-Ageing Facial <span style="float:right;">P550 </span></h4>
-				  		
-            </div>
-			
-			<h3 class="FAQ-header" data-bs-toggle="collapse" data-bs-target="#faq-10" aria-expanded="false" aria-controls="faq-10">Healing Earth Massages</h3>
-            <div class="FAQ-header1 collapse" id="faq-10">
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('225', 'Healing Earth Pregnancy Massage')">Healing Earth Pregnancy Massage <span style="float:right;">P450 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('225', 'Healing Earth Deep Tissue Massage (60mins)')">Healing Earth Deep Tissue Massage (60mins) <span style="float:right;">P450 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('225', 'Healing Earth Deep Tissue Massage (90mins)')">Healing Earth Deep Tissue Massage (90mins) <span style="float:right;">P450 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('175', 'Healing Earth Swedish Massage (60mins)')">Healing Earth Swedish Massage (60mins) <span style="float:right;">P350 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('225', 'Healing Earth Swedish Massage (90mins)')">Healing Earth Swedish Massage (90mins) <span style="float:right;">P450 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('225', 'Healing Earth Hot Stone Massage (60mins)')">Healing Earth Hot Stone Massage (60mins) <span style="float:right;">P450 </span></h4>
-					
-					<h4 class="FAQ-sub-head"   onclick="ProceedToPay('275', 'Healing Earth Hot Stone Massage (90mins)')">Healing Earth Hot Stone Massage (60mins) <span style="float:right;">P550 </span></h4>
-				  		
-            </div>
-			
-			
-            <h3 class="FAQ-header" data-bs-toggle="collapse" data-bs-target="#faq-9" aria-expanded="false" aria-controls="faq-9">Others</h3>
-            <div class="FAQ-header1 collapse" id="faq-9">
-					<h4 class="FAQ-sub-head"  onclick="ProceedToPay('175', 'Skin Assessment')">Skin Assessment<span style="float:right;">P350 </span></h4>
-
-            </div>
-			
-        </div>
-
-    </div>
-		
-		
-		
-   
-</div>
-
-    <!-- Footer-->
-    <footer>
-        <div class="row end">
-            <div class="col-3"> 
-                <h3> OUR LOCATION </h3>
-                <br>
-                <p> Kalafhi Executive Suite, </p>
-                <p> Plot 319 Extension 5,</p>
-                <p> Gaborone, Botswana</p>
-                <br>
-            </div>
-            <div class=" col-3">
-                <h3> WORKING HOURS</h3>
-                <br> 
-                <h4> Monday: 08:00 - 17:00</h4>
-		    <h4> Tuesday: 08:00 - 17:00</h4>
-		    <h4> Wednesday: 08:00 - 17:00</h4>
-		    <h4> Thursday: 08:00 - 17:00</h4>
-		    <h4> Friday: 08:00 - 17:00</h4>
-		    <h4> Saturday: 09:00 - 13:00</h4>
-		    <h4> Closed on Sundays and Public Holidays</h4>
-                <br>
-            </div>
-            <div class="col-3 quicklinks">
-                <h3> QUICK LINKS</h3>
-                <br>
-                    <p> <a onclick="redirectToHome()"> Home</a> </p>
-                    <p> <a onclick="redirectToAbout()"> About Us</a> </p>
-                    <p> <a onclick="redirectToTreatments()"> Treatments</a> </p>
-                    <p> <a onclick="redirectToProducts()"> Products </a></p>
-                    <p> <a onclick="redirectToNews()"> News</a> </p>
-                    <p> <a onclick="redirectToEvents()"> Events</a> </p>
-                <br>
-            </div>
-            <div class="col-3">
-                <div class="">
-                    <h3> CONTACT US </h3>
-                    <br> 
-                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;
-    (+267) 390 6944</p>
-                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;
-    (+267) 73 275 990</p>
+                        Gaborone, Botswana</p>
+                    </div>
                 </div>
-                <br>
-                <ul class="social-list">
-                    <li class="odd-fa-f-radius">
-                        <a  target="_blank" href="https://www.facebook.com/RenewalAestheticclinic">
-                            <i class="fab fa-facebook-f" src="facebook-f.svg"></i>
-                        </a>
-                    </li>
-        
-                    <li class="odd-fa-insta-radius">
-                        <a target="_blank"  href="https://www.instagram.com/renewalaestheticsclinic/">
-                            <i class="fab fa-instagram" src="instagram.svg"></i>
-                        </a>
-                    </li>
-        
-                    <li class="odd-fa-youtube-radius">
-                        <a target="_blank" href="https://www.youtube.com/@renewalaesthetics3627">
-                        <i class="fab fa-youtube" src="youtube.svg"></i></a></li>
-                </ul>
             </div>
-        </div>
+
+
+        </footer>
+        <footer>
+            <p class="footer-p"> &copy; 2023 Copyright Kalafhi Medical Center </p>
         </footer>
         <button id="scroll-to-top-btn">
             <img width="20" height="20" class="lazyloading-hidden lazyloaded" data-src="up-long.svg" alt="Back to top" src="up-long.svg">
         </button>
 
 
-
-
-<!-- Modal -->
-<div class="modal" id="ClientModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
- <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-     <div class="modal-content">
-         <div class="modal-body cont-center">
-
-            <h3 class="modal-title" id="staticBackdropLabel">Please select the appropriate category</h3>
-
-            <div class="row ">
-                <div class="col-s-4 p-2 ml-2 wrapper" >
-                    <input class="" id="Returning" name="Client" type="radio"/>
-                    <span class="icon" ><div class="tooltip">Clients that have had consultations before and are aware of what they are requesting for</div>Returning Client</span>
-                </div>
-                <div class="col-s-3 p-2-1 ml-2 wrapper">
-                    <input class="" id="New" name="Client" type="radio" />
-                    <span class="icon"> <div class="tooltip">Clients Coming for a new consultation</div>Consultations</span>
-
-                </div>
-				<div class="col-s-4 p-2 ml-2 wrapper">
-                    <input class="" id="Review" name="Client" type="radio"/>
-                    <span class="icon"> <div class="tooltip">Clients that have been asked to return for a review</div>Client Review</span>
-
-                </div>
-            </div>
-
-            <button class="Categorybutton" type="button" onclick="Category()" data-bs-dismiss="modal">
-                <span>OK</span> 
-                <i class="fas fa-arrow-right color-white"></i>
-            </button>
-
-
-         </div>
-     </div>
- </div>
-</div>
-
-
-
-<!-- Modal 2-->
-<div class="modal" id="IframeBooking" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
- <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-     <div class="modal-content">
-         <div id='IFrameModal' class="modal-body">
-					
-				
-				
-         </div>
-     </div>
- </div>
-</div>
-
-
-		<div>
-			<form target="_parent" method="POST" action="https://www.vcs.co.za/vvonline/ccform.asp">
-				<input type="hidden" name="p1" value="3500">
-				<input id="Reference" type="hidden" name="p2" value="Test23">
-				<input id="Procedure" type="hidden" name="p3" value="ChemicalPeal..TestByTheo2">
-				<input id="Price" type="hidden" name="p4" value="15000">
-				<input type="hidden" name="p5" value="bwp">
-				<input type="hidden" name="p11" value="theo1almighty@gmail.com">
-				<input id="MakePayment" type="submit" value="Proceed to Payment">
-			</form>
-		</div>
-
-
-
+        <!--<button id="scroll-to-top-btn">
+            <img width="20" height="20" class="lazyloading-hidden lazyloaded" data-src="up-long.svg" alt="Back to top" src="up-long.svg">
+        </button>-->
 
         <div id="snackbar">
             <div class="">
@@ -640,7 +278,7 @@
                 </span>
             </div>
         </div>
-    
+
         <div id="Negative-snackbar" style=" background-color: red;">
             <div class="">
                 <i class="fas fa-circle-xmark" style="padding:4px 10px; color:white;"></i>
@@ -649,311 +287,217 @@
                 </span>
             </div>
         </div>
-    
-        
-        <button id="ModalButton" type="button" class="invisible" data-bs-toggle="modal" data-bs-target="#ClientModal">
-            Launch static backdrop modal
-        </button>
-		
-        <button id="BookingButton" type="button" class="invisible" data-bs-toggle="modal" data-bs-target="#IframeBooking">
-            Launch static backdrop modal
-        </button>
-        
-        
-
-	<script src="jquery-3.6.4.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
-	
 
 
-     <script> 
-	 var PatientReqestStorage = "";
-	 
-    $(document).ready(function() {
-        document.getElementById("ModalButton").click();
-		document.getElementById("Reference").value = generate_uuidv4();
-		
-      
-    });
 
 
-	function generate_uuidv4() {
-	   return 'renewal-xxxxxxxx-xxxx-xx'.replace(/[x]/g,
-	    function(c) {
-		  var uuid = Math.random() * 16 | 0, v = c == 'x' ? uuid : (uuid & 0x3 | 0x8);
-		  return uuid.toString(16);
-		});
-	}
-	
-	$(function () {
-	  $('[data-bs-toggle="tooltip"]').tooltip()
-	})
-	
-	function ProceedToPay(Payment , instance){
-	
-		if(Payment == 0){
-		
-			var frame = document.querySelectorAll("iframe");
-			
-			if(instance =="Clinical Consultation" ){
-				var ifrm = document.createElement("iframe");
-				ifrm.setAttribute("src", "https://mon.healthaccess.co.za/#/public/bookings?brn=GAB&cat=OTH&ser=clinicon");
-				ifrm.style.height = "70vh";
-				document.getElementById('IFrameModal').innerHTML = "";
-				document.getElementById('IFrameModal').appendChild(ifrm);
-			}
-			else if(instance =="Treatment Review"){
-				var ifrm = document.createElement("iframe");
-				ifrm.setAttribute("src", "https://mon.healthaccess.co.za/#/public/bookings?brn=GAB&cat=OTH&ser=treatr");
-				ifrm.style.height = "70vh";
-				document.getElementById('IFrameModal').innerHTML = "";
-				document.getElementById('IFrameModal').appendChild(ifrm);
-			}
-			else if(instance =="Skin Renewal Peel Removal"){
-				var ifrm = document.createElement("iframe");
-				ifrm.setAttribute("src", "https://mon.healthaccess.co.za/#/public/bookings?brn=GAB&cat=OTH&ser=skinr");
-				ifrm.style.height = "70vh";
-				document.getElementById('IFrameModal').innerHTML = "";
-				document.getElementById('IFrameModal').appendChild(ifrm);
-			}
-			document.getElementById("BookingButton").click();
-			
-		}
-		else{
-			PatientReqestStorage = instance;
-			localStorage.setItem('UserObject', PatientReqestStorage);
-			//alert(localStorage.setItem('UserObject', PatientReqestStorage));
-			document.getElementById("Price").value = Payment;
-			document.getElementById("Procedure").value = instance;
-			document.getElementById("MakePayment").click();
-		}
-	}
-	
-	function BackToSelect(){
-	
-			document.getElementById("Returning").checked = false;
-		    document.getElementById("New").checked = false;
-			document.getElementById("Review").checked = false;
-            document.getElementById("ReturningClient").style.display = "none";
-            document.getElementById("BackgroundControl").style.display = "block";
-            document.getElementById("NewClient").style.display = "none";
-            document.getElementById("ReviewClient").style.display = "none";
-			document.getElementById("ModalButton").click();
+        <script src="jquery-3.6.4.min.js"></script>
+        <script src="crypto-js.js"></script>
+        <script src="Animations.js"></script>
+
+        <script>
+            // Show scroll-to-top button after scrolling halfway through the page
+window.onscroll = function() {
+var btn = document.getElementById("scroll-to-top-btn");
+if (document.body.scrollTop > (document.body.scrollHeight / 5) || document.documentElement.scrollTop > (document.documentElement.scrollHeight / 5)) {
+btn.style.display = "block";
+} else {
+btn.style.display = "none";
+}
+};
+
+// Scroll to top when button is clicked
+document.getElementById("scroll-to-top-btn").addEventListener("click", function() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+});
 
 
-	}
-	
-
-	const checkbox = document.getElementById("Returning");
-	const checkbox2 = document.getElementById("New");
-	const checkbox3 = document.getElementById("Review");
-
-    function Category(){
-        if(document.getElementById("Returning").checked){
-            document.getElementById("ReturningClient").style.display = "block";
-            document.getElementById("BackgroundControl").style.display = "none";
-        }
-        else if(document.getElementById("New").checked){
-            document.getElementById("NewClient").style.display = "block";
-            document.getElementById("BackgroundControl").style.display = "none";
-        }
-		else if(document.getElementById("Review").checked){
-            document.getElementById("ReviewClient").style.display = "block";
-            document.getElementById("BackgroundControl").style.display = "none";
-        }
-        else {
-            alert("Atleast one option must be chosen");
-            document.getElementById("ModalButton").click();
-
-        }
-    }
-
-    function SwapCatagory(){
-        if(document.getElementById("ReturningClient").style.display = "block"){
-            document.getElementById("NewClient").style.display = "block";
-            document.getElementById("ReturningClient").style.display = "none";
-        }
-        else if(document.getElementById("NewClient").style.display = "block"){
-            document.getElementById("NewClient").style.display = "none";
-            document.getElementById("ReturningClient").style.display = "block";
-        }
-    }
-
-        function redirectToHome() {
-        window.location.href = "index.html";
-    }  
+            function redirectToHome() {
+                window.location.href = "index.html";
+            }
             function redirectToAbout() {
-        window.location.href = "aboutren.html";
-    }
-            function redirectToTreatments() {
-        window.location.href = "treatmentsren.html";
-    }
-            function redirectToProducts() {
-        window.location.href = "productsren.html";
-    }
+                window.location.href = "about.html";
+            }
+            function redirectToServices() {
+                window.location.href = "services.html"
+            }
+            function redirectToMedServices() {
+                window.location.href = "medicalservices.html";
+            }
+            function redirectToRenewal() {
+                window.location.href = "renewalaesthetics.html";
+            }
+            function redirectToPharma() {
+                window.location.href = "pharmaceuticals.html";
+            }
+            function redirectToPhysio() {
+                window.location.href = "physiotherapy.html";
+            }
+            function redirectToDayHosp() {
+                window.location.href = "dayhospital.html";
+            }
             function redirectToNews() {
-        window.location.href = "newsren.html";
-    }
-            function redirectToGallery() {
-        window.location.href = "galleryren.html";
-    }
+                window.location.href = "news.html";
+            }
+            function redirectToCareers() {
+                window.location.href = "careers.html";
+            }
             function redirectToContact() {
-        window.location.href = "contactren.html";
-    }
-         function redirectToBookApt() {
-            window.location.href = "bookapt.html";
-        }
-        function redirectToEvents() {
-            window.location.href = "events.html";
-        }
-            
-            
-       //Navbar settings for mobile starts// 
-                    // Get the dropdown and sub-dropdown buttons
+                window.location.href = "contact.html";
+            }
+            function redirectToBookApt() {
+                window.location.href = "bookapt.html";
+            }
+
+
+
+            //Navbar settings for mobile starts// 
+            // Get the dropdown and sub-dropdown buttons
             const dropdownBtn = document.querySelector('.dropdown-3 .button-one');
             const subDropdownBtns = document.querySelectorAll('.dropdown .dropbtn');
-    
+
             // Add click event listener to the dropdown button
             dropdownBtn.addEventListener('click', () => {
-              // Toggle active class on the dropdown
-              dropdownBtn.parentNode.classList.toggle('active');
+                // Toggle active class on the dropdown
+                dropdownBtn.parentNode.classList.toggle('active');
             });
-    
+
             // Add click event listener to the sub-dropdown buttons
             subDropdownBtns.forEach((btn) => {
-              btn.addEventListener('click', () => {
-                // Toggle active class on the sub-dropdown
-                btn.parentNode.classList.toggle('active');
-              });
+                btn.addEventListener('click', () => {
+                    // Toggle active class on the sub-dropdown
+                    btn.parentNode.classList.toggle('active');
+                });
             });
-            
-            
+
+
             const buttons = document.querySelectorAll("button");
-    
-        buttons.forEach((button) => {
-            button.addEventListener("click", () => {
-                const currentState = button.getAttribute("data-state");
-    
-                if (!currentState || currentState === "closed") {
-                    button.setAttribute("data-state", "opened");
-                    button.setAttribute("aria-expanded", "true");
-                } else {
-                    button.setAttribute("data-state", "closed");
-                    button.setAttribute("aria-expanded", "false");
-                }
+
+            buttons.forEach((button) => {
+                button.addEventListener("click", () => {
+                    const currentState = button.getAttribute("data-state");
+
+                    if (!currentState || currentState === "closed") {
+                        button.setAttribute("data-state", "opened");
+                        button.setAttribute("aria-expanded", "true");
+                    } else {
+                        button.setAttribute("data-state", "closed");
+                        button.setAttribute("aria-expanded", "false");
+                    }
+                });
             });
-        });
-            
-         //Navbar settings for mobile ends//    
-                
-                
-                
-                
-                
-        function SendComment(){
-            
-            var firstname = document.getElementById("first-name").value;
-            var lastname = document.getElementById("last-name").value;
-            var email = document.getElementById("email").value;
-            var phone = document.getElementById("phone").value;
-	    var date = document.getElementById("date").value;
-            var time = document.getElementById("time").value;
-	    var body = document.getElementById("message").value; 
-	    var newMessage = "A booking has been requested with the following details: <br/> <br/> Date: " + date + " <br/> <br/> Time: " + time + " <br/> <br/> Message: " + body + ". <br/> <br/>";
-		
-	    var message = newMessage;
-	
-		
-            
-            if(firstname == "" || lastname == ""|| email == "" || phone == "" || body == "" || date == "" || time == "" ){
-            
-                 document.getElementById("snackmessage").innerHTML = "Please Fill All Details And Try Again";
-    
-                // Get the snackbar DIV
-                var x = document.getElementById("Negative-snackbar");
-    
-                // Add the "show" class to DIV
-                x.className = "show";
-    
-                // After 3 seconds, remove the show class from DIV
-                setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
-            
+
+            //Navbar settings for mobile ends//    
+
+
+
+
+
+            function SendComment() {
+
+                var firstname = document.getElementById("first-name").value;
+                var lastname = document.getElementById("last-name").value;
+                var email = document.getElementById("email").value;
+                var phone = document.getElementById("phone").value;
+                var date = document.getElementById("date").value;
+                var time = document.getElementById("time").value;
+                var body = document.getElementById("message").value;
+                var newMessage = "Good day, <br> <br> A booking has been requested with the following details: <br> <br> Date: " + date + "<br> <br> Time: " + time + " <br> <br> First Name:" + firstname + "<br> <br> Last Name: " + lastname + "<br> <br> Email: " + email + "<br> <br> Phone: " + phone + "<br> <br> Message: " + body + "<br> <br> Thank you";
+
+                var message = newMessage;
+
+
+
+                if (firstname == "" || lastname == "" || email == "" || phone == "" || body == "" || date == "" || time == "") {
+
+                    document.getElementById("snackmessage").innerHTML = "Please Fill All Details And Try Again";
+
+                    // Get the snackbar DIV
+                    var x = document.getElementById("Negative-snackbar");
+
+                    // Add the "show" class to DIV
+                    x.className = "show";
+
+                    // After 3 seconds, remove the show class from DIV
+                    setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+
+                }
+                else {
+
+                    var key = CryptoJS.enc.Utf8.parse('8080808080808080');
+                    var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+
+                    var encryptedfirstname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(firstname), key,
+                        {
+                            keySize: 128,
+                            iv: iv,
+                            mode: CryptoJS.mode.CBC,
+                            //padding: CryptoJS.pad.Pkcs7 
+                        });
+
+                    var encryptedlastname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(lastname), key,
+                        {
+                            keySize: 128,
+                            iv: iv,
+                            mode: CryptoJS.mode.CBC,
+                            //padding: CryptoJS.pad.Pkcs7 
+                        });
+
+                    var encryptedemail = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(email), key,
+                        {
+                            keySize: 128,
+                            iv: iv,
+                            mode: CryptoJS.mode.CBC,
+                            //padding: CryptoJS.pad.Pkcs7 
+                        });
+
+                    var encryptedphone = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(phone), key,
+                        {
+                            keySize: 128,
+                            iv: iv,
+                            mode: CryptoJS.mode.CBC,
+                            //padding: CryptoJS.pad.Pkcs7 
+                        });
+
+                    var encryptedmessage = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(message), key,
+                        {
+                            keySize: 128,
+                            iv: iv,
+                            mode: CryptoJS.mode.CBC,
+                            //padding: CryptoJS.pad.Pkcs7 
+                        });
+
+                    var xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4 && this.status == 200) {
+                            // Typical action to be performed when the document is ready:
+                            var res = JSON.parse(xhttp.responseText);
+
+                            //alert(res[0].emailStatus);
+                        }
+                    };
+
+                    xhttp.open("GET", "https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmailKalafhi?Firstname=" + encryptedfirstname + "&Lastname=" + encryptedlastname + "&Email=" + encryptedemail + "&Phone=" + encryptedphone + "&Message=" + encryptedmessage, true);
+                   xhttp.send();
+
+
+                    document.getElementById("snackmessage").innerHTML = "Message Successfully Sent";
+
+                    // Get the snackbar DIV
+                    var x = document.getElementById("snackbar");
+
+                    // Add the "show" class to DIV
+                    x.className = "show";
+
+                    // After 3 seconds, remove the show class from DIV
+                    setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+
+
+                }
             }
-            else{
-		    
-                var key = CryptoJS.enc.Utf8.parse('8080808080808080');
-                var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
-    
-                var encryptedfirstname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(firstname), key,
-                  {
-                    keySize: 128,
-                    iv: iv,
-                    mode: CryptoJS.mode.CBC,
-                    //padding: CryptoJS.pad.Pkcs7 
-                  });
-    
-                var encryptedlastname = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(lastname), key,
-                  {
-                    keySize: 128,
-                    iv: iv,
-                    mode: CryptoJS.mode.CBC,
-                    //padding: CryptoJS.pad.Pkcs7 
-                  });
-    
-                var encryptedemail = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(email), key,
-                  {
-                    keySize: 128,
-                    iv: iv,
-                    mode: CryptoJS.mode.CBC,
-                    //padding: CryptoJS.pad.Pkcs7 
-                  });
-    
-                var encryptedphone = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(phone), key,
-                  {
-                    keySize: 128,
-                    iv: iv,
-                    mode: CryptoJS.mode.CBC,
-                    //padding: CryptoJS.pad.Pkcs7 
-                  });
-    
-                var encryptedmessage = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(message), key,
-                  {
-                    keySize: 128,
-                    iv: iv,
-                    mode: CryptoJS.mode.CBC,
-                    //padding: CryptoJS.pad.Pkcs7 
-                  });
-    
-                var xhttp = new XMLHttpRequest();
-                xhttp.onreadystatechange = function () {
-                  if (this.readyState == 4 && this.status == 200) {
-                    // Typical action to be performed when the document is ready:
-                    var res = JSON.parse(xhttp.responseText);
-    
-                    //alert(res[0].emailStatus);
-                  }
-                };
-    
-                xhttp.open("GET", "https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmail?Firstname=" + encryptedfirstname + "&Lastname=" + encryptedlastname + "&Email=" + encryptedemail + "&Phone=" + encryptedphone + "&Message=" + encryptedmessage, true);
-                xhttp.send();
-    
-    
-                document.getElementById("snackmessage").innerHTML = "Message Successfully Sent";
-    
-                // Get the snackbar DIV
-                var x = document.getElementById("snackbar");
-    
-                // Add the "show" class to DIV
-                x.className = "show";
-    
-                // After 3 seconds, remove the show class from DIV
-                setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
-    
-    
-            }
-        }
-               
+
         </script>
-    </body>
-    </html>
- 
+</body>
+
+</html>
