@@ -165,8 +165,8 @@
 
         </div>
         
-<div class="iframe-about1">
-    <iframe class="iframe-about" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FKalafhimc%2Fvideos%2F395341638136404%2F&show_text=false&width=560&t=0" width="1350" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        <div class="row iframe-pharma">
+            <iframe class=" iframe1-1 col-12" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FKalafhimc%2Fvideos%2F395341638136404%2F&show_text=false&width=560&t=0" width="1350" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 </div>
         <div class="row directors ">
             <h2 class="directors-h2 col-12"> The Directors </h2>
@@ -581,48 +581,7 @@ document.documentElement.scrollTop = 0;
 
 
 
-        function carouselHeight() {
-            var maxHeight = $('.carousel-focus-item:nth-of-type(2)').outerHeight()
-            $('.carousel-focus-inner').css('height', maxHeight);
-        }
-
-        $(document).ready(function () {
-            carouselHeight();
-            ClickNext();
-        })
-
-        $(window).resize(function () {
-            carouselHeight();
-        });
-
-        $(document).on('click', '.carousel-focus-controls > .prev', function () {
-            $(this).closest('.carousel-focus-inner').find('.carousel-focus-item ').first().hide().appendTo('.carousel-focus-items').show();
-            $('.carousel-focus-item iframe').detach();
-            //getThumbnail();
-        });
-
-        $(document).on('click', '.carousel-focus-controls > .next', function () {
-            $(this).closest('.carousel-focus-inner').find('.carousel-focus-item ').last().hide().prependTo('.carousel-focus-items').show();
-            $('.carousel-focus-item iframe').detach();
-            //getThumbnail();
-        });
-
-        $(document).on('click', '.carousel-focus-item:nth-of-type(1) img', function () {
-            $(this).closest('.carousel-focus-item ').insertAfter('.carousel-focus-item:nth-of-type(2)');
-        });
-
-        $(document).on('click', '.carousel-focus-item:nth-of-type(3) img', function () {
-            $(this).closest('.carousel-focus-item ').insertBefore('.carousel-focus-item:nth-of-type(2)');
-        });
-
-        function ClickNext() {
-
-            const timer = setInterval(() => {
-                document.getElementById('Carousel-next').click();
-            }, 10000);
-
-        }
-
+        
     </script>
 
 
