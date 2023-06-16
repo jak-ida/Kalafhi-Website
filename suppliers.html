@@ -327,6 +327,9 @@
 
 
         </footer>
+        <footer>
+            <p class="footer-p"> &copy; 2023 Copyright Kalafhi Medical Center </p>
+        </footer>
         <button id="scroll-to-top-btn">
             <img width="20" height="20" class="lazyloading-hidden lazyloaded" data-src="up-long.svg" alt="Back to top"
                 src="up-long.svg">
@@ -346,7 +349,7 @@
         <div id="Negative-snackbar" style=" background-color: red;">
             <div class="">
                 <i class="fas fa-circle-xmark" style="padding:4px 10px; color:white;"></i>
-                <span id="snackmessage">
+                <span id="Negative-snackmessage">
                     Please Fill All Details
                 </span>
             </div>
@@ -468,6 +471,23 @@
             var email = document.getElementById('EmailId').value;
             var phone = document.getElementById('PhoneId').value;
             
+
+            if (companyname == "" || representative == "" || email == "" || phone == "" || fileInput.files.length == 0) {
+
+            document.getElementById("Negative-snackmessage").innerHTML = "Please Fill All Details And Try Again";
+
+            // Get the snackbar DIV
+            var x = document.getElementById("Negative-snackbar");
+
+            // Add the "show" class to DIV
+            x.className = "show";
+
+            // After 3 seconds, remove the show class from DIV
+            setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
+
+            }
+            else {
+
             var files = fileInput.files;
             
             var formData = new FormData();
@@ -511,7 +531,7 @@
                 //padding: CryptoJS.pad.Pkcs7  
             }); 
             
-            fetch('https://localhost:7142/Renewalserv/SendEmailKalafhiSupplier?CompanyName=' + encryptedCompanyName + '&Representative=' + encryptedRepresentative + '&Email=' + encryptedemail + '&Phone=' + encryptedphone, {
+            fetch('https://kalafhi-web-as.duckdns.org:224/Renewalserv/SendEmailKalafhiSupplier?CompanyName=' + encryptedCompanyName + '&Representative=' + encryptedRepresentative + '&Email=' + encryptedemail + '&Phone=' + encryptedphone, {
             method: 'POST',
             body: formData
             })
@@ -528,7 +548,7 @@
                  // After 3 seconds, remove the show class from DIV
                  setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
             } else {
-                document.getElementById("snackmessage").innerHTML = "Application upload failed. Try Uploading smaller files if there are any.";
+                document.getElementById("Negative-snackmessage").innerHTML = "Application upload failed. Try Uploading smaller files if there are any.";
 					
 						// Get the snackbar DIV
 						var x = document.getElementById("Negative-snackbar");
@@ -541,7 +561,7 @@
             }
             })
             .catch(function(error) {
-                document.getElementById("snackmessage").innerHTML = "An error occurred during the files upload:" + error;
+                document.getElementById("Negative-snackmessage").innerHTML = "An error occurred during the files upload:" + error;
 					
                     // Get the snackbar DIV
                     var x = document.getElementById("Negative-snackbar");
@@ -552,7 +572,7 @@
                     // After 3 seconds, remove the show class from DIV
                     setTimeout(function () { x.className = x.className.replace("show", ""); }, 5000);
             });
-
+        }
        }
             
         </script>
