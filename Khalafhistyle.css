@@ -429,9 +429,11 @@ button a {
     padding: 9px 11px;
 
 }
-.social-list a{
+
+.social-list a {
     text-decoration: none;
 }
+
 .social-list li {
     margin-bottom: 20px;
     background-color: var(--light-blue);
@@ -1299,7 +1301,7 @@ main p {
     padding: 1rem 2rem 6rem;
     background-color: var(--dark-blue);
     color: var(--white);
-    
+
 }
 
 .directors-intro p {
@@ -1696,56 +1698,75 @@ button[type="submit"]:hover {
     margin: auto;
     font-size: 1rem;
 }
-.iframe{
-    height:33rem;
-width: 100%;
-border:none;}
+
+.iframe {
+    height: 33rem;
+    width: 100%;
+    border: none;
+}
 
 .iframe1-1 {
     width: 60%;
     height: 33rem;
     border: 0;
 }
+
 .iframe1 {
     width: 60%;
     border: 0;
 }
-.iframe-wellness{
-background-color: var(--off-white);
-padding:2rem 0rem;
-    display:flex;
-    justify-content: center;
-}
-.iframe-dayhospital{
-    height:auto;
-    margin:auto;
-    display:flex;
-    justify-content: center;
-}
-.iframe-pharma{
-    height:auto;
-    margin:auto;
-    display:flex;
-    justify-content: center;
+
+.iframe-wellness {
     background-color: var(--off-white);
-    padding:2rem 0rem;
-}
-.iframe-pharma1{
-    height:auto;
-    display:flex;
+    padding: 2rem 0rem;
+    display: flex;
     justify-content: center;
 }
-.iframe-about{
-    display:flex;
-    justify-content: center;
-}
-.iframe-about1{
-    justify-content: center;
-    padding-top:2.5rem;
-    height: 150%;
+
+.iframe-dayhospital {
+    height: auto;
     margin: auto;
     display: flex;
+    justify-content: center;
+}
+
+.iframe-pharma {
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
     background-color: var(--off-white);
+    padding: 2rem 0rem;
+}
+
+.iframe-pharma1 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.iframe-about {
+    display: flex;
+    justify-content: center;
+    padding:2rem 0rem;
+    background-color:var(--off-white);
+   
+}
+.iframe-pharma-1 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+.iframe-pharma-2 {
+    display: flex;
+    justify-content: center;
+    padding:1rem 0rem;
+    height:25rem
+}
+
+.iframe-about1 {
+    height:48rem;
 }
 
 /* Doctors Page */
@@ -2531,6 +2552,7 @@ padding:2rem 0rem;
     width: 70%;
     margin: auto;
 }
+
 .pharma-head {
     font-size: 2rem;
     padding: 5rem 0rem 1rem 10rem;
@@ -3256,7 +3278,7 @@ padding:2rem 0rem;
 }
 
 .values1 {
-    padding: 3rem  4rem 4rem;
+    padding: 3rem 4rem 4rem;
     font-size: 1rem;
     ;
     color: var(--black);
@@ -3601,24 +3623,25 @@ input[type="file"] {
         top: 0.2rem;
     }
 
-.iframe1-1{
-    padding-bottom: 2rem;
-    width: 90%;
-    height: 16rem;
-}
-.iframe2{
-    padding-bottom: 2rem;
-    width: 40%!important;
-    height: 10rem!important;
-}
-.iframe-about1{
-    justify-content: center;
-    height: 50%!important;
-    width:60%!important;
-    margin: auto;
-    display: flex;
-    
-}
+    .iframe1-1 {
+        padding-bottom: 2rem;
+        width: 90%;
+        height: 16rem;
+    }
+
+    .iframe2 {
+        padding-bottom: 2rem;
+        width: 40% !important;
+        height: 10rem !important;
+    }
+
+    .iframe-about1 {
+        display: flex;
+        justify-content: center;
+        height: 30rem;
+        width: 90%;
+    }
+
 
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
@@ -3947,9 +3970,10 @@ input[type="file"] {
         width: auto;
         padding-bottom: 0rem;
     }
-    .directors-intro{
-        margin-top:2rem;
-        margin-bottom:0.5rem;
+
+    .directors-intro {
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
     }
 
     .dir-img {
@@ -4660,6 +4684,7 @@ input[type="file"] {
     .services {
         padding: 2rem 3rem;
     }
+
     .service_btn1 {
         width: 60%;
         display: block;
@@ -4669,35 +4694,38 @@ input[type="file"] {
         border: none;
         margin: auto auto;
     }
-    
+
     .services-1 {
-        padding:0.5rem;
-        
+        padding: 0.5rem;
+
     }
-    .services p{
-        padding:1rem 1.5rem;
+
+    .services p {
+        padding: 1rem 1.5rem;
         text-align: justify;
         hyphens: auto;
     }
-    
+
     .services-h2 {
-        padding-left: 3rem ;
+        padding-left: 3rem;
     }
+
     .services h3 {
         text-align: center;
         padding-left: 0;
     }
-    
-    .services img{
+
+    .services img {
         padding: 2rem;
         width: auto;
-        margin:auto;
+        margin: auto;
     }
-.services-hr {
-    border: 1px solid var(--green);
-    width: 70%;
-    margin-left: 2rem;
-}
+
+    .services-hr {
+        border: 1px solid var(--green);
+        width: 70%;
+        margin-left: 2rem;
+    }
 
     .reverse {
         flex-wrap: wrap;
@@ -4707,7 +4735,12 @@ input[type="file"] {
 
 
 
-
+    .iframe-pharma-2 {
+        display: flex;
+        justify-content: center;
+        padding:1rem 0rem;
+        height:17rem;
+    }
 
 
 
@@ -4721,18 +4754,20 @@ input[type="file"] {
 
 
 @media (min-width:500px) and (max-width:800px) {
-    .iframe1-1{
+    .iframe1-1 {
         padding-bottom: 2rem;
         padding-top: 2rem;
         width: 90%;
-        height: 25rem!important ;
+        height: 25rem !important;
     }
-    .iframe2{
+
+    .iframe2 {
         padding-bottom: 2rem;
         padding-top: 2rem;
         width: 90%;
-        height: 15rem!important ;
+        height: 15rem !important;
     }
+    
 
 }
 
@@ -4742,37 +4777,47 @@ input[type="file"] {
 
 
 @media (min-width:500px) and (max-width:1000px) {
-    .iframe1-1{
+    .iframe1-1 {
         padding-bottom: 2rem;
         padding-top: 2rem;
         width: 90%;
         height: 35rem;
     }
+    .iframe-pharma-2 {
+        display: flex;
+        justify-content: center;
+        padding:1rem 0rem;
+        height:25rem
+    }
+    .iframe-about1{
+        max-height: 34rem;
+    }
     /*Services Page 1000px*/
     .services {
         padding: 2rem 3rem;
     }
-    
-    
+
+
     .services-1 {
-        padding:2rem;
-        
+        padding: 2rem;
+
     }
-    
+
     .services-h2 {
-        padding-left: 3rem ;
+        padding-left: 3rem;
     }
-    
-    .services img{
+
+    .services img {
         padding: 2rem;
         width: auto;
-        margin:auto;
+        margin: auto;
     }
-.services-hr {
-    border: 1px solid var(--green);
-    width: 70%;
-    margin-left: 2rem;
-}
+
+    .services-hr {
+        border: 1px solid var(--green);
+        width: 70%;
+        margin-left: 2rem;
+    }
 
     .reverse {
         flex-wrap: wrap;
@@ -5057,9 +5102,10 @@ input[type="file"] {
     }
 
     .about-page-h21 {
-            padding-left: 3rem;
+        padding-left: 3rem;
     }
-    .about-page-h2{
+
+    .about-page-h2 {
         text-align: center;
     }
 
@@ -5068,21 +5114,24 @@ input[type="file"] {
     }
 
     .dir-img {
-       width:60%;
-       height: auto;
+        width: 60%;
+        height: auto;
     }
 
     .dir-info {
         width: 85%;
         text-align: center;
     }
-    .directors-intro{
-        margin-top:3rem;
-        margin-bottom:1rem;
+
+    .directors-intro {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
     }
-.doc .col-3 {
-grid-column: auto/span 6;
-}
+
+    .doc .col-3 {
+        grid-column: auto/span 6;
+    }
+
     .doc-para {
         width: 90%;
         padding-right: 0;
@@ -5095,24 +5144,30 @@ grid-column: auto/span 6;
     .quote {
         padding: 2rem 1.5rem 2rem 2rem
     }
-    .consultation-ref__button{
-        margin:1rem;
+
+    .consultation-ref__button {
+        margin: 1rem;
     }
-    .about-mission{
-        padding:3rem 1.5rem;
+
+    .about-mission {
+        padding: 3rem 1.5rem;
     }
-.about2{
-    width:auto;
-    padding:1rem;
-}
-.sect2{
-    padding:2rem 3rem;
-}
-.values1{
-    padding:1rem 2rem;
-    width:90%;
-    margin: auto;
-}
+
+    .about2 {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .sect2 {
+        padding: 2rem 3rem;
+    }
+
+    .values1 {
+        padding: 1rem 2rem;
+        width: 90%;
+        margin: auto;
+    }
+
     .grid {
         display: grid;
         justify-content: center;
@@ -5127,7 +5182,7 @@ grid-column: auto/span 6;
     }
 
 
-   .about1 {
+    .about1 {
         padding: 0.5rem 4rem;
     }
 
@@ -5155,231 +5210,293 @@ grid-column: auto/span 6;
     }
 
 
-   
+
 
     .col-4 {
         grid-column: auto/span 12;
 
     }
-/*Medical Services 1000px*/
-.medic-intro p{
-    width:90%;
-}
-.medical-opt{
-    padding:1.5rem 3rem;
-}
-.med-opt {
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
-.careers-head{
-    padding:3rem;
-}
-.careers-head p{
-    padding:1rem;
-}
-.careers-head .col-3, .careers-head .col--9{
-    grid-column: auto/span 6;
-}
 
-/*Pharmaceuticals*/
-.pharma-info-1 img{
-    padding: 2rem;
-    width:80%;
-    margin: auto;
-}
-.pharma-info-1{
-    padding:0rem 2rem 3rem 2rem;
-}
-.pharma-hr{
-    margin:0;
-    width:60%;
-}
-.pharma-1_cluster .col-3{
-    grid-column: auto/span 6;
-}
+    /*Medical Services 1000px*/
+    .medic-intro p {
+        width: 90%;
+    }
 
-.pharma_content{
-    border:none;
-}
-.pharma_content h1{
-    font-size: 2rem;
-}
-.pharma-1, .pharma-1_cluster{
-    padding:1rem;
-}
-.pharma-1_cluster p{
-    width:auto;
-    padding-bottom:2rem;
-}
-.consultation-ref h2{
-    padding:1rem;
-}
-.pharma-info-2 .col-6{
-    padding:2rem 4rem;
-}
-/*Physiotherapy Page 1000px*/
-.sect-2 {
-    flex-direction: column;
-}
-.physio-1 .col-7, .physio-1 .col-3, .physio-1 .col-2 {
-    grid-column: auto/span 12;
-}
-.physio-btn{
-   float:none;
-}
-.physio-1{
-    gap:1rem;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-}
-.physio-pos h2 {
-    
-    margin-left: 2.5rem
-}
-/*Renewal Aesthetics Page 1000px*/
-.ren-content p{
-    width:80%;
-    font-size: 1.6rem!important;
-    line-height: 2rem;
-}
-.ren-content h2{
-    line-height: 4rem;
-}
-.ren-content-p{
-    margin-top:2rem;
-}
-.ren-btn{
-    margin-top:2rem;
-}
+    .medical-opt {
+        padding: 1.5rem 3rem;
+    }
+
+    .med-opt {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .careers-head {
+        padding: 3rem;
+    }
+
+    .careers-head p {
+        padding: 1rem;
+    }
+
+    .careers-head .col-3,
+    .careers-head .col--9 {
+        grid-column: auto/span 6;
+    }
+
+    /*Pharmaceuticals*/
+    .pharma-info-1 img {
+        padding: 2rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    .pharma-info-1 {
+        padding: 0rem 2rem 3rem 2rem;
+    }
+
+    .pharma-hr {
+        margin: 0;
+        width: 60%;
+    }
+
+    .pharma-1_cluster .col-3 {
+        grid-column: auto/span 6;
+    }
+
+    .pharma_content {
+        border: none;
+    }
+
+    .pharma_content h1 {
+        font-size: 2rem;
+    }
+
+    .pharma-1,
+    .pharma-1_cluster {
+        padding: 1rem;
+    }
+
+    .pharma-1_cluster p {
+        width: auto;
+        padding-bottom: 2rem;
+    }
+
+    .consultation-ref h2 {
+        padding: 1rem;
+    }
+
+    .pharma-info-2 .col-6 {
+        padding: 2rem 4rem;
+    }
+
+    /*Physiotherapy Page 1000px*/
+    .sect-2 {
+        flex-direction: column;
+    }
+
+    .physio-1 .col-7,
+    .physio-1 .col-3,
+    .physio-1 .col-2 {
+        grid-column: auto/span 12;
+    }
+
+    .physio-btn {
+        float: none;
+    }
+
+    .physio-1 {
+        gap: 1rem;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .physio-pos h2 {
+
+        margin-left: 2.5rem
+    }
+
+    /*Renewal Aesthetics Page 1000px*/
+    .ren-content p {
+        width: 80%;
+        font-size: 1.6rem !important;
+        line-height: 2rem;
+    }
+
+    .ren-content h2 {
+        line-height: 4rem;
+    }
+
+    .ren-content-p {
+        margin-top: 2rem;
+    }
+
+    .ren-btn {
+        margin-top: 2rem;
+    }
 
 
-/*Day Hospital 1000px*/
-.day-body p{
-    margin:auto;
-}
-.day-body-1 img {
-    padding-bottom: 2rem;
-}
-.day-body {
-    padding-left: 0rem;
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
+    /*Day Hospital 1000px*/
+    .day-body p {
+        margin: auto;
+    }
 
-.values{
-    padding:2rem;
-}
-.hosp-mission{
-padding:2rem;
-}
-/*News Page 1000px*/
-.news-second .col-7, .news-second .col-5{
-    grid-column: auto/span 12;
-}
-.news-second{
-    padding:2rem;
-}
-.news-hr{
-    margin:auto;
-}
-.news-second img {
-    height: auto;
-}
+    .day-body-1 img {
+        padding-bottom: 2rem;
+    }
 
-/*Careers Page 1000px*/
-.careers-departments{
-    width:auto;
-}
-.careers-apply{
-    padding:1rem
-}
-.careers-apply h4{
-    font-size: 1rem!important;
-}
-.careers-section p{
-    width:auto;
-}
-.careers-section{
-    padding:2rem;
-}
-.careers-section .col-7{
-    grid-column: auto/span 12;
-}
-.careers-section .col-2{
-    grid-column: auto/span 8;
-}
-.careers-section .col-1{
-    grid-column: auto/span 4;
-}
-/*Events Page 1000px*/
-.upcoming-event p{
-    width:auto;
-}
-.main-event .col-8{
-    padding-top:2rem;
-    grid-column: auto/ span 12;
-}
-.main-event p{
-    width:80%;
-    margin: auto;
-}
-.event-img img {
-    padding: 1rem;
-    height: auto;
-    width: 80%;
-}
-.wellness-1 .col-3, .wellness-1 .col--9{
-    grid-column: auto/span 12;
-}
-.volunteer {
-    padding:2rem;
-}
-.volunteer .col-3{
-    grid-column: auto/span 12;
-}
-.vol-1{
-    padding:1rem;
-}
-.volunteer-p2-1{
-    padding:0.5rem 1rem 0rem
-}
-.volunteer-p2{
-    padding:1rem 1rem 0rem;
-    border:none;
-    border-top:1px solid var(--green);
-    margin-top:1.5rem;
-}
-.book-head {
-    padding-left: 3rem;
-}
-.medical-head {
-    padding-left: 3rem;
-}
-.careers-title {
-    padding-left: 3rem;
-}
-.pharma-head {
-    padding-left: 3rem;
-}
-.day-head {
-    padding-left: 3rem;
-}
-.news-head {
-    padding-left: 3rem;
-}
-.physio-head {
-    padding-left: 3rem;
-}
-.contact-img h2 {
-    padding-left: 0.5rem;
-    font-size: 2.5rem;
-}
-.contact-2 .form{
-    padding:2rem;
-}
+    .day-body {
+        padding-left: 0rem;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .values {
+        padding: 2rem;
+    }
+
+    .hosp-mission {
+        padding: 2rem;
+    }
+
+    /*News Page 1000px*/
+    .news-second .col-7,
+    .news-second .col-5 {
+        grid-column: auto/span 12;
+    }
+
+    .news-second {
+        padding: 2rem;
+    }
+
+    .news-hr {
+        margin: auto;
+    }
+
+    .news-second img {
+        height: auto;
+    }
+
+    /*Careers Page 1000px*/
+    .careers-departments {
+        width: auto;
+    }
+
+    .careers-apply {
+        padding: 1rem
+    }
+
+    .careers-apply h4 {
+        font-size: 1rem !important;
+    }
+
+    .careers-section p {
+        width: auto;
+    }
+
+    .careers-section {
+        padding: 2rem;
+    }
+
+    .careers-section .col-7 {
+        grid-column: auto/span 12;
+    }
+
+    .careers-section .col-2 {
+        grid-column: auto/span 8;
+    }
+
+    .careers-section .col-1 {
+        grid-column: auto/span 4;
+    }
+
+    /*Events Page 1000px*/
+    .upcoming-event p {
+        width: auto;
+    }
+
+    .main-event .col-8 {
+        padding-top: 2rem;
+        grid-column: auto/ span 12;
+    }
+
+    .main-event p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .event-img img {
+        padding: 1rem;
+        height: auto;
+        width: 80%;
+    }
+
+    .wellness-1 .col-3,
+    .wellness-1 .col--9 {
+        grid-column: auto/span 12;
+    }
+
+    .volunteer {
+        padding: 2rem;
+    }
+
+    .volunteer .col-3 {
+        grid-column: auto/span 12;
+    }
+
+    .vol-1 {
+        padding: 1rem;
+    }
+
+    .volunteer-p2-1 {
+        padding: 0.5rem 1rem 0rem
+    }
+
+    .volunteer-p2 {
+        padding: 1rem 1rem 0rem;
+        border: none;
+        border-top: 1px solid var(--green);
+        margin-top: 1.5rem;
+    }
+
+    .book-head {
+        padding-left: 3rem;
+    }
+
+    .medical-head {
+        padding-left: 3rem;
+    }
+
+    .careers-title {
+        padding-left: 3rem;
+    }
+
+    .pharma-head {
+        padding-left: 3rem;
+    }
+
+    .day-head {
+        padding-left: 3rem;
+    }
+
+    .news-head {
+        padding-left: 3rem;
+    }
+
+    .physio-head {
+        padding-left: 3rem;
+    }
+
+    .contact-img h2 {
+        padding-left: 0.5rem;
+        font-size: 2.5rem;
+    }
+
+    .contact-2 .form {
+        padding: 2rem;
+    }
 
 
 
@@ -6263,48 +6380,55 @@ padding:2rem;
         transition: none
     }
 }
+
 /*Animations*/
-@media (min-width:1000px){
-    .reveal-fade-up-3, .reveal-fade-up-2{
+@media (min-width:1000px) {
+
+    .reveal-fade-up-3,
+    .reveal-fade-up-2 {
         transition: 1.5s all ease;
     }
 }
-.reveal-fade-up{
+
+.reveal-fade-up {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
     transition: 1.5s all ease;
-    
-  }
-  
-  .reveal-fade-up.active{
+
+}
+
+.reveal-fade-up.active {
     transform: translateY(0);
     opacity: 1;
-  }
-  .reveal-fade-up-2{
+}
+
+.reveal-fade-up-2 {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
     transition: 2s all ease;
-   
-  }
-  
-  .reveal-fade-up-2.active{
+
+}
+
+.reveal-fade-up-2.active {
     transform: translateY(0);
     opacity: 1;
-  }
-  .reveal-fade-up-3{
+}
+
+.reveal-fade-up-3 {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
     transition: 2.5s all ease;
-  }
-  
-  .reveal-fade-up-3.active{
+}
+
+.reveal-fade-up-3.active {
     transform: translateY(0);
     opacity: 1;
-  }
-  .reveal-fade-left{
+}
+
+.reveal-fade-left {
     /* position: relative;
     transform: translateX(150px);
     opacity: 0;
@@ -6313,24 +6437,306 @@ padding:2rem;
     transform: translateX(-150px);
     opacity: 0;
     transition: 1.5s all ease;
-    
-  }
-  
-  .reveal-fade-left.active{
+
+}
+
+.reveal-fade-left.active {
     /* transform: translateX(0);
     opacity: 1; */
     transform: translateX(0);
     opacity: 1;
-  }
-  .reveal-fade-right{
+}
+
+.reveal-fade-right {
     position: relative;
     transform: translateX(-150px);
     opacity: 0;
     transition: 1.5s all ease;
-    
-  }
-  
-  .reveal-fade-right.active{
+
+}
+
+.reveal-fade-right.active {
     transform: translateX(0);
     opacity: 1;
-  }
+}
+
+@media (min-width:300) and (max-width:400) {
+    .iframe-pharma-1 {
+        display: flex;
+        justify-content: center;
+       height:14rem;
+       width:70%;
+       margin: -1rem auto auto;
+    }
+}
+@media (min-width:400) and (max-width:500) {
+    .iframe-pharma-1 {
+       height:20rem!important;
+    }
+    .iframe-pharma-2 {
+       height:15rem!important;
+    }
+}
+
+@media (min-width:500) and (max-width:600) {
+    
+.iframe-pharma-1 {
+   height:28rem!important;
+}
+.iframe-pharma-2 {
+    height: 26rem!important;
+}
+}
+
+@media (min-width:600) and (max-width:700) {
+    
+    .iframe {
+        height: 33rem;
+        width: 100%;
+        border: none;
+    }
+    
+    .iframe1-1 {
+        width: 60%;
+        height: 33rem;
+        border: 0;
+    }
+    
+    .iframe1 {
+        width: 60%;
+        border: 0;
+    }
+    
+    .iframe-wellness {
+        background-color: var(--off-white);
+        padding: 2rem 0rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-dayhospital {
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-pharma {
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-color: var(--off-white);
+        padding: 2rem 0rem;
+    }
+    
+    .iframe-pharma1 {
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-about {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-about1 {
+        justify-content: center;
+        padding-top: 2.5rem;
+        height: 150%;
+        margin: auto;
+        display: flex;
+        background-color: var(--off-white);
+    }
+    
+    }
+    
+@media (min-width:700) and (max-width:800) {
+    
+    .iframe {
+        height: 33rem;
+        width: 100%;
+        border: none;
+    }
+    
+    .iframe1-1 {
+        width: 60%;
+        height: 33rem;
+        border: 0;
+    }
+    
+    .iframe1 {
+        width: 60%;
+        border: 0;
+    }
+    
+    .iframe-wellness {
+        background-color: var(--off-white);
+        padding: 2rem 0rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-dayhospital {
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-pharma {
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-color: var(--off-white);
+        padding: 2rem 0rem;
+    }
+    
+    .iframe-pharma1 {
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-about {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-about1 {
+        justify-content: center;
+        padding-top: 2.5rem;
+        height: 150%;
+        margin: auto;
+        display: flex;
+        background-color: var(--off-white);
+    }
+    
+    }
+    
+@media (min-width:800) and (max-width:900) {
+    
+    .iframe {
+        height: 33rem;
+        width: 100%;
+        border: none;
+    }
+    
+    .iframe1-1 {
+        width: 60%;
+        height: 33rem;
+        border: 0;
+    }
+    
+    .iframe1 {
+        width: 60%;
+        border: 0;
+    }
+    
+    .iframe-wellness {
+        background-color: var(--off-white);
+        padding: 2rem 0rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-dayhospital {
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-pharma {
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-color: var(--off-white);
+        padding: 2rem 0rem;
+    }
+    
+    .iframe-pharma1 {
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-about {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-about1 {
+        justify-content: center;
+        padding-top: 2.5rem;
+        height: 150%;
+        margin: auto;
+        display: flex;
+        background-color: var(--off-white);
+    }
+    
+    }
+    
+@media (min-width:900) and (max-width:1000) {
+    
+    
+    .iframe {
+        height: 33rem;
+        width: 100%;
+        border: none;
+    }
+    
+    .iframe1-1 {
+        width: 60%;
+        height: 33rem;
+        border: 0;
+    }
+    
+    .iframe1 {
+        width: 60%;
+        border: 0;
+    }
+    
+    .iframe-wellness {
+        background-color: var(--off-white);
+        padding: 2rem 0rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-dayhospital {
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-pharma {
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-color: var(--off-white);
+        padding: 2rem 0rem;
+    }
+    
+    .iframe-pharma1 {
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-about {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iframe-about1 {
+
+        height: 32rem!important;
+    }
+    
+    }
