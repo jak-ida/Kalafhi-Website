@@ -6,6 +6,12 @@
     --green: #7dc241;
     --black: #000;
 }
+.footer-p{
+    background-color: #1d2024;
+    color: lightgray;
+    text-align: center;
+    font-size: 0.75rem!important;
+}
 
 p {
     font-size: 1rem !important;
